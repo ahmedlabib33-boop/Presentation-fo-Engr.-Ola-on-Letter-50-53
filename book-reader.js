@@ -2,9 +2,9 @@
   'use strict';
 
   const FILES={
-    aace29:'books/aace29.pdf',aace48:'books/aace48.pdf',aace38:'books/aace38.pdf',
-    aci3472:'books/aci3472.pdf',aci347:'books/aci347.pdf',ecp203:'books/ecp203.pdf',
-    fidic1999:'books/fidic1999.pdf',osha703:'books/osha703.txt'
+    aace29:'/books/aace29.pdf',aace48:'/books/aace48.pdf',aace38:'/books/aace38.pdf',
+    aci3472:'/books/aci3472.pdf',aci347:'/books/aci347.pdf',ecp203:'/books/ecp203.pdf',
+    fidic1999:'/books/fidic1999.pdf',osha703:'/books/osha703.txt'
   };
   const T=(en,ar)=>({en,ar});
   const UI={
@@ -52,8 +52,8 @@
   const escapeReg=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
   let pdfModulePromise;
   function pdfModule(){
-    if(!pdfModulePromise)pdfModulePromise=import('./vendor/pdfjs/pdf.mjs').then(pdfjs=>{
-      pdfjs.GlobalWorkerOptions.workerSrc='./vendor/pdfjs/pdf.worker.mjs';return pdfjs;
+    if(!pdfModulePromise)pdfModulePromise=import('/vendor/pdfjs/pdf.mjs').then(pdfjs=>{
+      pdfjs.GlobalWorkerOptions.workerSrc='/vendor/pdfjs/pdf.worker.mjs';return pdfjs;
     });
     return pdfModulePromise;
   }
@@ -63,7 +63,7 @@
     const topics=window.BookSearch?.topics||[];
     const topicMap=new Map(topics.map(topic=>[topic.id,topic]));
     const bookMap=new Map(books.map(book=>[book.id,book]));
-    const worker=new Worker('book-reader-worker.js');
+    const worker=new Worker('/book-reader-worker.js');
     let requestId=0,renderTask=null,documentHandle=null,documentKey='',searchTimer=null,destroyed=false;
     const pending=new Map();
     const state={bookId:books[0].id,page:1,pages:1,zoom:1,query:'',candidateId:null,predictions:[],results:[],active:-1};
@@ -176,7 +176,7 @@
       if(book.id==='osha703'){
         const response=await fetch(url);if(!response.ok)throw new Error('HTTP '+response.status);textView.textContent=await response.text();textView.hidden=false;state.pages=1;state.page=1;updateTools();loading.hidden=true;return;
       }
-      if(documentKey!==book.id){if(documentHandle?.destroy)await documentHandle.destroy();const pdfjs=await pdfModule();documentHandle=await pdfjs.getDocument({url,cMapUrl:'vendor/pdfjs/cmaps/',cMapPacked:true,standardFontDataUrl:'vendor/pdfjs/standard_fonts/',wasmUrl:'vendor/pdfjs/wasm/'}).promise;documentKey=book.id;}
+      if(documentKey!==book.id){if(documentHandle?.destroy)await documentHandle.destroy();const pdfjs=await pdfModule();documentHandle=await pdfjs.getDocument({url,cMapUrl:'/vendor/pdfjs/cmaps/',cMapPacked:true,standardFontDataUrl:'/vendor/pdfjs/standard_fonts/',wasmUrl:'/vendor/pdfjs/wasm/'}).promise;documentKey=book.id;}
       state.pages=documentHandle.numPages;state.page=Math.min(Math.max(1,state.page),state.pages);await renderPage();
     }
     function updateTools(){pageInput.value=String(state.page);pageInput.max=String(state.pages);pageTotal.textContent=' / '+state.pages;prev.disabled=state.page<=1;next.disabled=state.page>=state.pages;zoomLabel.textContent=Math.round(state.zoom*100)+'%';}
