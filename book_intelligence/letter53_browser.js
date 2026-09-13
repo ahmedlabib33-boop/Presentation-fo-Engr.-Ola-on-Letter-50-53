@@ -41,7 +41,8 @@ const path = require('path');
   await page.locator('#tabbar .tb').filter({hasText:/^Primavera Analyzer$/}).click();
   const analyzerFrame=page.frameLocator('iframe[title^="Primavera Analyzer"]');
   await analyzerFrame.locator('#leftSchedule').waitFor();
-  await page.waitForTimeout(300);
+  await analyzerFrame.locator('#leftSchedule option').nth(4).waitFor({state:'attached',timeout:30000});
+  await analyzerFrame.locator('#control24 tbody tr').nth(23).waitFor({state:'attached',timeout:30000});
   const analyzerSchedules=await analyzerFrame.locator('#leftSchedule option').count();
   const analyzerControlRows=await analyzerFrame.locator('#control24 tbody tr').count();
 
