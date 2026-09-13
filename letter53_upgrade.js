@@ -78,6 +78,32 @@ const LETTER_SECTIONS=[
  ['16. Contractual reservation of rights','SAMCO expressly reserves all rights and remedies under the Contract and applicable law concerning delayed or inadequate determination, Event 1 and Event 2 EOT, further steel delay and Batch No. 3, cumulative impacts, demonstrated concurrency, prolongation and recoverable costs, financing and disruption consequences where contractually available, and referral of unresolved matters under amended Sub-Clause 20.2 and the governing dispute route. No silence, participation in analysis, mitigation effort, progress update, discussion of figures or interim request constitutes acceptance, election, waiver, accord or abandonment.']
 ];
 
+const FIGURE_CONTROL=[
+ ['117 days','Event 1 · Batch No. 2 Project Finish movement','STR-104 schedule table · EV-001','Partially verified','Submitted schedule result only; not admitted as final contractual entitlement. Native settings, causation, concurrency and justified adjustments remain to be determined.'],
+ ['126 days','Event 1 · Batch No. 2 Ground Works movement','STR-104 schedule table · EV-002','Partially verified','Corroborating submitted milestone movement; protected on the same basis as the 117-day figure.'],
+ ['78 / 76 days','Event 2 · primary like-for-like Ground Works / Project Finish','STR-104 · EV-003','Partially verified','SAMCO submission position; no acceptance that either value is final until the native model and contractual tests are reproduced.'],
+ ['71 days','Event 2 · later prospective Project Finish workbook variant','02 − 01 workbook/XER pair · EV-004','Disputed version','Must be reconciled with the 76-day submitted result; neither figure silently replaces the other.'],
+ ['43 / 37 days','Event 2 · actual-duration case retaining original logic','STR-104 and comparison workbook · EV-005','Partially verified','A calibrated analytical case, not an agreed cap or final quantum.'],
+ ['15 / 12 days','Event 2 · Engineer assessment','Letter 050 · EV-006','Verified as stated / method disputed','Recorded without acceptance of the calculation, methodology, factual inputs or contractual effect.'],
+ ['28 / 25 days','Event 2 · arithmetic reduction from 43/37 to 15/12','EV-007 / EV-008','Arithmetic verified / cause HOLD','Defines the unexplained bridge only. It is not an admission that the deductions are valid.'],
+ ['Approximately 2 days','Cross-model 37/35 comparison concerning the 24 changes','EV-009','HOLD — not isolated','Different before models prevent attribution to the 24 changes. It must not be alleged as a proven logic-removal effect.']
+];
+
+const PROTECTION_SECTIONS=[
+ ['1. Overriding status and non-acceptance','This communication supplements and protects SAMCO’s existing notices, submissions and correspondence. It does not replace, narrow, settle or compromise any earlier position. It is issued strictly without prejudice, without waiver and without acceptance of any ACEPM or Engineer conclusion. Reference to any day value, schedule result, date, logic treatment or determination is for identification, audit and reconciliation only and shall not be construed as agreement with its correctness, methodology, causation, quantum or contractual effect.'],
+ ['2. Event No. 1 — completed Batch No. 2 protected position','The Engineer has recognized the Employer-side steel event and the potential EOT principle. SAMCO maintains that the completed and measurable Batch No. 2 component must be determined on its own evidence and must not remain unresolved merely because Batch No. 3 or later cumulative effects remain open. The submitted 126-day Ground Works and 117-day Project Finish movements are preserved as schedule evidence [EV-001, EV-002], not asserted here as automatically established entitlement. SAMCO reserves the right to rely on the supported result after native P6 verification, causation, mitigation and demonstrated concurrency review, while separately reserving Batch No. 3 and cumulative effects.'],
+ ['3. Event No. 2 — no acceptance of any analytical ceiling','SAMCO preserves the primary 78/76 case [EV-003], the actual-duration 43/37 case retaining the original logic [EV-005], and its challenge to the Engineer’s 15/12 assessment [EV-006]. None is accepted as a ceiling, settlement or final quantum. ACEPM must reconcile the 28-day Ground Works and 25-day Project Finish reductions [EV-007, EV-008] activity by activity, relationship by relationship and factual-date change by factual-date change. The later 71-day variant [EV-004] must be version-controlled and reconciled with 76 days before either is relied upon.'],
+ ['4. IFC and actual-date protection','A date appearing in an analysis is not self-proving. Every IFC, shop-drawing, inspection and progress date used to calculate Event No. 2 must trace to the controlled transmittal, submission, reply, revision or inspection record. The identified conflicts, including the STR-054 sequence [EV-010], require correction and a native rerun. Until ACEPM discloses the source and change log for each actual date, the affected result cannot constitute a technically reliable basis for determination. This challenge preserves SAMCO’s position but does not itself quantify additional entitlement.'],
+ ['5. Longest-path and critical-path protection','ACEPM’s verified positions concerning event criticality, detailed longest-path review and later characterization of SAMCO’s objection must be reconciled chronologically [EV-013, EV-015]. SAMCO does not allege that every path movement proves impropriety. SAMCO’s protected objection is that material path conclusions cannot rest on undisclosed, inconsistently applied or unreproducible model changes. ACEPM must identify the exact native path output and calculation settings supporting each conclusion.'],
+ ['6. The 24 relationships — controlled position','All 24 registered signatures pre-date the Event No. 2 fragnet [EV-014]. Eighteen lags were reset and six relationships deleted. Their presence does not prove that every original lag duration was correct, and an alternative preferred sequence does not prove a demonstrated anomaly. Each change requires its own technical basis, contemporaneous support, replacement control and isolated native effect. The approximately two-day 37/35 cross-model observation remains HOLD [EV-009] because the source pairs do not share an identical before model; SAMCO neither adopts nor waives any position on the true effect pending a matched P6 sensitivity run.'],
+ ['7. Unanswered matters remain expressly open','The outstanding questions Q1–Q8 remain live. Repetition of a conclusion, restatement of SAMCO’s position or citation of a general forensic principle is not a substantive answer. No unanswered point may be treated as agreed through silence, continued progress, participation in meetings, mitigation, submission of updates or use of an interim figure. ACEPM and the Engineer are required to respond directly with the identified source record, native calculation and contractual reasoning.'],
+ ['8. Frozen analytical basis and change control','Before further reliance, ACEPM shall identify and freeze the official source programme, revision, data date, calendars, constraints, longest-path settings, retained-logic and progress-override settings, open ends, out-of-sequence treatment, fragnet logic, every added/removed/modified relationship, every lag change, every actual-date correction and every calculation option. Any later departure must be notified in writing before reliance, linked to a specifically demonstrated anomaly, technically supported, version controlled and tested both in isolation and cumulatively. Selective event-by-event alteration without this audit trail is not acceptable.'],
+ ['9. Contractual and legal rights preserved','SAMCO reserves all rights and remedies under the executed Contract, its Particular Conditions and applicable law, including rights concerning Event Nos. 1 and 2, Batch No. 2, continuing Batch No. 3, further Employer/Engineer-controlled events, EOT, prolongation and other recoverable cost consequences, financing and disruption where contractually available, cumulative effects, and concurrency only where demonstrated. SAMCO also reserves all notice, determination, dissatisfaction, dispute and referral rights, including the amended Sub-Clause 20.2 route and any DAB/DAAB, arbitration or other competent forum. Contract and counsel shall confirm the live procedural calendar before issue.'],
+ ['10. No waiver by conduct or discussion','No act or omission by SAMCO—including progress, mitigation, resequencing, attendance at meetings, provision of information, submission of an updated programme, request for an interim decision, discussion of a figure, payment application, failure to repeat a reservation on every occasion, or continued performance—shall be interpreted as acceptance, waiver, election, estoppel, accord, satisfaction or abandonment of any right. No partial determination or payment shall settle the balance unless SAMCO expressly agrees in a duly authorized written instrument.'],
+ ['11. Required determination and record production','SAMCO requires the outputs A–L in the controlled action register, including the completed Batch No. 2 determination; all native before/after files; the full 78/76, 71, 43/37 and 15/12 reconciliation; the relationship-by-relationship 24-row analysis; actual-date provenance; direct answers to Q1–Q8; and a signed frozen analytical protocol. Any response that omits the native calculation trail or answers only at a general level will leave the relevant issue unresolved.'],
+ ['12. Closing reservation','SAMCO requests a complete substantive response within seven calendar days of the issued letter date, subject to verification of any governing contractual deadline. Pending that response, every disputed factual, technical, quantum and contractual issue remains open. SAMCO expressly reserves the right to amend, supplement or particularize its position as further native files, records, expert analysis or continuing-event evidence become available. Nothing in this tab or the associated draft shall prejudice any existing or future entitlement.']
+];
+
 const EVIDENCE_FIELDS=['Item No.','Issue / Assertion','Delay Event','Source Document / Record','Document Number','Document Date','Revision / Programme Version','Page / Paragraph / Activity ID / Relationship ID','Exact Quotation or Data Point','Evidence Type','Verification Status','Responsible Party / Author','Analytical Significance','Contractual Significance','Related Letter Section','Required Action / Clarification','Outstanding Information','Notes'];
 const ev=(no,issue,event,source,doc,date,version,locator,data,type,status,party,analysis,contract,section,action,outstanding,notes)=>({no,issue,event,source,doc,date,version,locator,data,type,status,party,analysis,contract,section,action,outstanding,notes});
 const EVIDENCE=[
@@ -168,6 +194,35 @@ PANES.evidence_register=()=>{
  return f;
 };
 
+PANES.contractual_protection=()=>{
+ const f=document.createDocumentFragment();
+ f.appendChild(el('h2','t','SAMCO Contractual Protection'));
+ f.appendChild(el('p','lede','A consolidated defensive record protecting Delay Event Nos. 1 and 2, all existing and future entitlements, and SAMCO’s right to challenge unsupported dates, logic changes, methodology and quantum.'));
+ f.appendChild(el('div','control-banner hold','<b>Issue status — protected draft:</b> this layer is evidence-controlled and rights-reserving. It is not an admission, settlement, waiver or acceptance of any Engineer figure. Final issue date, addressee, notice route and live contractual deadlines require Contracts and legal review before signature.'));
+ const guard=el('div','protection-guard');
+ [
+  ['No acceptance','Every numerical result is identified for reconciliation only.'],
+  ['No waiver','Silence, mitigation, progress or discussion cannot surrender SAMCO’s rights.'],
+  ['Frozen methodology','Any later model change requires prior identification, proof, version control and impact testing.'],
+  ['Future rights preserved','Batch No. 3, cumulative effects, EOT, recoverable cost and formal dispute routes remain open.']
+ ].forEach(x=>{const d=el('article','protection-card');d.append(el('h3',null,x[0]),el('p',null,x[1]));guard.appendChild(d);});
+ f.appendChild(guard);
+ f.appendChild(el('h3','s','Numerical non-acceptance and verification control'));
+ f.appendChild(el('p',null,'The figures below are preserved without adoption. Their status controls what SAMCO may safely say and prevents a cited result from being mischaracterized later as an agreed quantum or analytical ceiling.'));
+ f.appendChild(makeTable(['Figure','Issue / analytical case','Evidence control','Verification status','Protected SAMCO position'],FIGURE_CONTROL.map(x=>[x[0],x[1],x[2],statusHtml(x[3]),x[4]]),'1300px'));
+ f.appendChild(el('h3','s','Rights-reserving defensive letter'));
+ const wrap=el('div','letter-control protection-letter');
+ wrap.appendChild(el('div','letter-addressee','<b>To:</b> ACEPM / The Engineer<br><b>From:</b> SAMCO National Construction<br><b>Project:</b> The Big Business District · Phase 02 · Buildings B1–B4<br><b>Subject:</b> Delay Event Nos. 1 and 2 — consolidated protection of entitlement, demand for auditable determination and reservation of all rights'));
+ PROTECTION_SECTIONS.forEach(s=>{const d=el('section','letter-section');d.appendChild(el('h3',null,s[0]));d.appendChild(el('p',null,s[1]));wrap.appendChild(d);});
+ f.appendChild(wrap);
+ f.appendChild(el('h3','s','Unanswered issues preserved against deemed acceptance'));
+ f.appendChild(makeTable(['ID','Outstanding question','Source / locator','Current answer status','Why it remains open','Required closure record'],QUESTION_REGISTER.map(x=>[x[0],x[1],x[2],statusHtml(x[3]),x[4],x[5]]),'1280px'));
+ f.appendChild(el('h3','s','Mandatory outputs and closure gates'));
+ f.appendChild(makeTable(['Action','Required Engineer / ACEPM output','Protection effect'],ACTIONS.map(x=>[x[0],x[1],x[0]==='A'?'No deferral of completed Batch No. 2':x[0]==='J'||x[0]==='K'?'Prevents undisclosed future methodology changes':'Issue remains open until the disclosed record is complete']),'1150px'));
+ f.appendChild(el('div','control-banner','<b>Evidence linkage:</b> every protected position above is controlled by EV-001…EV-018 and REL-01…REL-24 in the Evidence and Verification Register. ACEPM Letter 055 remains “Excluded — not relied upon” unless a complete verified copy is disclosed.'));
+ return f;
+};
+
 function appendSubtab(sectionIndex,label,paneKey){
  const sec=hostEl.children[sectionIndex]; let sb=sec.querySelector('.subbar'); let panes;
  if(!sb){
@@ -185,6 +240,10 @@ appendSubtab(6,'Question register','l_questions');
 appendSubtab(6,'Formal response','l_draft');
 appendSubtab(7,'Actions A–L','ask_controlled');
 
+const protectionTab=el('button','tb');protectionTab.type='button';protectionTab.setAttribute('role','tab');protectionTab.setAttribute('aria-selected','false');protectionTab.textContent='SAMCO Contractual Protection';
+const protectionSec=el('section','sec contractual-protection-sec');protectionSec.hidden=true;const protectionPane=el('div','pane');protectionPane.appendChild(PANES.contractual_protection());protectionSec.appendChild(protectionPane);const protectionIndex=hostEl.children.length;tabbar.appendChild(protectionTab);hostEl.appendChild(protectionSec);
+protectionTab.addEventListener('click',()=>pick(protectionIndex));
+
 const evidenceTab=el('button','tb');evidenceTab.type='button';evidenceTab.setAttribute('role','tab');evidenceTab.setAttribute('aria-selected','false');evidenceTab.textContent='Evidence and Verification Register';
 const evidenceSec=el('section','sec');evidenceSec.hidden=true;const evidencePane=el('div','pane');evidencePane.appendChild(PANES.evidence_register());evidenceSec.appendChild(evidencePane);const evidenceIndex=hostEl.children.length;tabbar.appendChild(evidenceTab);hostEl.appendChild(evidenceSec);
 evidenceTab.addEventListener('click',()=>pick(evidenceIndex));
@@ -197,5 +256,5 @@ const primaveraSec=el('section','sec primavera-analyzer-sec');primaveraSec.hidde
 const primaveraIndex=hostEl.children.length;primaveraSec.appendChild(primaveraFrame);tabbar.appendChild(primaveraTab);hostEl.appendChild(primaveraSec);
 primaveraTab.addEventListener('click',()=>pick(primaveraIndex));
 
-Object.assign(window,{LETTER53_POINTS:POINTS53,LETTER53_QUESTIONS:QUESTION_REGISTER,LETTER53_ACTIONS:ACTIONS,LETTER53_EVIDENCE:EVIDENCE,LETTER53_REL_EVIDENCE:REL_EVIDENCE,LETTER53_SECTIONS:LETTER_SECTIONS});
+Object.assign(window,{LETTER53_POINTS:POINTS53,LETTER53_QUESTIONS:QUESTION_REGISTER,LETTER53_ACTIONS:ACTIONS,LETTER53_EVIDENCE:EVIDENCE,LETTER53_REL_EVIDENCE:REL_EVIDENCE,LETTER53_SECTIONS:LETTER_SECTIONS,SAMCO_FIGURE_CONTROL:FIGURE_CONTROL,SAMCO_PROTECTION_SECTIONS:PROTECTION_SECTIONS});
 })();

@@ -31,13 +31,17 @@ assert(!/id=["']btnAr["']/.test(html), 'Removed Arabic-summary button is still p
 assert(/Prepared for <b>Eng\. OLA - CTO<\/b>/.test(html), 'Prepared-for header line is missing');
 assert(/letter53_upgrade\.css/.test(html), 'Letter 053 control stylesheet is missing');
 assert(/letter53_upgrade\.js/.test(html), 'Letter 053 control script is missing');
+assert(/\{t:'Library',subs:\[\['Clauses and sources','lib'\],\['Book Intelligence','books'\],\['Read the Books','reader'\]\]\}/.test(html), 'Desktop-parity in-app Library navigation is missing');
+assert(!/btnBooksMobile|mobile-books-quick/.test(html), 'Mobile-only books navigation must not replace the desktop Library workflow');
+assert(/SAMCO Contractual Protection/.test(letter53Upgrade), 'SAMCO Contractual Protection top-level tab is missing');
+assert(/const PROTECTION_SECTIONS=\[/.test(letter53Upgrade) && (letter53Upgrade.match(/\['\d+\. /g) || []).length >= 12, 'Contractual protection sections are incomplete');
 assert(/Primavera Analyzer/.test(letter53Upgrade), 'Primavera Analyzer top-level tab is missing');
 assert(/primavera-xer-analyzer\.html/.test(letter53Upgrade), 'Primavera Analyzer iframe is missing');
 assert(/Apply ACEPM 24/.test(primaveraAnalyzer), 'ACEPM 24 treatment selector is missing');
-assert(/Import one or more outside schedules/.test(primaveraAnalyzer), 'External XER import is missing');
+assert(/Upload two outside schedules/.test(primaveraAnalyzer), 'External XER import is missing');
 assert(/Budgeted total cost/.test(primaveraAnalyzer) && /Earned Value/.test(primaveraAnalyzer), 'Required cost and EV metrics are missing');
 assert(/Ground floor \/ works milestone/.test(primaveraAnalyzer) && /Data date/.test(primaveraAnalyzer), 'Required milestone and data-date metrics are missing');
-assert(/Not rescheduled in P6/.test(primaveraAnalyzer), 'Native P6 recalculation control is missing');
+assert(/native Primavera P6 (?:reschedule|recalculation still required)/i.test(primaveraAnalyzer), 'Native P6 recalculation control is missing');
 
 const analyzerFiles = [
   'primavera-app-source.html',

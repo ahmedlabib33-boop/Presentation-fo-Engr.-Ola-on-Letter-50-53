@@ -513,7 +513,6 @@ mark{background:rgba(223,188,103,.3);color:#fff;padding:0 2px;border-radius:2px}
 .bar input{flex:1;min-width:210px;background:rgba(255,255,255,.04);border:1px solid var(--line2);
   color:var(--soft);padding:9px 13px;border-radius:2px;font-family:inherit;font-size:12.5px}
 .bar input:focus{outline:none;border-color:rgba(223,188,103,.5)}
-.mobile-books-quick{display:none}
 .btn{appearance:none;cursor:pointer;font-family:inherit;font-size:12.5px;padding:9px 15px;border-radius:2px;
   background:rgba(223,188,103,.09);border:1px solid rgba(223,188,103,.32);color:var(--gold2);transition:.16s}
 .btn:hover{background:rgba(223,188,103,.17)}
@@ -922,7 +921,6 @@ body.unlocked{
   .bar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding-top:12px}
   .bar input{grid-column:1/-1;width:100%;min-width:0;min-height:44px;font-size:16px}
   .bar .btn{width:100%;min-height:44px;padding:10px 11px;touch-action:manipulation}
-  .mobile-books-quick{display:inline-flex;align-items:center;justify-content:center;border-color:rgba(223,188,103,.48);color:var(--gold2);background:rgba(223,188,103,.09)}
   .bar #btnPrint{grid-column:auto}
 
   .tabbar{margin:0 -12px;padding:0 12px;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
@@ -1076,7 +1074,6 @@ body.unlocked{
 
     <div class="bar">
       <input id="gq" type="search" placeholder="Search everything — curing, notice, Batch No. 2, anomaly, 117…" aria-label="Search the whole document">
-      <button class="btn mobile-books-quick" id="btnBooksMobile" type="button" aria-label="Open the embedded book reader">Read embedded books</button>
       <button class="btn" id="btnPrint" type="button">Print / PDF</button>
     </div>
     <div id="gs"></div>
@@ -2838,17 +2835,6 @@ function pick(i){
   if(p){p.style.animation='none';void p.offsetWidth;p.style.animation='';}
   window.scrollTo({top:0,behavior:'smooth'});
 }
-const btnBooksMobile=document.getElementById('btnBooksMobile');
-btnBooksMobile?.addEventListener('click',()=>{
-  const libraryIndex=SECTIONS.findIndex(section=>section.t==='Library');
-  if(libraryIndex<0)return;
-  pick(libraryIndex);
-  const librarySection=hostEl.children[libraryIndex];
-  const readerIndex=SECTIONS[libraryIndex].subs.findIndex(sub=>sub[1]==='reader');
-  const readerButton=librarySection?.querySelectorAll('.subbar .sb')[readerIndex];
-  readerButton?.click();
-  loadLibraryAssets();
-});
 tabbar.addEventListener('keydown',e=>{
   const bs=[...tabbar.children];const cur=bs.findIndex(b=>b.getAttribute('aria-selected')==='true');
   if(e.key==='ArrowRight'){pick((cur+1)%bs.length);bs[(cur+1)%bs.length].focus();}
@@ -3103,7 +3089,6 @@ Object.assign(AR_EXACT,{
   "12-day":"12 يومًا",
   "assessment in Letter 050. A technically reliable comparison requires one consistent reference network and verified actual dates.":"في الخطاب 050. وتتطلب المقارنة الموثوقة فنيًا شبكة مرجعية متسقة واحدة وتواريخ فعلية متحققًا منها.",
   "Schedule results: IFC sch movement.xlsx. Approval dates: verified Consultant reply sheets. This is a source-record consistency test; contractual reliance remains subject to a controlled native P6 review.":"نتائج البرنامج: ملف IFC sch movement.xlsx. تواريخ الاعتماد: أوراق رد الاستشاري المتحقق منها. وهذا اختبار لاتساق سجلات المصدر؛ أما الاستناد التعاقدي فيظل خاضعًا لمراجعة مضبوطة للملف الأصلي في Primavera P6.",
-  "Read embedded books":"قراءة الكتب المدمجة"
 });
 const btn=document.getElementById('langToggleTop');
 if(!btn)return;
