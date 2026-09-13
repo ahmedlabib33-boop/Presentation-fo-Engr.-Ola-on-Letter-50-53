@@ -191,7 +191,9 @@ evidenceTab.addEventListener('click',()=>pick(evidenceIndex));
 
 const primaveraTab=el('button','tb');primaveraTab.type='button';primaveraTab.setAttribute('role','tab');primaveraTab.setAttribute('aria-selected','false');primaveraTab.textContent='Primavera Analyzer';
 const primaveraSec=el('section','sec primavera-analyzer-sec');primaveraSec.hidden=true;
-const primaveraFrame=document.createElement('iframe');primaveraFrame.className='primavera-analyzer-frame';primaveraFrame.src='primavera-xer-analyzer.html';primaveraFrame.title='Primavera Analyzer — embedded and imported XER comparison';primaveraFrame.loading='lazy';
+ const primaveraFrame=document.createElement('iframe');primaveraFrame.className='primavera-analyzer-frame';primaveraFrame.src='primavera-xer-analyzer.html';primaveraFrame.title='Primavera Analyzer — embedded and imported XER comparison';primaveraFrame.loading='lazy';primaveraFrame.scrolling='no';
+ const fitPrimavera=()=>{try{const doc=primaveraFrame.contentDocument;if(!doc)return;const height=Math.max(760,doc.documentElement.scrollHeight,doc.body?.scrollHeight||0);primaveraFrame.style.height=height+'px';}catch(_){}};
+ primaveraFrame.addEventListener('load',()=>{fitPrimavera();try{const doc=primaveraFrame.contentDocument;if(doc&&window.ResizeObserver){const observer=new ResizeObserver(fitPrimavera);observer.observe(doc.documentElement);if(doc.body)observer.observe(doc.body);primaveraFrame._fitObserver=observer;}}catch(_){}setTimeout(fitPrimavera,500);setTimeout(fitPrimavera,1800);});
 const primaveraIndex=hostEl.children.length;primaveraSec.appendChild(primaveraFrame);tabbar.appendChild(primaveraTab);hostEl.appendChild(primaveraSec);
 primaveraTab.addEventListener('click',()=>pick(primaveraIndex));
 

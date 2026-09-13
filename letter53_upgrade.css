@@ -17,5 +17,5 @@
 @media(max-width:760px){.letter-control .letter-meta{grid-template-columns:1fr 1fr}.letter-control .letter-section{padding:15px}.register-toolbar input{min-width:100%}}
 @media print{.letter-control .letter-section{break-inside:avoid}.register-toolbar{display:none}}
 .primavera-analyzer-sec{padding:0;background:#07131f}
-.primavera-analyzer-frame{display:block;width:100%;height:max(760px,calc(100vh - 180px));border:0;background:#07131f}
-@media(max-width:760px){.primavera-analyzer-frame{height:max(720px,calc(100vh - 130px))}}
+.primavera-analyzer-frame{display:block;width:100%;min-height:760px;height:760px;border:0;background:#07131f;overflow:hidden}
+@media(max-width:760px){.primavera-analyzer-frame{min-height:720px}}
