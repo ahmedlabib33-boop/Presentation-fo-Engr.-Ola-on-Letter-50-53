@@ -40,6 +40,8 @@ assert(/renderContractualProtection/.test(letter53Upgrade) && /site-language/.te
 assert(/const PROTECTION_EVIDENCE=\[/.test(letter53Upgrade) && /Point evidence and reasoning trail/.test(letter53Upgrade), 'Point-level contractual evidence trail is missing');
 assert(/pointEvidence:\[/.test(letter53Upgrade) && /سند النقطة ومسارها الاستدلالي/.test(letter53Upgrade), 'Arabic point-level evidence trail is missing');
 assert(/guard-evidence/.test(letter53Upgrade) && /Evidence basis/.test(letter53Upgrade) && /سند الدليل/.test(letter53Upgrade), 'Top protection-card evidence is missing');
+assert(/protection-source-gallery/.test(letter53Upgrade) && /Source-document screenshots/.test(letter53Upgrade) && /صور مستندات المصدر/.test(letter53Upgrade), 'Point 7 source-document screenshot gallery is missing');
+['l104','l053e1','e2chain104','e2chain053'].forEach(key => assert(new RegExp("key:'" + key + "'").test(letter53Upgrade), `Point 7 screenshot source is missing: ${key}`));
 assert(/Primavera Analyzer/.test(letter53Upgrade), 'Primavera Analyzer top-level tab is missing');
 assert(/primavera-xer-analyzer\.html/.test(letter53Upgrade), 'Primavera Analyzer iframe is missing');
 assert(/Apply ACEPM 24/.test(primaveraAnalyzer), 'ACEPM 24 treatment selector is missing');
