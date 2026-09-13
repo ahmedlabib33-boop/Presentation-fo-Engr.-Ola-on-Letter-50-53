@@ -104,6 +104,115 @@ const PROTECTION_SECTIONS=[
  ['12. Closing reservation','SAMCO requests a complete substantive response within seven calendar days of the issued letter date, subject to verification of any governing contractual deadline. Pending that response, every disputed factual, technical, quantum and contractual issue remains open. SAMCO expressly reserves the right to amend, supplement or particularize its position as further native files, records, expert analysis or continuing-event evidence become available. Nothing in this tab or the associated draft shall prejudice any existing or future entitlement.']
 ];
 
+const PROTECTION_EVIDENCE=[
+ {sources:['Executed Contract PDF, Particular Conditions p30, amended Sub-Clause 20.2 · EV-012','Engineer Letter 050; SAMCO STR-104; Engineer Letter 053 · EV-006, EV-015'],logic:'A later protection notice must supplement the existing record without converting disputed technical or numerical references into admissions.',limit:'This is protective drafting, not independent proof of entitlement. Contracts and counsel must confirm its legal effect and service requirements.'},
+ {sources:['Executed Contract PDF p7, Appendix to Tender Item 20 / Sub-Clause 14.2 · EV-011','Engineer Letter 050, Event 1 determination','SAMCO STR-104 schedule table and Batch No. 2 request · EV-001, EV-002'],logic:'The Employer steel allocation establishes the contractual event basis; the completed Batch No. 2 model supplies the measurable schedule case, while Batch No. 3 remains separately continuing.',limit:'The 126/117 movements remain submitted schedule results until native P6 settings, causation, mitigation and demonstrated concurrency are verified.'},
+ {sources:['SAMCO STR-104 pp2, 4 and 9 · EV-003, EV-005, EV-007, EV-008','Engineer Letter 050 and planning attachment · EV-006','IFC schedule comparison workbook and XER pairs 01–05 · EV-004, EV-009'],logic:'The 78/76, 71, 43/37 and 15/12 results describe different controlled cases. A valid determination requires a traceable bridge between each change in duration, logic, dates and milestone outcome.',limit:'The arithmetic differences are verified, but their causation and contractual allocation are not accepted without matched native calculations.'},
+ {sources:['IFC approval-date control workbook and Consultant reply sheets for STR-044, STR-046, STR-054 and STR-055 · EV-010','SAMCO actual-duration XER and controlled date register','Potential inspection-record population · EV-017'],logic:'Every actual date is a factual progress input and must trace to a controlled submission, reply, revision or inspection record before it can drive a forensic schedule result.',limit:'EV-017 is not inventoried and is not relied upon. Correcting dates does not by itself quantify a revised EOT; a native rerun is required.'},
+ {sources:['Engineer Letter 050 PDF p4 / OCR lines 31–36 · EV-013','Engineer Letter 053 PDF pp1–3, mapped points 1–23 · EV-015','SAMCO STR-104 pp5–6 and 9'],logic:'Criticality and longest-path conclusions must be chronological, reproducible and tied to the exact native output and settings used for each assessment.',limit:'A path change alone proves neither manipulation nor entitlement. The protected issue is undisclosed or inconsistent model treatment.'},
+ {sources:['Approved baseline and claim-XER signature review, REL-01…REL-24 · EV-014','SAMCO STR-104 pp5–6 and 9; Engineer Letter 050 planning attachment','AACE 29R-03 PDF, Correcting Schedule Anomalies, pp32–33','Embedded ACI 347R / ECP 203 PDFs and OSHA 1926.703 source for the identified strength-related rows'],logic:'Each of the 18 lag resets and six deletions requires a row-specific anomaly, contemporaneous support, replacement control and matched isolated test. Strength-related rows additionally require the applicable engineering release basis.',limit:'Pre-event presence does not prove every original lag; preferred logic does not prove an anomaly; the approximate two-day cross-model observation remains HOLD.'},
+ {sources:['SAMCO STR-104 questions and requests, pp3–6 and 9','Engineer Letter 053 mapped response · EV-015','Controlled unanswered-question register Q1–Q8'],logic:'A question closes only when the response supplies the requested fact, native calculation and contractual reasoning; a general principle or restatement does not answer a specific technical question.',limit:'The register records response completeness. It does not predetermine the eventual technical answer or entitlement.'},
+ {sources:['AACE 29R-03 PDF, schedule validation and anomaly-correction controls, pp32–33','Native XER comparison set 01–05 and REL-01…REL-24 register · EV-003…EV-009, EV-014','Engineer Letters 050 and 053; SAMCO STR-104'],logic:'Reproducibility requires one identified source programme, data date, settings and complete change log. Each departure must be version controlled and tested separately from the delay event.',limit:'AACE provides methodological guidance only. The executed Contract, verified project records and native P6 results control the case-specific conclusion.'},
+ {sources:['Executed Contract PDF p7, Appendix to Tender Item 20 / Sub-Clause 14.2 · EV-011','Executed Contract PDF, Particular Conditions p30, amended Sub-Clause 20.2 · EV-012','Engineer Letters 050 and 053; SAMCO STR-104'],logic:'Rights are reserved across entitlement, quantum, continuing events, recoverable cost consequences and the agreed notice/determination/dispute route.',limit:'The signed Contract and applicable law govern. Contract and counsel must confirm notices, time bars, DAB/DAAB steps and arbitration requirements before issue.'},
+ {sources:['Executed Contract PDF and Particular Conditions, including amended Sub-Clause 20.2 · EV-012','Existing SAMCO notices, mitigation records, progress submissions and STR-104'],logic:'Continued performance, mitigation and technical cooperation are separated from agreement on causation, quantum or waiver of remedies.',limit:'The effectiveness of anti-waiver wording depends on the governing Contract and law; authorized legal review remains required.'},
+ {sources:['Controlled action register A–L','Unanswered-question register Q1–Q8','Evidence Register EV-001…EV-018 and REL-01…REL-24'],logic:'Each requested output has a defined closure gate so a generic narrative response cannot silently close a factual, scheduling or contractual issue.',limit:'A register item closes only after the referenced native file or source record is produced and verified; administrative receipt alone is insufficient.'},
+ {sources:['Executed Contract PDF, Particular Conditions p30, amended Sub-Clause 20.2 · EV-012','Engineer Letter 053 dated 7 Sep 2026 · EV-015','Evidence Register EV-001…EV-018; ACEPM Letter 055 excluded under EV-016'],logic:'The closing reservation keeps disputed facts, methodology, quantum and continuing-event evidence open pending a substantive, auditable response.',limit:'The seven-day request is subject to the actual contractual procedural calendar. ACEPM Letter 055 remains excluded unless a complete verified copy is disclosed.'}
+];
+
+const PROTECTION_AR={
+ ui:{
+  tab:'الحماية التعاقدية لموقف سامكو',
+  title:'الحماية التعاقدية لموقف سامكو',
+  lede:'سجل دفاعي موحّد يحمي موقف سامكو بشأن حدثَي التأخير رقمَي 1 و2، وجميع استحقاقاتها الحالية والمستقبلية، وحقها في الاعتراض على التواريخ غير المدعومة، وتغييرات المنطق الزمني، والمنهجية، ومقدار الاستحقاق.',
+  issue:'<b>حالة الإصدار — مسودة محمية:</b> تخضع هذه الطبقة لضبط الأدلة وتُصدر مع التحفظ الكامل على الحقوق. ولا تمثل إقرارًا أو تسوية أو تنازلًا أو قبولًا لأي قيمة يقررها المهندس. ويجب على إدارة العقود والمستشار القانوني مراجعة تاريخ الإصدار النهائي، والجهة الموجَّه إليها، ومسار الإخطار، والمواعيد التعاقدية السارية قبل التوقيع.',
+  figuresTitle:'ضبط عدم قبول القيم العددية والتحقق منها',
+  figuresIntro:'تُثبت القيم أدناه في السجل دون تبنّيها. وتحدد حالة التحقق منها الصياغة التي يجوز لسامكو استخدامها بأمان، بما يمنع تفسير أي نتيجة مشار إليها لاحقًا باعتبارها مقدارًا متفقًا عليه أو حدًا أقصى للتحليل.',
+  figuresHeaders:['القيمة','المسألة / الحالة التحليلية','مرجع ضبط الدليل','حالة التحقق','موقف سامكو المحمي'],
+  letterTitle:'خطاب دفاعي مع التحفظ الكامل على الحقوق',
+  addressee:'<b>إلى:</b> ACEPM / المهندس<br><b>من:</b> شركة سامكو الوطنية للإنشاءات<br><b>المشروع:</b> منطقة الأعمال الكبرى · المرحلة 02 · المباني B1–B4<br><b>الموضوع:</b> حدثا التأخير رقما 1 و2 — حماية موحّدة للاستحقاق، وطلب قرار قابل للتدقيق، والتحفظ على جميع الحقوق',
+  questionsTitle:'إبقاء المسائل غير المجاب عنها مفتوحة ومنع اعتبارها مقبولة ضمنًا',
+  questionsHeaders:['الرمز','السؤال المعلّق','المصدر / الموضع','حالة الإجابة الحالية','سبب بقاء المسألة مفتوحة','مستند الإقفال المطلوب'],
+  actionsTitle:'المخرجات الإلزامية وضوابط الإقفال',
+  actionsHeaders:['الإجراء','المخرج المطلوب من المهندس / ACEPM','أثر الحماية'],
+  actionA:'عدم إرجاء البت في الجزء المكتمل من الدفعة رقم 2',
+  actionJK:'منع أي تغيير مستقبلي غير مفصح عنه في المنهجية',
+  actionOther:'تظل المسألة مفتوحة إلى حين اكتمال السجل المفصح عنه',
+  pointEvidenceTitle:'سند النقطة ومسارها الاستدلالي',
+  sourceBasis:'المصادر الحاكمة والمؤيدة',
+  analyticalLogic:'المنطق التعاقدي والتحليلي',
+  evidenceLimit:'حدود الاستدلال',
+  evidence:'<b>الربط بالأدلة:</b> يخضع كل موقف محمي أعلاه للضبط بموجب السجلات EV-001…EV-018 وREL-01…REL-24 الواردة في سجل الأدلة والتحقق. ويظل خطاب ACEPM رقم 055 «مستبعدًا — لا يُستند إليه» ما لم تُفصح ACEPM عن نسخة كاملة ومتحقق منها.'
+ },
+ guards:[
+  ['لا قبول','تُذكر كل نتيجة عددية لأغراض المطابقة والتسوية التحليلية فقط.'],
+  ['لا تنازل عن الحقوق','لا يجوز أن يؤدي السكوت أو التخفيف أو استمرار التنفيذ أو مناقشة الأرقام إلى إسقاط أي حق لسامكو.'],
+  ['منهجية تحليلية مجمّدة','يستلزم أي تغيير لاحق في النموذج تعريفه مسبقًا وإثباته وضبط إصداره واختبار أثره.'],
+  ['حفظ الحقوق المستقبلية','تظل الدفعة رقم 3 والآثار التراكمية وتمديد مدة التنفيذ والتكاليف القابلة للاسترداد ومسارات فض النزاع الرسمية مفتوحة.']
+ ],
+ figures:[
+  ['117 يومًا','الحدث 1 · حركة معلم انتهاء المشروع للدفعة رقم 2','جدول البرنامج المرفق بخطاب STR-104 · EV-001','متحقق جزئيًا','نتيجة واردة في البرنامج المقدم فقط، ولا تُعد إقرارًا باستحقاق تعاقدي نهائي. ويظل تحديد الإعدادات الأصلية والسببية والتأخير المتزامن والتعديلات المبررة واجبًا.'],
+  ['126 يومًا','الحدث 1 · حركة معلم انتهاء الأعمال الأرضية للدفعة رقم 2','جدول البرنامج المرفق بخطاب STR-104 · EV-002','متحقق جزئيًا','حركة مؤيدة للمعلم المرحلي وفق البرنامج المقدم، وتظل محمية على الأساس ذاته المطبق على قيمة 117 يومًا.'],
+  ['78 / 76 يومًا','الحدث 2 · المقارنة الأساسية المتناظرة للأعمال الأرضية / انتهاء المشروع','STR-104 · EV-003','متحقق جزئيًا','يمثل موقف سامكو وفق التقديم، دون قبول نهائية أي من القيمتين إلى حين إعادة إنتاج النموذج الأصلي وتطبيق الاختبارات التعاقدية.'],
+  ['71 يومًا','الحدث 2 · نسخة لاحقة للتحليل المستقبلي لانتهاء المشروع في ملف المقارنة','زوج ملف العمل/XER رقم 02 − 01 · EV-004','إصدار محل نزاع','يجب مطابقته مع نتيجة 76 يومًا المقدمة؛ ولا يجوز لأي من القيمتين أن تحل محل الأخرى ضمنًا.'],
+  ['43 / 37 يومًا','الحدث 2 · حالة المدد الفعلية مع الإبقاء على المنطق الزمني الأصلي','STR-104 وملف عمل المقارنة · EV-005','متحقق جزئيًا','حالة تحليلية مُعايرة، وليست حدًا أقصى متفقًا عليه أو مقدارًا نهائيًا للاستحقاق.'],
+  ['15 / 12 يومًا','الحدث 2 · تقييم المهندس','الخطاب 050 · EV-006','متحقق كنص وارد / المنهج محل نزاع','يُثبت كما ورد دون قبول الحساب أو المنهجية أو المدخلات الواقعية أو الأثر التعاقدي.'],
+  ['28 / 25 يومًا','الحدث 2 · الانخفاض الحسابي من 43/37 إلى 15/12','EV-007 / EV-008','الحساب متحقق / السبب قيد التعليق','يحدد الفارق غير المفسر فقط، ولا يمثل إقرارًا بصحة الاستقطاعات.'],
+  ['نحو يومين','مقارنة 37/35 بين نموذجين بشأن التغييرات الـ24','EV-009','قيد التعليق — الأثر غير معزول','اختلاف نموذجي «قبل» يمنع نسبة الأثر إلى التغييرات الـ24. ولا يجوز عرضه باعتباره أثرًا مثبتًا لإزالة العلاقات المنطقية.']
+ ],
+ sections:[
+  ['1. الصفة الحاكمة وعدم القبول','يستكمل هذا الخطاب إخطارات سامكو وتقديماتها ومراسلاتها القائمة ويوفر لها حماية إضافية، ولا يستبدل أي موقف سابق أو يضيّقه أو يسويه أو ينتقص منه. ويُصدر صراحةً مع عدم الإخلال بالحقوق ودون تنازل عنها ودون قبول لأي استنتاج صادر عن ACEPM أو المهندس. وأي إشارة إلى عدد من الأيام أو نتيجة برنامج زمني أو تاريخ أو معالجة للمنطق الزمني أو قرار إنما ترد لأغراض التعريف والتدقيق والمطابقة فقط، ولا يجوز تفسيرها باعتبارها موافقة على صحتها أو منهجيتها أو السببية أو مقدارها أو أثرها التعاقدي.'],
+  ['2. الحدث رقم 1 — حماية موقف الدفعة رقم 2 المكتملة','أقر المهندس بحدث تأخير حديد التسليح الواقع ضمن مسؤولية صاحب العمل، وبإمكان نشوء استحقاق لتمديد مدة التنفيذ من حيث المبدأ. وتتمسك سامكو بوجوب البت في الجزء المكتمل والقابل للقياس من الدفعة رقم 2 استنادًا إلى أدلته الخاصة، وألا يظل معلقًا لمجرد استمرار الدفعة رقم 3 أو بقاء الآثار التراكمية اللاحقة مفتوحة. وتُحفظ حركتا 126 يومًا للأعمال الأرضية و117 يومًا لانتهاء المشروع الواردتان في التقديم كدليل من البرنامج الزمني [EV-001, EV-002]، دون الادعاء بأنهما تشكلان تلقائيًا استحقاقًا نهائيًا. وتتحفظ سامكو بحقها في الاستناد إلى النتيجة التي تثبتها إعادة التحقق الأصلية في Primavera P6، والسببية، والتخفيف، ومراجعة التأخير المتزامن المثبت، مع إبقاء الدفعة رقم 3 والآثار التراكمية محفوظة بصورة مستقلة.'],
+  ['3. الحدث رقم 2 — عدم قبول أي حد أقصى للتحليل','تحتفظ سامكو بالحالة الأساسية 78/76 [EV-003]، وحالة المدد الفعلية 43/37 مع الإبقاء على المنطق الزمني الأصلي [EV-005]، واعتراضها على تقييم المهندس 15/12 [EV-006]. ولا تُقبل أي منها باعتبارها حدًا أقصى أو تسوية أو مقدارًا نهائيًا. ويتعين على ACEPM مطابقة التخفيض البالغ 28 يومًا للأعمال الأرضية و25 يومًا لانتهاء المشروع [EV-007, EV-008] نشاطًا بنشاط، وعلاقة منطقية بعلاقة، وتغييرًا في التاريخ الفعلي بتغيير. كما يجب ضبط إصدار نتيجة 71 يومًا اللاحقة [EV-004] ومطابقتها مع نتيجة 76 يومًا قبل الاستناد إلى أي منهما.'],
+  ['4. حماية سجلات IFC والتواريخ الفعلية','لا يُعد التاريخ الوارد في أي تحليل دليلًا قائمًا بذاته على صحته. ويجب أن يكون كل تاريخ متعلق برسومات IFC أو رسومات الورشة أو الفحوص أو تقدم الأعمال والمستخدم في حساب الحدث رقم 2 قابلًا للتتبع إلى خطاب الإرسال أو التقديم أو الرد أو المراجعة أو سجل الفحص المعتمد. وتتطلب التعارضات المحددة، ومنها تسلسل STR-054 [EV-010]، التصحيح وإعادة التشغيل باستخدام ملف Primavera P6 الأصلي. وإلى أن تفصح ACEPM عن مصدر كل تاريخ فعلي وسجل تغييره، لا تصلح النتيجة المتأثرة أساسًا فنيًا موثوقًا للقرار. ويحفظ هذا الاعتراض موقف سامكو، لكنه لا يحدد بذاته استحقاقًا زمنيًا إضافيًا.'],
+  ['5. حماية المسار الأطول والمسار الحرج','يجب إجراء مطابقة زمنية متسلسلة بين مواقف ACEPM المتحققة بشأن حرجية الحدث، والمراجعة التفصيلية للمسار الأطول، ووصفها اللاحق لاعتراض سامكو [EV-013, EV-015]. ولا تدعي سامكو أن كل تغير في المسار يثبت وجود إجراء غير سليم. وإنما يتمثل اعتراض سامكو المحمي في عدم جواز بناء استنتاجات جوهرية تخص المسار على تغييرات غير مفصح عنها، أو مطبقة بصورة غير متسقة، أو يتعذر إعادة إنتاجها. ويتعين على ACEPM تحديد مخرجات المسار الأصلية وإعدادات الحساب الدقيقة التي تسند كل استنتاج.'],
+  ['6. العلاقات المنطقية الـ24 — الموقف المنضبط','كانت جميع بصمات العلاقات الـ24 المسجلة موجودة قبل إدراج شبكة أثر الحدث رقم 2 [EV-014]. وقد صُفّرت مدد التأخير في 18 علاقة وحُذفت ست علاقات. ولا يثبت وجودها صحة كل مدة تأخير أصلية، كما لا يثبت تفضيل تسلسل بديل وجود خلل مثبت. ويستلزم كل تغيير أساسًا فنيًا مستقلًا، وسندًا معاصرًا للحدث، وضابطًا بديلًا، وأثرًا معزولًا محسوبًا على الملف الأصلي. وتظل ملاحظة الفارق التقريبي البالغ يومين في مقارنة 37/35 بين نموذجين قيد التعليق [EV-009] لأن زوجي المصدر لا يشتركان في نموذج «قبل» متطابق؛ ومن ثم لا تتبنى سامكو أي موقف بشأن الأثر الحقيقي ولا تتنازل عنه إلى حين إجراء اختبار حساسية متناظر في Primavera P6.'],
+  ['7. بقاء المسائل غير المجاب عنها مفتوحة صراحةً','تظل الأسئلة المعلقة Q1–Q8 قائمة. ولا يُعد تكرار النتيجة أو إعادة صياغة موقف سامكو أو الاستناد إلى مبدأ عام في التحليل الجنائي للبرامج الزمنية إجابة موضوعية. ولا يجوز اعتبار أي نقطة غير مجاب عنها متفقًا عليها بسبب السكوت أو استمرار التنفيذ أو حضور الاجتماعات أو إجراءات التخفيف أو تقديم التحديثات أو استخدام رقم مرحلي. ويلزم على ACEPM والمهندس الرد المباشر بالسجل المصدري المحدد والحساب الأصلي والتسبيب التعاقدي.'],
+  ['8. تجميد الأساس التحليلي وضبط التغيير','قبل أي استناد إضافي، يتعين على ACEPM تحديد وتجميد البرنامج الزمني الرسمي المصدر، والمراجعة، وتاريخ البيانات، والتقاويم، والقيود، وإعدادات المسار الأطول، وإعدادات الإبقاء على المنطق الزمني وتجاوز التقدم، والنهايات المفتوحة، ومعالجة التقدم خارج التسلسل، ومنطق شبكة أثر الحدث، وكل علاقة مضافة أو محذوفة أو معدلة، وكل تغيير في مدد التأخير، وكل تصحيح للتواريخ الفعلية، وجميع خيارات الحساب. ويجب الإخطار كتابةً بأي خروج لاحق قبل الاستناد إليه، وربطه بخلل محدد ومثبت، ودعمه فنيًا، وضبط إصداره، واختبار أثره منفردًا وتراكميًا. ولا يُقبل التعديل الانتقائي من حدث إلى آخر دون مسار التدقيق هذا.'],
+  ['9. حفظ الحقوق التعاقدية والقانونية','تتحفظ سامكو بكامل حقوقها ووسائل انتصافها بموجب العقد المبرم وشروطه الخاصة والقانون واجب التطبيق، بما يشمل الحقوق المتعلقة بحدثَي التأخير رقمَي 1 و2، والدفعة رقم 2، والدفعة رقم 3 المستمرة، وأي أحداث أخرى تقع تحت سيطرة صاحب العمل أو المهندس، وتمديد مدة التنفيذ، وإطالة مدة المشروع وما يترتب عليها من تكاليف أخرى قابلة للاسترداد، وتكاليف التمويل والتعطيل حيثما يجيز العقد ذلك، والآثار التراكمية، والتأخير المتزامن متى ثبت. كما تتحفظ سامكو بجميع حقوق الإخطار والقرار وإشعار عدم الرضا والنزاع والإحالة، بما في ذلك المسار المعدل للبند الفرعي 20.2 وأي مجلس فض منازعات DAB/DAAB أو تحكيم أو جهة مختصة أخرى. ويتعين على إدارة العقود والمستشار القانوني تأكيد الجدول الإجرائي الساري قبل الإصدار.'],
+  ['10. عدم التنازل بالتصرف أو المناقشة','لا يجوز تفسير أي فعل أو امتناع من جانب سامكو — بما في ذلك استمرار التقدم أو التخفيف أو إعادة التسلسل أو حضور الاجتماعات أو تقديم المعلومات أو تقديم برنامج زمني محدّث أو طلب قرار مرحلي أو مناقشة أي قيمة أو تقديم مستخلص أو عدم تكرار التحفظ في كل مناسبة أو مواصلة التنفيذ — باعتباره قبولًا أو تنازلًا أو اختيارًا ملزمًا أو مانعًا من التمسك بالحق أو مخالصة أو وفاءً نهائيًا أو تخليًا عن أي حق. ولا يترتب على أي قرار أو سداد جزئي تسوية الرصيد ما لم توافق سامكو صراحةً بموجب محرر كتابي صادر ممن يملك سلطة اعتماده.'],
+  ['11. القرار المطلوب وإنتاج السجلات','تطلب سامكو تقديم المخرجات A–L الواردة في سجل الإجراءات المنضبط، بما يشمل القرار الخاص بالدفعة رقم 2 المكتملة؛ وجميع ملفات «قبل/بعد» الأصلية؛ والمطابقة الكاملة بين 78/76 و71 و43/37 و15/12؛ وتحليل الصفوف الـ24 علاقةً بعلاقة؛ ومصدر كل تاريخ فعلي؛ والإجابات المباشرة عن Q1–Q8؛ وبروتوكولًا تحليليًا مجمّدًا وموقعًا. وأي رد يحذف مسار الحساب الأصلي أو يقتصر على إجابات عامة يُبقي المسألة ذات الصلة دون حسم.'],
+  ['12. التحفظ الختامي','تطلب سامكو ردًا موضوعيًا كاملًا خلال سبعة أيام تقويمية من تاريخ إصدار الخطاب، مع مراعاة التحقق من أي ميعاد تعاقدي حاكم. وإلى حين ورود هذا الرد، تظل كل مسألة واقعية أو فنية أو كمية أو تعاقدية محل نزاع مفتوحة. وتتحفظ سامكو صراحةً بحقها في تعديل موقفها أو استكماله أو تقديم مزيد من التفصيل بشأنه كلما توافرت ملفات أصلية أو سجلات أو تحليلات خبراء أو أدلة تتعلق بالحدث المستمر. ولا يجوز أن يخل أي مما يرد في هذا التبويب أو المسودة المرتبطة به بأي استحقاق قائم أو مستقبلي.']
+ ],
+ questions:[
+  ['Q1','لماذا لا يمكن البت بصورة مستقلة في الجزء المكتمل من الدفعة رقم 2 مع بقاء الدفعة رقم 3 مفتوحة؟','STR-104 الصفحات 3 و9','غير مجاب عنه','يعالج الخطاب 053 الأثر الكلي النهائي، لا الجزء المكتمل.','إصدار قرار مرحلي مُسبب.'],
+  ['Q2','ما الأثر الزمني المعزول لتغيير العلاقات المنطقية الـ24 القائمة قبل الحدث؟','STR-104 الصفحات 5–6 و9','غير مجاب عنه','لم يُفصح عن اختبار حساسية متناظر قبل/بعد.','تقديم تشغيل متناظر بالملفات الأصلية ومخرجاته.'],
+  ['Q3','ما الخلل المحدد والسجل والمنطق البديل الذي برر تغيير كل علاقة؟','STR-104 الصفحات 5–6','غير مجاب عنه','يعدد الخطاب 053 فئات التصحيح الجائزة فقط.','الإجابة عن الصفوف الـ24 كلٌّ على حدة.'],
+  ['Q4','لماذا وُصف المنطق الزمني المعتمد السابق للحدث بأنه علاقات أُضيفت ابتداءً في تحليل الأثر؟','مرفق التخطيط بالخطاب 050؛ STR-104 الصفحة 5','غير مجاب عنه','تسبق بصمات العلاقات شبكة أثر الحدث رقم 2.','مطابقة الصياغة مع سجل الإصدارات.'],
+  ['Q5','ما الاستقطاعات التي تطابق 43/37 مع 15/12؟','STR-104 الصفحات 2 و4 و9','غير مجاب عنه','تبلغ التخفيضات 28 يومًا للأعمال الأرضية و25 يومًا لانتهاء المشروع.','تقديم جسر حسابي على مستوى الأنشطة والعلاقات.'],
+  ['Q6','ما الأدلة التي تسند كل تاريخ فعلي مستخدم لرسومات IFC/رسومات الورشة؟','برنامج المدد الفعلية المرفق بـ STR-104؛ سجل التواريخ','جزئي / متعارض','تتعارض تواريخ أربع حزم، وأحد صفوف B04 في STR-046 قائم على مطابقة حزمة مزدوجة.','إصدار سجل موثق لتغييرات التواريخ الفعلية.'],
+  ['Q7','ما الملفات الأصلية والتقاويم والقيود وإعدادات الحساب التي أنتجت كل نتيجة؟','STR-104 الصفحات 5 و9','غير مجاب عنه','لم يُفصح عن حزمة كاملة قابلة لإعادة الإنتاج.','تقديم مجموعة النماذج الإلكترونية الأصلية.'],
+  ['Q8','لماذا حُذفت العلاقات الـ24 من نموذج المطالبة بينما بقيت في نموذج التقدم اللاحق الذي أعاده المهندس؟','مقارنة بصمات خط الأساس المعتمد وملفات XER','غير مجاب عنه','يثبت السجل عدم اتساق الاستخدام، بينما لم يُعزل الأثر الزمني.','اعتماد بروتوكول مجمّد واحد أو تبرير كل استثناء.']
+ ],
+ actions:[
+  ['A','قرار رسمي بشأن الجزء المكتمل من الدفعة رقم 2 للحدث رقم 1.'],
+  ['B','الحسابات الكاملة لحدثَي التأخير رقمَي 1 و2 في صيغتها الأصلية/الإلكترونية.'],
+  ['C','ملفات البرامج الزمنية الدقيقة المستخدمة في كل تقييم «قبل» و«بعد».'],
+  ['D','مطابقة كاملة بين نتائج 78/76 و43/37 و15/12، بما يشمل نسخة ملف العمل اللاحقة ذات 71 يومًا.'],
+  ['E','مطابقة مستقلة لكل علاقة من التغييرات الـ24 في المنطق الزمني.'],
+  ['F','تفسير موثق وسجل مصدر لكل تغيير في التواريخ الفعلية.'],
+  ['G','تواريخ IFC/رسومات الورشة المتحقق منها والأدلة المستند إليها.'],
+  ['H','رد مباشر على كل سؤال غير مجاب عنه في التسلسل المتحقق 050 ← 104 ← 053.'],
+  ['I','تحديد ومطابقة كل بيان عن المسار الأطول/المسار الحرج في المراسلات المتحقق منها.'],
+  ['J','تأكيد البرنامج/الإصدار والمنطق الزمني المكوِّن للأساس التحليلي المنضبط.'],
+  ['K','تأكيد عدم إدخال أي تعديل إضافي على المنطق الزمني دون تعريفه وإثباته واختبار أثره والإفصاح عنه.'],
+  ['L','تأكيد عدم الاستناد إلى خطاب ACEPM رقم 055 ما لم يُفصح عن المستند الكامل المتحقق منه ويُدمج في السجل.']
+ ],
+ pointEvidence:[
+  {sources:['ملف PDF للعقد المبرم، الشروط الخاصة ص30، البند الفرعي 20.2 المعدل · EV-012','خطاب المهندس 050؛ خطاب سامكو STR-104؛ خطاب المهندس 053 · EV-006, EV-015'],logic:'يجب أن يستكمل خطاب الحماية اللاحق السجل القائم دون أن يحول الإشارات الفنية أو العددية محل النزاع إلى إقرارات على سامكو.',limit:'هذه صياغة للحماية وليست دليلًا مستقلًا على الاستحقاق. ويتعين على إدارة العقود والمستشار القانوني تأكيد أثرها القانوني ومتطلبات تبليغها.'},
+  {sources:['ملف PDF للعقد المبرم ص7، البند 20 من ملحق العطاء / البند الفرعي 14.2 · EV-011','قرار المهندس بشأن الحدث رقم 1 في الخطاب 050','جدول البرنامج وطلب الدفعة رقم 2 في خطاب سامكو STR-104 · EV-001, EV-002'],logic:'يثبت تخصيص حديد التسليح على صاحب العمل الأساس التعاقدي للحدث، بينما يقدم نموذج الدفعة رقم 2 المكتملة الحالة الزمنية القابلة للقياس، مع استمرار الدفعة رقم 3 بصورة مستقلة.',limit:'تظل حركتا 126/117 نتيجة مقدمة من البرنامج إلى حين التحقق من إعدادات Primavera P6 الأصلية والسببية والتخفيف والتأخير المتزامن المثبت.'},
+  {sources:['خطاب سامكو STR-104 الصفحات 2 و4 و9 · EV-003, EV-005, EV-007, EV-008','خطاب المهندس 050 ومرفق التخطيط · EV-006','ملف مقارنة برامج IFC وأزواج XER من 01 إلى 05 · EV-004, EV-009'],logic:'تمثل نتائج 78/76 و71 و43/37 و15/12 حالات منضبطة مختلفة. ويتطلب القرار الصحيح جسرًا قابلًا للتتبع بين كل تغيير في المدة والمنطق الزمني والتواريخ ونتيجة المعلم.',limit:'تم التحقق من الفروق الحسابية، لكن السببية والتوزيع التعاقدي لتلك الفروق غير مقبولين دون حسابات أصلية متناظرة.'},
+  {sources:['ملف ضبط تواريخ اعتماد IFC ونماذج رد الاستشاري للحزم STR-044 وSTR-046 وSTR-054 وSTR-055 · EV-010','ملف XER للمدد الفعلية المقدم من سامكو وسجل التواريخ المنضبط','مجموعة سجلات الفحص المحتملة · EV-017'],logic:'كل تاريخ فعلي هو مُدخل واقعي للتقدم، ويجب تتبعه إلى تقديم أو رد أو مراجعة أو سجل فحص منضبط قبل أن يؤثر في نتيجة التحليل الجنائي للبرنامج الزمني.',limit:'لم تتم فهرسة EV-017، ولذلك لا يُستند إليه. كما أن تصحيح التواريخ لا يحدد بمفرده تمديدًا منقحًا للمدة؛ بل يلزم إعادة تشغيل أصلية.'},
+  {sources:['ملف PDF لخطاب المهندس 050 الصفحة 4 / سطور OCR من 31 إلى 36 · EV-013','ملف PDF لخطاب المهندس 053 الصفحات 1–3، خريطة النقاط 1–23 · EV-015','خطاب سامكو STR-104 الصفحات 5–6 و9'],logic:'يجب أن تكون استنتاجات الحرجية والمسار الأطول مرتبة زمنيًا وقابلة لإعادة الإنتاج ومرتبطة بمخرجات الملف الأصلي وإعداداته الدقيقة في كل تقييم.',limit:'لا يثبت تغير المسار وحده تلاعبًا أو استحقاقًا. وتتمثل المسألة المحمية في المعالجة غير المفصح عنها أو غير المتسقة للنموذج.'},
+  {sources:['مراجعة بصمات خط الأساس المعتمد وملفات XER للمطالبة، REL-01…REL-24 · EV-014','خطاب سامكو STR-104 الصفحات 5–6 و9؛ مرفق التخطيط بالخطاب 050','ملف PDF المدمج لـ AACE 29R-03، تصحيح أوجه الخلل بالبرنامج، الصفحات 32–33','ملفات PDF المدمجة لـ ACI 347R وECP 203 ومصدر OSHA 1926.703 للصفوف المحددة المرتبطة بالمقاومة'],logic:'يتطلب كل من تصفير مدد التأخير في 18 علاقة وحذف ست علاقات تحديد خلل خاص بالصف، وسندًا معاصرًا، وضابطًا بديلًا، واختبارًا متناظرًا يعزل الأثر. كما تتطلب الصفوف المرتبطة بالمقاومة أساس الإفراج الهندسي الواجب التطبيق.',limit:'لا يثبت وجود العلاقة قبل الحدث صحة كل مدة أصلية، ولا يثبت تفضيل منطق بديل وجود خلل، ويظل الفارق التقريبي ليومين بين نموذجين قيد التعليق.'},
+  {sources:['أسئلة وطلبات سامكو في STR-104، الصفحات 3–6 و9','الرد المفهرس في خطاب المهندس 053 · EV-015','سجل الأسئلة غير المجاب عنها Q1–Q8'],logic:'لا يُقفل السؤال إلا إذا قدم الرد الواقعة المطلوبة والحساب الأصلي والتسبيب التعاقدي؛ ولا يجيب المبدأ العام أو إعادة الصياغة عن سؤال فني محدد.',limit:'يسجل هذا الجدول مدى اكتمال الرد، ولا يحسم مسبقًا الإجابة الفنية النهائية أو الاستحقاق.'},
+  {sources:['ملف PDF المدمج لـ AACE 29R-03، ضوابط التحقق من البرنامج وتصحيح الخلل، الصفحات 32–33','مجموعة مقارنة ملفات XER من 01 إلى 05 وسجل REL-01…REL-24 · EV-003…EV-009, EV-014','خطابا المهندس 050 و053؛ خطاب سامكو STR-104'],logic:'تستلزم قابلية إعادة الإنتاج تحديد برنامج مصدر واحد وتاريخ بيانات وإعدادات وسجل تغييرات كامل. ويجب ضبط إصدار كل خروج واختباره منفصلًا عن حدث التأخير.',limit:'يقدم AACE إرشادًا منهجيًا فقط. ويحكم النتيجة الخاصة بالمشروع العقد المبرم وسجلات المشروع المتحقق منها ونتائج Primavera P6 الأصلية.'},
+  {sources:['ملف PDF للعقد المبرم ص7، البند 20 من ملحق العطاء / البند الفرعي 14.2 · EV-011','ملف PDF للعقد المبرم، الشروط الخاصة ص30، البند الفرعي 20.2 المعدل · EV-012','خطابا المهندس 050 و053؛ خطاب سامكو STR-104'],logic:'تُحفظ الحقوق المتعلقة بأساس الاستحقاق ومقداره والأحداث المستمرة وآثار التكاليف القابلة للاسترداد ومسار الإخطار والقرار وفض النزاع المتفق عليه.',limit:'يحكم العقد الموقع والقانون واجب التطبيق. ويتعين على إدارة العقود والمستشار القانوني تأكيد الإخطارات والسقوط الزمني وخطوات DAB/DAAB ومتطلبات التحكيم قبل الإصدار.'},
+  {sources:['ملف PDF للعقد المبرم وشروطه الخاصة، بما فيها البند الفرعي 20.2 المعدل · EV-012','إخطارات سامكو القائمة وسجلات التخفيف وتحديثات التقدم وخطاب STR-104'],logic:'ينفصل استمرار التنفيذ وإجراءات التخفيف والتعاون الفني عن الموافقة على السببية أو مقدار الاستحقاق أو التنازل عن وسائل الانتصاف.',limit:'تتوقف فاعلية صياغة عدم التنازل على العقد والقانون الحاكمين؛ وتظل المراجعة القانونية المعتمدة مطلوبة.'},
+  {sources:['سجل الإجراءات المنضبط A–L','سجل الأسئلة غير المجاب عنها Q1–Q8','سجل الأدلة EV-001…EV-018 وسجل العلاقات REL-01…REL-24'],logic:'لكل مخرج مطلوب ضابط إقفال محدد، بحيث لا يؤدي رد إنشائي عام إلى إقفال مسألة واقعية أو زمنية أو تعاقدية ضمنًا.',limit:'لا يُقفل بند السجل إلا بعد تقديم الملف الأصلي أو مستند المصدر المشار إليه والتحقق منه؛ ولا يكفي مجرد الاستلام الإداري.'},
+  {sources:['ملف PDF للعقد المبرم، الشروط الخاصة ص30، البند الفرعي 20.2 المعدل · EV-012','خطاب المهندس 053 المؤرخ 7 سبتمبر 2026 · EV-015','سجل الأدلة EV-001…EV-018؛ خطاب ACEPM رقم 055 مستبعد بموجب EV-016'],logic:'يبقي التحفظ الختامي الوقائع والمنهجية والمقدار وأدلة الحدث المستمر محل النزاع مفتوحة إلى حين ورود رد موضوعي قابل للتدقيق.',limit:'يخضع طلب السبعة أيام للجدول الإجرائي التعاقدي الفعلي. ويظل خطاب ACEPM رقم 055 مستبعدًا ما لم يُفصح عن نسخة كاملة ومتحقق منها.'}
+ ]
+};
+
 const EVIDENCE_FIELDS=['Item No.','Issue / Assertion','Delay Event','Source Document / Record','Document Number','Document Date','Revision / Programme Version','Page / Paragraph / Activity ID / Relationship ID','Exact Quotation or Data Point','Evidence Type','Verification Status','Responsible Party / Author','Analytical Significance','Contractual Significance','Related Letter Section','Required Action / Clarification','Outstanding Information','Notes'];
 const ev=(no,issue,event,source,doc,date,version,locator,data,type,status,party,analysis,contract,section,action,outstanding,notes)=>({no,issue,event,source,doc,date,version,locator,data,type,status,party,analysis,contract,section,action,outstanding,notes});
 const EVIDENCE=[
@@ -194,32 +303,47 @@ PANES.evidence_register=()=>{
  return f;
 };
 
-PANES.contractual_protection=()=>{
- const f=document.createDocumentFragment();
- f.appendChild(el('h2','t','SAMCO Contractual Protection'));
- f.appendChild(el('p','lede','A consolidated defensive record protecting Delay Event Nos. 1 and 2, all existing and future entitlements, and SAMCO’s right to challenge unsupported dates, logic changes, methodology and quantum.'));
- f.appendChild(el('div','control-banner hold','<b>Issue status — protected draft:</b> this layer is evidence-controlled and rights-reserving. It is not an admission, settlement, waiver or acceptance of any Engineer figure. Final issue date, addressee, notice route and live contractual deadlines require Contracts and legal review before signature.'));
- const guard=el('div','protection-guard');
- [
+PANES.contractual_protection=(arabic=false)=>{
+ const ui=arabic?PROTECTION_AR.ui:null;
+ const guards=arabic?PROTECTION_AR.guards:[
   ['No acceptance','Every numerical result is identified for reconciliation only.'],
   ['No waiver','Silence, mitigation, progress or discussion cannot surrender SAMCO’s rights.'],
   ['Frozen methodology','Any later model change requires prior identification, proof, version control and impact testing.'],
   ['Future rights preserved','Batch No. 3, cumulative effects, EOT, recoverable cost and formal dispute routes remain open.']
- ].forEach(x=>{const d=el('article','protection-card');d.append(el('h3',null,x[0]),el('p',null,x[1]));guard.appendChild(d);});
+ ];
+ const figures=arabic?PROTECTION_AR.figures:FIGURE_CONTROL;
+ const sections=arabic?PROTECTION_AR.sections:PROTECTION_SECTIONS;
+ const pointEvidence=arabic?PROTECTION_AR.pointEvidence:PROTECTION_EVIDENCE;
+ const questions=arabic?PROTECTION_AR.questions:QUESTION_REGISTER;
+ const actions=arabic?PROTECTION_AR.actions:ACTIONS;
+ const localStatus=(source,label)=>{const c=/excluded/i.test(source)?'status-excluded':/disputed/i.test(source)?'status-disputed':/verified/i.test(source)&&!/partial|hold/i.test(source)?'status-verified':'status-hold';return '<span class="'+c+'"><b>'+label+'</b></span>';};
+ const f=document.createDocumentFragment();
+ f.appendChild(el('h2','t',arabic?ui.title:'SAMCO Contractual Protection'));
+ f.appendChild(el('p','lede',arabic?ui.lede:'A consolidated defensive record protecting Delay Event Nos. 1 and 2, all existing and future entitlements, and SAMCO’s right to challenge unsupported dates, logic changes, methodology and quantum.'));
+ f.appendChild(el('div','control-banner hold',arabic?ui.issue:'<b>Issue status — protected draft:</b> this layer is evidence-controlled and rights-reserving. It is not an admission, settlement, waiver or acceptance of any Engineer figure. Final issue date, addressee, notice route and live contractual deadlines require Contracts and legal review before signature.'));
+ const guard=el('div','protection-guard');
+ guards.forEach(x=>{const d=el('article','protection-card');d.append(el('h3',null,x[0]),el('p',null,x[1]));guard.appendChild(d);});
  f.appendChild(guard);
- f.appendChild(el('h3','s','Numerical non-acceptance and verification control'));
- f.appendChild(el('p',null,'The figures below are preserved without adoption. Their status controls what SAMCO may safely say and prevents a cited result from being mischaracterized later as an agreed quantum or analytical ceiling.'));
- f.appendChild(makeTable(['Figure','Issue / analytical case','Evidence control','Verification status','Protected SAMCO position'],FIGURE_CONTROL.map(x=>[x[0],x[1],x[2],statusHtml(x[3]),x[4]]),'1300px'));
- f.appendChild(el('h3','s','Rights-reserving defensive letter'));
+ f.appendChild(el('h3','s',arabic?ui.figuresTitle:'Numerical non-acceptance and verification control'));
+ f.appendChild(el('p',null,arabic?ui.figuresIntro:'The figures below are preserved without adoption. Their status controls what SAMCO may safely say and prevents a cited result from being mischaracterized later as an agreed quantum or analytical ceiling.'));
+ f.appendChild(makeTable(arabic?ui.figuresHeaders:['Figure','Issue / analytical case','Evidence control','Verification status','Protected SAMCO position'],figures.map((x,i)=>[x[0],x[1],x[2],arabic?localStatus(FIGURE_CONTROL[i][3],x[3]):statusHtml(x[3]),x[4]]),'1300px'));
+ f.appendChild(el('h3','s',arabic?ui.letterTitle:'Rights-reserving defensive letter'));
  const wrap=el('div','letter-control protection-letter');
- wrap.appendChild(el('div','letter-addressee','<b>To:</b> ACEPM / The Engineer<br><b>From:</b> SAMCO National Construction<br><b>Project:</b> The Big Business District · Phase 02 · Buildings B1–B4<br><b>Subject:</b> Delay Event Nos. 1 and 2 — consolidated protection of entitlement, demand for auditable determination and reservation of all rights'));
- PROTECTION_SECTIONS.forEach(s=>{const d=el('section','letter-section');d.appendChild(el('h3',null,s[0]));d.appendChild(el('p',null,s[1]));wrap.appendChild(d);});
+ wrap.appendChild(el('div','letter-addressee',arabic?ui.addressee:'<b>To:</b> ACEPM / The Engineer<br><b>From:</b> SAMCO National Construction<br><b>Project:</b> The Big Business District · Phase 02 · Buildings B1–B4<br><b>Subject:</b> Delay Event Nos. 1 and 2 — consolidated protection of entitlement, demand for auditable determination and reservation of all rights'));
+ sections.forEach((s,i)=>{
+  const d=el('section','letter-section');d.appendChild(el('h3',null,s[0]));d.appendChild(el('p',null,s[1]));
+  const evidence=pointEvidence[i];const sourceBox=el('aside','protection-evidence');sourceBox.appendChild(el('h4',null,arabic?ui.pointEvidenceTitle:'Point evidence and reasoning trail'));
+  const sourceGroup=el('div','protection-evidence-group');sourceGroup.appendChild(el('b',null,arabic?ui.sourceBasis:'Governing and supporting sources'));const sourceList=el('ul');evidence.sources.forEach(source=>sourceList.appendChild(el('li',null,source)));sourceGroup.appendChild(sourceList);
+  const logicGroup=el('div','protection-evidence-group');logicGroup.append(el('b',null,arabic?ui.analyticalLogic:'Contractual and analytical logic'),el('p',null,evidence.logic));
+  const limitGroup=el('div','protection-evidence-group evidence-limit');limitGroup.append(el('b',null,arabic?ui.evidenceLimit:'Evidential limit'),el('p',null,evidence.limit));
+  sourceBox.append(sourceGroup,logicGroup,limitGroup);d.appendChild(sourceBox);wrap.appendChild(d);
+ });
  f.appendChild(wrap);
- f.appendChild(el('h3','s','Unanswered issues preserved against deemed acceptance'));
- f.appendChild(makeTable(['ID','Outstanding question','Source / locator','Current answer status','Why it remains open','Required closure record'],QUESTION_REGISTER.map(x=>[x[0],x[1],x[2],statusHtml(x[3]),x[4],x[5]]),'1280px'));
- f.appendChild(el('h3','s','Mandatory outputs and closure gates'));
- f.appendChild(makeTable(['Action','Required Engineer / ACEPM output','Protection effect'],ACTIONS.map(x=>[x[0],x[1],x[0]==='A'?'No deferral of completed Batch No. 2':x[0]==='J'||x[0]==='K'?'Prevents undisclosed future methodology changes':'Issue remains open until the disclosed record is complete']),'1150px'));
- f.appendChild(el('div','control-banner','<b>Evidence linkage:</b> every protected position above is controlled by EV-001…EV-018 and REL-01…REL-24 in the Evidence and Verification Register. ACEPM Letter 055 remains “Excluded — not relied upon” unless a complete verified copy is disclosed.'));
+ f.appendChild(el('h3','s',arabic?ui.questionsTitle:'Unanswered issues preserved against deemed acceptance'));
+ f.appendChild(makeTable(arabic?ui.questionsHeaders:['ID','Outstanding question','Source / locator','Current answer status','Why it remains open','Required closure record'],questions.map((x,i)=>[x[0],x[1],x[2],arabic?localStatus(QUESTION_REGISTER[i][3],x[3]):statusHtml(x[3]),x[4],x[5]]),'1280px'));
+ f.appendChild(el('h3','s',arabic?ui.actionsTitle:'Mandatory outputs and closure gates'));
+ f.appendChild(makeTable(arabic?ui.actionsHeaders:['Action','Required Engineer / ACEPM output','Protection effect'],actions.map(x=>[x[0],x[1],x[0]==='A'?(arabic?ui.actionA:'No deferral of completed Batch No. 2'):x[0]==='J'||x[0]==='K'?(arabic?ui.actionJK:'Prevents undisclosed future methodology changes'):(arabic?ui.actionOther:'Issue remains open until the disclosed record is complete')]),'1150px'));
+ f.appendChild(el('div','control-banner',arabic?ui.evidence:'<b>Evidence linkage:</b> every protected position above is controlled by EV-001…EV-018 and REL-01…REL-24 in the Evidence and Verification Register. ACEPM Letter 055 remains “Excluded — not relied upon” unless a complete verified copy is disclosed.'));
  return f;
 };
 
@@ -243,6 +367,8 @@ appendSubtab(7,'Actions A–L','ask_controlled');
 const protectionTab=el('button','tb');protectionTab.type='button';protectionTab.setAttribute('role','tab');protectionTab.setAttribute('aria-selected','false');protectionTab.textContent='SAMCO Contractual Protection';
 const protectionSec=el('section','sec contractual-protection-sec');protectionSec.hidden=true;const protectionPane=el('div','pane');protectionPane.appendChild(PANES.contractual_protection());protectionSec.appendChild(protectionPane);const protectionIndex=hostEl.children.length;tabbar.appendChild(protectionTab);hostEl.appendChild(protectionSec);
 protectionTab.addEventListener('click',()=>pick(protectionIndex));
+const renderContractualProtection=arabic=>{protectionPane.replaceChildren(PANES.contractual_protection(arabic));protectionPane.setAttribute('lang',arabic?'ar':'en');protectionPane.setAttribute('dir',arabic?'rtl':'ltr');};
+window.addEventListener('site-language',event=>{const arabic=Boolean(event.detail?.arabic);protectionTab.textContent=arabic?PROTECTION_AR.ui.tab:'SAMCO Contractual Protection';renderContractualProtection(arabic);});
 
 const evidenceTab=el('button','tb');evidenceTab.type='button';evidenceTab.setAttribute('role','tab');evidenceTab.setAttribute('aria-selected','false');evidenceTab.textContent='Evidence and Verification Register';
 const evidenceSec=el('section','sec');evidenceSec.hidden=true;const evidencePane=el('div','pane');evidencePane.appendChild(PANES.evidence_register());evidenceSec.appendChild(evidencePane);const evidenceIndex=hostEl.children.length;tabbar.appendChild(evidenceTab);hostEl.appendChild(evidenceSec);
@@ -256,5 +382,5 @@ const primaveraSec=el('section','sec primavera-analyzer-sec');primaveraSec.hidde
 const primaveraIndex=hostEl.children.length;primaveraSec.appendChild(primaveraFrame);tabbar.appendChild(primaveraTab);hostEl.appendChild(primaveraSec);
 primaveraTab.addEventListener('click',()=>pick(primaveraIndex));
 
-Object.assign(window,{LETTER53_POINTS:POINTS53,LETTER53_QUESTIONS:QUESTION_REGISTER,LETTER53_ACTIONS:ACTIONS,LETTER53_EVIDENCE:EVIDENCE,LETTER53_REL_EVIDENCE:REL_EVIDENCE,LETTER53_SECTIONS:LETTER_SECTIONS,SAMCO_FIGURE_CONTROL:FIGURE_CONTROL,SAMCO_PROTECTION_SECTIONS:PROTECTION_SECTIONS});
+Object.assign(window,{LETTER53_POINTS:POINTS53,LETTER53_QUESTIONS:QUESTION_REGISTER,LETTER53_ACTIONS:ACTIONS,LETTER53_EVIDENCE:EVIDENCE,LETTER53_REL_EVIDENCE:REL_EVIDENCE,LETTER53_SECTIONS:LETTER_SECTIONS,SAMCO_FIGURE_CONTROL:FIGURE_CONTROL,SAMCO_PROTECTION_SECTIONS:PROTECTION_SECTIONS,SAMCO_PROTECTION_AR:PROTECTION_AR});
 })();

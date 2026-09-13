@@ -35,6 +35,10 @@ assert(/\{t:'Library',subs:\[\['Clauses and sources','lib'\],\['Book Intelligenc
 assert(!/btnBooksMobile|mobile-books-quick/.test(html), 'Mobile-only books navigation must not replace the desktop Library workflow');
 assert(/SAMCO Contractual Protection/.test(letter53Upgrade), 'SAMCO Contractual Protection top-level tab is missing');
 assert(/const PROTECTION_SECTIONS=\[/.test(letter53Upgrade) && (letter53Upgrade.match(/\['\d+\. /g) || []).length >= 12, 'Contractual protection sections are incomplete');
+assert(/const PROTECTION_AR=\{/.test(letter53Upgrade) && /الحماية التعاقدية لموقف سامكو/.test(letter53Upgrade), 'Professional Arabic contractual protection layer is missing');
+assert(/renderContractualProtection/.test(letter53Upgrade) && /site-language/.test(letter53Upgrade), 'Contractual protection language switching is missing');
+assert(/const PROTECTION_EVIDENCE=\[/.test(letter53Upgrade) && /Point evidence and reasoning trail/.test(letter53Upgrade), 'Point-level contractual evidence trail is missing');
+assert(/pointEvidence:\[/.test(letter53Upgrade) && /سند النقطة ومسارها الاستدلالي/.test(letter53Upgrade), 'Arabic point-level evidence trail is missing');
 assert(/Primavera Analyzer/.test(letter53Upgrade), 'Primavera Analyzer top-level tab is missing');
 assert(/primavera-xer-analyzer\.html/.test(letter53Upgrade), 'Primavera Analyzer iframe is missing');
 assert(/Apply ACEPM 24/.test(primaveraAnalyzer), 'ACEPM 24 treatment selector is missing');
