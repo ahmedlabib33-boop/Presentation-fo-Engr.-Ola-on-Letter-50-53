@@ -40,8 +40,25 @@ assert(/renderContractualProtection/.test(letter53Upgrade) && /site-language/.te
 assert(/const PROTECTION_EVIDENCE=\[/.test(letter53Upgrade) && /Point evidence and reasoning trail/.test(letter53Upgrade), 'Point-level contractual evidence trail is missing');
 assert(/pointEvidence:\[/.test(letter53Upgrade) && /سند النقطة ومسارها الاستدلالي/.test(letter53Upgrade), 'Arabic point-level evidence trail is missing');
 assert(/guard-evidence/.test(letter53Upgrade) && /Evidence basis/.test(letter53Upgrade) && /سند الدليل/.test(letter53Upgrade), 'Top protection-card evidence is missing');
-assert(/protection-source-gallery/.test(letter53Upgrade) && /Source-document screenshots/.test(letter53Upgrade) && /صور مستندات المصدر/.test(letter53Upgrade), 'Point 7 source-document screenshot gallery is missing');
-['l104','l053e1','e2chain104','e2chain053'].forEach(key => assert(new RegExp("key:'" + key + "'").test(letter53Upgrade), `Point 7 screenshot source is missing: ${key}`));
+assert(/protection-source-gallery/.test(letter53Upgrade) && /Source-document screenshots/.test(letter53Upgrade) && /صور مستندات المصدر/.test(letter53Upgrade), 'All-point source-document screenshot gallery is missing');
+assert(/const PROTECTION_SCREENSHOTS=\[/.test(letter53Upgrade) && /PROTECTION_EVIDENCE\.forEach/.test(letter53Upgrade) && /PROTECTION_AR\.pointEvidence\.forEach/.test(letter53Upgrade), 'All-point bilingual protection screenshot mapping is missing');
+['l104','l053e1','e2chain104','e2chain053'].forEach(key => assert(letter53Upgrade.includes(`protectionShot('${key}'`), `Point 7 screenshot source is missing: ${key}`));
+const protectionEvidenceFiles = [
+  'contract-page-7.png','contract-page-30.png',
+  'fidic1999-page-27.png','fidic1999-page-43.png','fidic1999-page-74.png','fidic1999-page-75.png',
+  'aace29-page-18.png','aace29-page-24.png','aace29-page-32.png','aace29-page-33.png','aace29-page-58.png','aace29-page-109.png',
+  'aace38-page-4.png','aace38-page-8.png','aace38-page-9.png',
+  'aace48-page-3.png','aace48-page-6.png','aace48-page-8.png',
+  'aci347-page-6.png','aci3472-page-4.png','ecp203-page-186.png','osha-1926.703-removal.png',
+  'ifc-01-prospective-before-fragnet-page-1.png','ifc-02-prospective-after-fragnet-page-1.png','ifc-02-prospective-after-fragnet-page-2.png',
+  'ifc-03-actual-durations-logic-kept-page-1.png','ifc-04-actual-durations-logic-removed-before-fragnet-page-1.png',
+  'ifc-05-actual-durations-logic-removed-after-fragnet-page-1.png'
+];
+protectionEvidenceFiles.forEach(file => {
+  assert(fs.existsSync(path.join(repo, 'evidence', file)), `Protection evidence screenshot is missing: ${file}`);
+  assert(letter53Upgrade.includes(`evidence/${file}`), `Protection evidence screenshot is not mapped under a point: ${file}`);
+});
+['FIDIC 1999','AACE 29R-03','AACE 38R-06','AACE 48R-06','ACI 347R-14','ACI 347.2R-17','ECP 203/2018','OSHA 1926.703','Executed Contract','Embedded Schedule 01','Embedded Schedule 02','Embedded Schedule 03','Embedded Schedule 04','Embedded Schedule 05'].forEach(source => assert(letter53Upgrade.includes(source), `Protection source family is not visibly captioned: ${source}`));
 assert(/Primavera Analyzer/.test(letter53Upgrade), 'Primavera Analyzer top-level tab is missing');
 assert(/primavera-xer-analyzer\.html/.test(letter53Upgrade), 'Primavera Analyzer iframe is missing');
 assert(/Apply ACEPM 24/.test(primaveraAnalyzer), 'ACEPM 24 treatment selector is missing');
