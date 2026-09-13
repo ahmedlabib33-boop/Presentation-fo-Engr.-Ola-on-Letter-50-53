@@ -1,0 +1,66 @@
+{
+  "verification_result": "PASS",
+  "original_sha256": "184795fef19e23e1fcbbc20cf2f80f8feb8a5d9fcbb12aeaa61a3d8cacc465e5",
+  "modified_sha256": "128caa490884f632bdff044083d838ba754f02b6878c56a11c29379b1a9344c0",
+  "original_copy_byte_identical": true,
+  "all_24_source_signatures_exactly_matched_before_edit": true,
+  "requested_actions": 24,
+  "applied_actions": 24,
+  "lag_resets_applied": 18,
+  "relationships_deleted": 6,
+  "before_task_count": 1363,
+  "after_task_count": 1363,
+  "activities_preserved": true,
+  "before_taskpred_count": 3008,
+  "after_taskpred_count": 3002,
+  "expected_after_taskpred_count": 3002,
+  "non_TASKPRED_bytes_identical": true,
+  "TASK_records_byte_identical": true,
+  "untouched_TASKPRED_records_byte_identical_count": 2984,
+  "expected_untouched_TASKPRED_records": 2984,
+  "18_retained_targets_changed_only_field": "lag_hr_cnt",
+  "6_deleted_task_pred_ids": [
+    "463585",
+    "463586",
+    "463587",
+    "463588",
+    "464543",
+    "464726"
+  ],
+  "18_lag_reset_task_pred_ids": [
+    "463418",
+    "463423",
+    "463429",
+    "463430",
+    "463468",
+    "463946",
+    "463967",
+    "463980",
+    "464083",
+    "465094",
+    "465102",
+    "465284",
+    "465312",
+    "465313",
+    "465314",
+    "465315",
+    "465496",
+    "465776"
+  ],
+  "unexpected_relationship_differences": [],
+  "line_endings_preserved": "CRLF",
+  "encoding_preserved": "cp1252",
+  "rescheduled_in_primavera_p6": false,
+  "provenance_discrepancy": {
+    "uploaded_xer_actual_counts": {
+      "TASK": 1363,
+      "TASKPRED": 3008
+    },
+    "ndjson_steel_before_batch03_stated_counts": {
+      "activities": 1363,
+      "relationships": 3009
+    },
+    "ndjson_summary_beam_adjusted_counts": "1,382 activities / 3,068 relationships (statement in Summary)",
+    "handling": "No count was forced or reconciled. Exact 24 signatures were used as the sole edit scope."
+  }
+}

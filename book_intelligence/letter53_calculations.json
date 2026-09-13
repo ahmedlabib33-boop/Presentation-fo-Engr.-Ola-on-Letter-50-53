@@ -1,0 +1,19 @@
+{
+  "package_name": "Letter 053 controlled arithmetic audit",
+  "calculations": [
+    {"id":"CALC-01","location":"Event 1 STR-104 p3 Project Finish; values are calendar-day counts","expression":"after-before","variables":{"after":{"value":117,"unit":"1"},"before":{"value":0,"unit":"1"}},"expected":{"value":117,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-02","location":"Event 1 STR-104 p3 Ground Works Finish; values are calendar-day counts","expression":"after-before","variables":{"after":{"value":126,"unit":"1"},"before":{"value":0,"unit":"1"}},"expected":{"value":126,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-03","location":"Event 2 STR-104 primary Ground Works Finish; calendar-day counts","expression":"after-before","variables":{"after":{"value":78,"unit":"1"},"before":{"value":0,"unit":"1"}},"expected":{"value":78,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-04","location":"Event 2 STR-104 primary Project Finish; calendar-day counts","expression":"after-before","variables":{"after":{"value":76,"unit":"1"},"before":{"value":0,"unit":"1"}},"expected":{"value":76,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-05","location":"IFC sch movement.xlsx 02-01 Project Finish; calendar-day counts","expression":"after-before","variables":{"after":{"value":71,"unit":"1"},"before":{"value":0,"unit":"1"}},"expected":{"value":71,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-06","location":"Event 2 STR-104 actual-duration Ground Works Finish; calendar-day counts","expression":"after-before","variables":{"after":{"value":43,"unit":"1"},"before":{"value":0,"unit":"1"}},"expected":{"value":43,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-07","location":"Event 2 STR-104 actual-duration Project Finish; calendar-day counts","expression":"after-before","variables":{"after":{"value":37,"unit":"1"},"before":{"value":0,"unit":"1"}},"expected":{"value":37,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-08","location":"Letter 050 Ground Works award; calendar-day counts","expression":"after-before","variables":{"after":{"value":15,"unit":"1"},"before":{"value":0,"unit":"1"}},"expected":{"value":15,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-09","location":"Letter 050 Project Finish award; calendar-day counts","expression":"after-before","variables":{"after":{"value":12,"unit":"1"},"before":{"value":0,"unit":"1"}},"expected":{"value":12,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-10","location":"Unexplained Ground Works reduction; calendar-day counts","expression":"actual-engineer","variables":{"actual":{"value":43,"unit":"1"},"engineer":{"value":15,"unit":"1"}},"expected":{"value":28,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-11","location":"Unexplained Project Finish reduction; calendar-day counts","expression":"actual-engineer","variables":{"actual":{"value":37,"unit":"1"},"engineer":{"value":12,"unit":"1"}},"expected":{"value":25,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-12","location":"Cross-model calendar-day-count difference only; causal effect HOLD","expression":"logic_kept-logic_removed","variables":{"logic_kept":{"value":37,"unit":"1"},"logic_removed":{"value":35,"unit":"1"}},"expected":{"value":2,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-13","location":"24-relationship change count","expression":"lag_resets+deletions","variables":{"lag_resets":{"value":18,"unit":"1"},"deletions":{"value":6,"unit":"1"}},"expected":{"value":24,"unit":"1"},"tolerance":{"absolute":0}},
+    {"id":"CALC-14","location":"Letter 053 point coverage count","expression":"covered-missing","variables":{"covered":{"value":23,"unit":"1"},"missing":{"value":0,"unit":"1"}},"expected":{"value":23,"unit":"1"},"tolerance":{"absolute":0}}
+  ]
+}

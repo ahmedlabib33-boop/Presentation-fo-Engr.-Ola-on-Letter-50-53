@@ -1,0 +1,3 @@
+# Preserve supplied Primavera and audit-source files byte-for-byte.
+assets/xer/*.xer -text
+assets/primavera/*.ndjson -text

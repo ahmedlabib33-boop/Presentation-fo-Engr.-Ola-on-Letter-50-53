@@ -790,6 +790,7 @@ body.arabic-mode .desktop-scroll-cue{direction:rtl}
 @media print{.desktop-scroll-cue{display:none!important}}
 
 </style>
+<link rel="stylesheet" href="letter53_upgrade.css">
 
 <style id="bilingualEngineeringStyles">
 .lang-toggle-top{
@@ -1297,7 +1298,7 @@ const FAM=[
 const ASKS=[
  ['Determine Batch No. 2 now','Issue a reasoned interim determination of the completed Batch No. 2 component — '+B2.dP+' calendar days to Project Finish and '+B2.dG+' to Ground Works Finish — while Batch No. 3 continues on the monthly account.'],
  ['Reconsider the Event No. 2 quantum','Revisit the 15-day and 12-day figures once the model, the particulars and the controlled runs below are available.'],
- ['Restore the strength restraints','Seven of the twenty-four relationships are concrete-strength restraints that were set to zero. A pour-to-strike sequence with no elapsed time cannot be built. These should be reinstated before any figure is treated as final.'],
+ ['Reinstate a verified strength-release control','Seven of the twenty-four relationships carry post-pour or post-curing waiting controls that were set to zero. The original lag durations are not automatically accepted: ACEPM must identify the structural, temporary-works and testing basis for each change and preserve a verified release control before any result is treated as final.'],
  ['Correct the schedule dates','Reconcile the approval dates to the verified Consultant reply sheets and the date-control workbook. Eight paired approval activities do not reconcile with the ACEPM-used dates, and STR-054 records an actual finish before its known submission.'],
  ['Disclose the model','Provide the native before and after files, each intermediate correction step, the row-by-row change register, calendars and calculation settings, so the result can be reproduced.'],
  ['Separate progress from logic','Update progress first, then apply any proven logic correction as a disclosed second step, so the two effects can be told apart.']
@@ -1817,7 +1818,7 @@ function e2VerticalChart(){
   const summary=el('div','pf-summary-strip');
   IFC_SCHEDULE_MOVEMENT.forEach(d=>{const item=el('div');item.style.setProperty('--scenario-color',d.color);item.appendChild(el('b',null,'+'+d.movement+' days'));item.appendChild(document.createTextNode(d.source+' · '+d.scenario));summary.appendChild(item);});
   c.appendChild(summary);
-  c.appendChild(el('div','pf-reconcile','<b>Key reconciliation:</b> removing the 24 relationships changes the actual-date impact by only 2 days (37 → 35), while the Engineer’s assessment is 12 days.'));
+  c.appendChild(el('div','pf-reconcile','<b>Key control:</b> 37 − 35 is a two-day arithmetic difference between reported movements, not the isolated effect of removing the 24 relationships, because comparison 05 − 04 starts from a different before model. A matched native P6 sensitivity is required.'));
   return c;
 }
 
@@ -1846,10 +1847,10 @@ function e2InconsistencyStory(){
   relationship.appendChild(el('div','ace-premise','<span class="ace-node-label">Premise 01</span><strong>ACEPM states that 24 relationships / lags were removed.</strong>'));
   const relationshipFinding=el('div','ace-finding');
   relationshipFinding.appendChild(el('span','ace-node-label','SAMCO reproduction'));
-  relationshipFinding.appendChild(el('h6',null,'The removals explain only 2 days'));
+  relationshipFinding.appendChild(el('h6',null,'The two-day difference is not an isolated removal effect'));
   relationshipFinding.appendChild(el('p',null,'With actual durations and the original logic kept, Project Finish moves from <b>06-Jul-2027</b> to <b>12-Aug-2027</b>: <b>37 days</b>.'));
   relationshipFinding.appendChild(el('div','ace-evidence','<div><b>37 days</b>Logic kept</div><span class="arrow">→</span><div><b>35 days</b>24 links removed</div>'));
-  relationshipFinding.appendChild(el('p',null,'After removing the 24 relationships, the comparison starts from its own reference finish of <b>22-Jun-2027</b> and moves to <b>27-Jul-2027</b>: <b>35 days</b>. The removal therefore reduces the measured Event 02 movement by only <b>2 calendar days</b>.'));
+  relationshipFinding.appendChild(el('p',null,'The 35-day comparison starts from its own reference finish of <b>22-Jun-2027</b>, while the 37-day comparison starts from <b>06-Jul-2027</b>. Their arithmetic difference is two days, but the different base files prevent causal attribution to the 24 removals. The removal effect remains <b>HOLD</b> pending a matched native run.'));
   relationship.appendChild(relationshipFinding);
   branches.appendChild(relationship);
 
@@ -1906,21 +1907,8 @@ function scheduleMovementTable(){
   return block;
 }
 function wf(axis){
-  const v=k=>axis==='g'?M[k].dG:M[k].dP;
-  const steps=[
-   ['node','Contractor submission',v('prosp'),'Prospective analysis with the accepted logic kept.'],
-   ['delta','Durations',-(v('prosp')-v('actual')),'Moving from planned fragnet durations to the durations that actually occurred.'],
-   ['node','Actual durations',v('actual'),'The Engineer\u2019s approach, logic still intact.'],
-   ['delta','Logic removed',-(v('actual')-v('corr')),'Effect of deleting or zeroing the 24 pre-existing relationships.'],
-   ['node','Corrected dates',v('corr'),'Everything the Engineer did, with dates matching the log.'],
-   ['delta','Dates',-(v('corr')-v('eng')),'Attributable to schedule dates that do not match the record.'],
-   ['node','Determination',v('eng'),'Letter 050.']
-  ];
-  const w=el('div','wf');
-  steps.forEach(s=>{const d=el('div','wfs '+s[0]);
-    d.appendChild(el('div','wfl',s[1]));
-    d.appendChild(el('div','wfv'+(s[0]==='delta'?' m':''),s[0]==='delta'?sgn(s[2]):days(s[2])));
-    d.appendChild(el('div','wfc',s[3]));w.appendChild(d);});
+  const w=el('div','ev');
+  w.innerHTML='<b>Controlled comparison only:</b> '+(axis==='g'?'Ground Works':'Project Finish')+' results are displayed as separate source pairs. Comparison 05 − 04 has a different before model, so the results must not be chained into a waterfall or attributed to individual causes without matched native P6 runs.';
   return w;
 }
 
@@ -1935,12 +1923,12 @@ PANES.dash=()=>{
   const g=el('div','grid g4');
   g.appendChild(stat('Event 1 — steel, Batch No. 2','0 days','Acknowledged as a valid, notified event capable of giving rise to an extension. No days determined; assessment deferred until Batch No. 3 closes.','red'));
   g.appendChild(stat('Batch No. 2 as submitted',days(B2.dP),'Movement of Project Finish from '+F(B2.pb)+' to '+F(B2.pa)+'. The batch is complete and the analysis is finished.'));
-  g.appendChild(stat('Event 2 — prospective TIA',days(M.prosp.dP),'Comparison 02 − 01: Project Finish 06-Jul-2027 → 15-Sep-2027.','amb'));
+  g.appendChild(stat('Event 2 — STR-104 primary TIA','76 days','STR-104 records Project Finish 06-Jul-2027 → 20-Sep-2027. The later comparison 02 − 01 workbook records 71 days to 15-Sep-2027 and requires version reconciliation.','amb'));
   g.appendChild(stat('Event 2 — ACEPM assessment',days(M.eng.dP),'ACEPM Letter 50: Project Finish 06-Jul-2027 → 18-Jul-2027.','teal'));
   f.appendChild(g);
 
   f.appendChild(el('h3','s','Event 2 — four workbook scenarios'));
-  f.appendChild(el('p',null,'The Event 2 results are taken directly from IFC sch movement.xlsx: 71, 37, 35 and 12 calendar days. Only these four supplied workbook scenarios are used in this app.'));
+  f.appendChild(el('p',null,'The four later workbook pairs report 71, 37, 35 and 12 calendar days. STR-104 separately records the submitted primary case as 78/76. Both are retained because the 71/76 Project Finish discrepancy is a version-control issue that requires native-file reconciliation.'));
   const g2=el('div','grid g4');
   IFC_SCHEDULE_MOVEMENT.forEach(d=>g2.appendChild(stat(d.source,days(d.movement),d.scenario+': '+d.pfBefore+' → '+d.pfAfter+'.',d.key==='engineer'?'red':d.key==='logic-removed'?'teal':'amb')));
   f.appendChild(g2);
@@ -1959,11 +1947,11 @@ PANES.dash=()=>{
   const g3=el('div','grid g2');
   const c1=el('div','card red');
   c1.appendChild(el('h4',null,'Seven strength restraints were set to zero'));
-  c1.appendChild(el('p',null,'Of the twenty-four relationships changed, seven are the waiting time between pouring or curing concrete and striking the formwork — lags of 5, 10, 10, 10, 14, 14 and 20 days. All seven were set to zero. A schedule in which formwork is struck on the day of the pour describes a sequence that cannot be built and is not permitted under the formwork codes.'));
+  c1.appendChild(el('p',null,'Seven changed relationships carry post-pour or post-curing waiting controls — original lags of 5, 10, 10, 10, 14, 14 and 20 days. All were set to zero. This does not prove that every original duration was correct; it requires ACEPM to disclose the structural, temporary-works and test evidence supporting each replacement and to preserve a verified strength-release control.'));
   g3.appendChild(c1);
   const c2=el('div','card red');
-  c2.appendChild(el('h4',null,'Eight approval activities do not reconcile'));
-  c2.appendChild(el('p',null,'Checked against the latest Consultant reply evidence, none of the eight paired approval activities matches the ACEPM-used date. STR-054 is recorded as an actual finish on 09-Mar-2026 although the known submission date is 20-May-2026 and the verified reply is 01-Jun-2026.'));
+  c2.appendChild(el('h4',null,'Eight mapped approval activities do not reconcile'));
+  c2.appendChild(el('p',null,'Seven activities are directly supported by the mapped Consultant reply evidence and one B04 STR-046 activity uses a paired-package mapping. Under that disclosed mapping, none of the eight matches the ACEPM-used date. STR-054 is recorded as an actual finish on 09-Mar-2026 although the known submission date is 20-May-2026 and the verified reply is 01-Jun-2026.'));
   g3.appendChild(c2);
   f.appendChild(g3);
 
@@ -2064,10 +2052,10 @@ PANES.e2_what=()=>{
    ['04-May-2026','The Consultant directs use of the 30-Apr-2026 package and the RFI is closed.']
   ],'700px'));
   f.appendChild(el('h3','s','Verified approval dates — latest evidence'));
-  f.appendChild(el('p','lede','The latest reply sheets and the accompanying date-control workbook reconcile eight P6 approval activities across four paired structural drawing packages. The table below keeps the ACEPM-used date, the verified Consultant reply date and the date used in the SAMCO correction exercise side by side.'));
+  f.appendChild(el('p','lede','The latest reply sheets and date-control workbook map eight P6 approval activities across four paired structural drawing packages. Seven rows have direct package evidence; the B04 STR-046 row is a disclosed paired-package mapping. The table keeps the ACEPM-used date, mapped reply date and SAMCO exercise date side by side.'));
   const eg=el('div','grid g4');
   eg.appendChild(stat('Activities checked',String(E2_APPROVALS.length),'Eight P6 approval activities across STR-044, STR-046, STR-054 and STR-055.'));
-  eg.appendChild(stat('ACEPM dates matching','0 of 8','Every ACEPM-used approval date differs from the verified Consultant reply date.','red'));
+  eg.appendChild(stat('ACEPM dates matching','0 of 8','Under the disclosed seven-direct plus one paired mapping, every ACEPM-used date differs.','red'));
   eg.appendChild(stat('Largest date variance','84 days','STR-054 Rev.2: ACEPM used 09-Mar-2026; verified reply 01-Jun-2026.','red'));
   eg.appendChild(stat('SAMCO exercise matching','8 of 8','The correction exercise uses the verified approval date in every row.','teal'));
   f.appendChild(eg);
@@ -2188,10 +2176,10 @@ PANES.e2_gap=()=>{
 PANES.dt_find=()=>{
   const f=document.createDocumentFragment();
   f.appendChild(el('h2','t','The approval dates do not match the verified replies'));
-  f.appendChild(el('p','lede','The latest evidence checks eight P6 approval activities across four paired structural drawing packages. None of the ACEPM-used dates matches the verified Consultant reply date. This is a factual input check; it does not depend on a view about delay methodology, logic removal or concurrency.'));
+  f.appendChild(el('p','lede','The latest evidence checks eight P6 approval activities across four paired structural drawing packages: seven directly evidenced rows plus one disclosed B04 STR-046 paired-package mapping. Under that mapping none of the ACEPM-used dates matches. This is a factual input check; it does not by itself determine delay quantum.'));
   const g=el('div','grid g4');
   g.appendChild(stat('Checked','8 activities','Paired approval activities for B01–B04 across STR-044, STR-046, STR-054 and STR-055.'));
-  g.appendChild(stat('ACEPM matching','0 of 8','Each ACEPM-used date diverges from the verified reply date.','red'));
+  g.appendChild(stat('ACEPM matching','0 of 8','Each ACEPM-used date diverges under the seven-direct plus one paired mapping.','red'));
   g.appendChild(stat('Largest divergence',days(Math.max(...E2_APPROVALS.map(d=>Math.abs(d.gap)))),'STR-054 Rev.2 — 09-Mar-2026 used versus 01-Jun-2026 verified.','red'));
   g.appendChild(stat('SAMCO matching','8 of 8','The correction exercise uses the verified reply date in every row.','teal'));
   g.appendChild(stat('Event 2 workbook range','12–71 days','The four supplied schedule comparisons report 71, 37, 35 and 12 days at Project Finish.','teal'));
@@ -2262,11 +2250,11 @@ PANES.r_what=()=>{
 PANES.r_cure=()=>{
   const f=document.createDocumentFragment();
   f.appendChild(el('h2','t','Seven of them are concrete strength'));
-  f.appendChild(el('p','lede','This is the part of the change that is not a scheduling question at all.'));
+  f.appendChild(el('p','lede','These rows raise both schedule-logic and structural release-control questions. The correct duration cannot be selected by the scheduler alone.'));
   f.appendChild(tbl([{h:'#',cls:'num'},{h:'Sequence'},{h:'Original waiting time',cls:'num'},{h:'After the change',cls:'num'}],
    REL.filter(r=>r.strength).map(r=>[String(r.no),r.desc,'<span class="pill p-gold">'+r.lag.replace('FS +','')+'</span>','<span class="pill p-red">0 days</span>']),'640px'));
   f.appendChild(lagChart());
-  f.appendChild(el('p',null,'Read together, the seven describe a schedule in which concrete is poured or cured and the formwork comes off the same day, and in one case a floor above is scaffolded the same day the floor below finishes curing.'));
+  f.appendChild(el('p',null,'Read together, the seven remove explicit waiting after a predecessor finishes. Where the predecessor is a curing activity, FS+0 does not mean zero time since pour. The issue is therefore not a blanket same-day allegation: it is whether the replacement logic preserves the strength, shoring, reshoring, access and release controls supported by the project method and records.'));
 
   f.appendChild(el('h3','s','Why that matters under the standard the Engineer relies on'));
   f.appendChild(el('p',null,'Letter 053 relies on the forensic schedule analysis recommended practice for the right to correct an anomaly. That same document defines what an anomaly is.'));
@@ -2276,7 +2264,7 @@ PANES.r_cure=()=>{
   f.appendChild(quote('Forms and shores (except those used for slabs on grade and slip forms) shall not be removed until the employer determines that the concrete has gained sufficient strength to support its weight and superimposed loads.','OSHA 29 CFR 1926.703(e)(1)'));
   f.appendChild(quote('Premature removal of shores and reshores prior to concrete slabs achieving the necessary strength can contribute to construction failures or defects such as permanent deflections (sagging) or cracking in the completed structure in excess of those anticipated by the design.','ACI 347.2R-17, Chapter 1, printed page 2'));
   f.appendChild(quote('The schedule and process for removal of forms, shores, and reshores should be based on an analysis of the structural effects.','ACI 347.2R-17, Chapter 1, printed page 2'));
-  f.appendChild(el('div','ev','<b>The conclusion this points to:</b> the original lags described a sequence that is possible and permitted, so under the quoted test they should not have been corrected. The corrected version describes a sequence that is not permitted. On the Engineer\u2019s own standard, the change appears to introduce the anomaly rather than remove one. This is offered as a technical reading for the Engineer to answer, and the point is capable of being settled by the structural analysis that ACI requires.'));
+  f.appendChild(el('div','ev','<b>Controlled conclusion:</b> the evidence establishes that a verified strength-based release control is required; it does not automatically validate each original lag duration. ACEPM must show, row by row, the method statement, member/span, shores or reshores, construction loads, temperature, cube/strength results and approval supporting any replacement. Until then, both the original duration and the schedule effect are HOLD.'));
 
   f.appendChild(el('h3','s','Supporting provisions'));
   const ul=el('ul','cl');
@@ -2316,7 +2304,7 @@ PANES.r_honest=()=>{
   f.appendChild(el('p','lede','Setting out the limits of this part of the case, so that nothing here is heard first from the other side.'));
 
   const d=el('div','duel');
-  d.appendChild(el('div','b','<h5>What is established</h5><p>All twenty-four existed in the approved baseline before the fragnet. They recur across the claim analysis files. Every one of them sits upstream of Project Finish. Several were required by the Engineer\u2019s own baseline review and marked as implemented. Seven are concrete-strength restraints whose removal describes a sequence the formwork codes do not permit. The Engineer\u2019s current progress model carries all twenty-four.</p>'));
+  d.appendChild(el('div','b','<h5>What is established</h5><p>All twenty-four existed in the approved baseline before the fragnet. They recur across the claim analysis files and sit upstream of Project Finish. The new baseline-comment workbook supports the purpose or method of rows 6, 7, 8, 9, 14, 15, 18 and 24, while not proving every exact lag. Seven rows carry strength-related waiting controls requiring row-specific engineering verification. The Engineer\u2019s current progress model carries all twenty-four.</p>'));
   d.appendChild(el('div','a','<h5>What is not established</h5><p>The number of days caused by the twenty-four changes. No matched calculation has been run that alters only those relationships under identical settings. Until that exists, no day-value should be attributed to them.</p>'));
   f.appendChild(d);
 
@@ -2406,7 +2394,7 @@ PANES.ct_prov=()=>{
   const f=document.createDocumentFragment();
   f.appendChild(el('h2','t','What the Contract actually says'));
   f.appendChild(el('p','lede','The provisions relied on by both sides, with the wording as it appears in the letters. Where a page number is shown it is the Contract page recorded in the Contractor\u2019s own analysis table.'));
-  f.appendChild(el('div','ev','<b>A note on sourcing.</b> The Contract document itself is not among the files reviewed here. Every provision below is reproduced as it was quoted or summarised in Letter 050 or in the Contractor\u2019s analysis. Before issue, each should be checked against the executed Contract at the page shown. Nothing here is reconstructed from the standard FIDIC wording.'));
+  f.appendChild(el('div','ev','<b>A note on sourcing.</b> The executed Overall Contract and Particular Conditions were checked at the cited pages. Appendix Item 20, amended Sub-Clauses 1.8, 1.9, 3.1, 3.5, 8.3, 8.4, 20.1 and 20.2 are used only to the extent verified. The signed Contract controls; generic FIDIC wording and AACE guidance do not create entitlement. Issue dates and procedural deadlines still require contracts/counsel sign-off.'));
   CONTRACT.forEach(c=>{
     const card=el('div','card'+(c.key?' gold':''));
     card.appendChild(el('h4',null,c.sc+(c.pg!=='—'?' &nbsp;<span class="pill p-grey">'+c.pg+'</span>':'')));
@@ -2896,6 +2884,7 @@ gq.addEventListener('input',()=>{
   if(hits.length>8)gs.appendChild(el('div','cnt',(hits.length-8)+' more — narrow the search'));
 });
 </script>
+<script src="letter53_upgrade.js"></script>
 <script id="bilingualEngineeringLayer">
 (()=>{
 'use strict';

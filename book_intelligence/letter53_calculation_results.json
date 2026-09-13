@@ -1,0 +1,255 @@
+{
+  "package_name": "Letter 053 controlled arithmetic audit",
+  "summary": {
+    "calculations": 14,
+    "passed": 14,
+    "unsupported": 0,
+    "findings_by_severity": {
+      "critical": 0,
+      "major": 0,
+      "minor": 0,
+      "observation": 0
+    }
+  },
+  "results": [
+    {
+      "calculation_id": "CALC-01",
+      "location": "Event 1 STR-104 p3 Project Finish; values are calendar-day counts",
+      "status": "pass",
+      "independent_result": {
+        "value": 117.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 117,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-02",
+      "location": "Event 1 STR-104 p3 Ground Works Finish; values are calendar-day counts",
+      "status": "pass",
+      "independent_result": {
+        "value": 126.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 126,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-03",
+      "location": "Event 2 STR-104 primary Ground Works Finish; calendar-day counts",
+      "status": "pass",
+      "independent_result": {
+        "value": 78.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 78,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-04",
+      "location": "Event 2 STR-104 primary Project Finish; calendar-day counts",
+      "status": "pass",
+      "independent_result": {
+        "value": 76.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 76,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-05",
+      "location": "IFC sch movement.xlsx 02-01 Project Finish; calendar-day counts",
+      "status": "pass",
+      "independent_result": {
+        "value": 71.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 71,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-06",
+      "location": "Event 2 STR-104 actual-duration Ground Works Finish; calendar-day counts",
+      "status": "pass",
+      "independent_result": {
+        "value": 43.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 43,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-07",
+      "location": "Event 2 STR-104 actual-duration Project Finish; calendar-day counts",
+      "status": "pass",
+      "independent_result": {
+        "value": 37.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 37,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-08",
+      "location": "Letter 050 Ground Works award; calendar-day counts",
+      "status": "pass",
+      "independent_result": {
+        "value": 15.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 15,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-09",
+      "location": "Letter 050 Project Finish award; calendar-day counts",
+      "status": "pass",
+      "independent_result": {
+        "value": 12.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 12,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-10",
+      "location": "Unexplained Ground Works reduction; calendar-day counts",
+      "status": "pass",
+      "independent_result": {
+        "value": 28.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 28,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-11",
+      "location": "Unexplained Project Finish reduction; calendar-day counts",
+      "status": "pass",
+      "independent_result": {
+        "value": 25.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 25,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-12",
+      "location": "Cross-model calendar-day-count difference only; causal effect HOLD",
+      "status": "pass",
+      "independent_result": {
+        "value": 2.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 2,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-13",
+      "location": "24-relationship change count",
+      "status": "pass",
+      "independent_result": {
+        "value": 24.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 24,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    },
+    {
+      "calculation_id": "CALC-14",
+      "location": "Letter 053 point coverage count",
+      "status": "pass",
+      "independent_result": {
+        "value": 23.0,
+        "unit": "1"
+      },
+      "expected_result": {
+        "value": 23,
+        "unit": "1"
+      },
+      "absolute_error": 0.0,
+      "relative_error": 0.0,
+      "dimensional_consistency": true,
+      "issues": []
+    }
+  ],
+  "disclaimer": "Preliminary deterministic arithmetic and dimensional check only; not engineering approval, certification, sealing, or code-compliance review."
+}
