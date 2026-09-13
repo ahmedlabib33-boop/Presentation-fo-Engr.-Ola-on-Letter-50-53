@@ -29,6 +29,11 @@ const path = require('path');
   const positionCount=await pane.locator('.protection-samco-position').count();
   const conclusionCount=await pane.locator('.protection-protected-conclusion').count();
   const premiseCompleteness=await pane.locator('.protection-acepm-premise').evaluateAll(nodes=>nodes.every(node=>node.querySelector('strong')?.textContent.trim()&&node.querySelector('.protection-premise-source')?.textContent.trim()));
+  const framedPoints=await pane.locator('.protection-point').evaluateAll(nodes=>nodes.length===12&&nodes.every((node,index)=>{
+    const style=getComputedStyle(node);const arrow=getComputedStyle(node,'::after');
+    return style.borderTopStyle==='solid'&&parseFloat(style.borderTopWidth)>0&&(index===nodes.length-1||arrow.content.includes('↓'));
+  }));
+  const sideFlowArrows=await pane.locator('.protection-flow-arrow').evaluateAll(nodes=>nodes.length===24&&nodes.every(node=>getComputedStyle(node,'::after').content.includes('↓')));
   const initialRetracted=await sourceBodies.evaluateAll(nodes=>nodes.length===12&&nodes.every(node=>node.hidden));
   await pane.locator('.protection-story-root').scrollIntoViewIfNeeded();
   await page.screenshot({path:path.join(__dirname,'protection-sources-retracted-desktop.png'),fullPage:false});
@@ -97,7 +102,7 @@ const path = require('path');
     broken:[...node.querySelectorAll('.protection-source-shot img')].filter(image=>!image.complete||!image.naturalWidth).length
   })));
 
-  const sourceControls={assessmentPattern:/Protection under review/.test(storyRoot)&&/SAMCO CONTRACTUAL POSITION/.test(storyRoot)&&premiseCount===12&&positionCount===12&&conclusionCount===12&&premiseCompleteness,initialRetracted,expandedAll,individualRetracted,individualExpanded,retractedAll,arabicLabels:/توسيع (?:جميع )?المصادر/.test(arabicControls)&&/طي (?:جميع )?المصادر/.test(arabicControls)};
+  const sourceControls={assessmentPattern:/Protection under review/.test(storyRoot)&&/SAMCO CONTRACTUAL POSITION/.test(storyRoot)&&premiseCount===12&&positionCount===12&&conclusionCount===12&&premiseCompleteness,framedPoints,sideFlowArrows,initialRetracted,expandedAll,individualRetracted,individualExpanded,retractedAll,arabicLabels:/توسيع (?:جميع )?المصادر/.test(arabicControls)&&/طي (?:جميع )?المصادر/.test(arabicControls)};
   const report={sections:english.length,totalShots:english.reduce((sum,point)=>sum+point.shots,0),perPoint:english.map(point=>point.shots),english,sourceControls,arabicChartParity,arabicParity:arabic.length===english.length&&arabic.every((point,index)=>point.shots===english[index].shots&&point.captions===point.shots&&point.broken===0),sources,lightboxOpen,mobile,direction,failedResponses,pageErrors};
   console.log(JSON.stringify(report,null,2));
   const checks=[english.length===12,english.every(point=>point.shots>=3&&point.captions===point.shots&&point.broken===0),Object.values(sourceControls).every(Boolean),arabicChartParity,report.arabicParity,Object.values(sources).every(Boolean),lightboxOpen,mobile.scrollWidth<=mobile.clientWidth+2,direction==='rtl',failedResponses.length===0,pageErrors.length===0];
