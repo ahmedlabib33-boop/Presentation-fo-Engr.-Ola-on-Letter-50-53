@@ -13,6 +13,9 @@
 .protection-card{min-width:0;padding:17px 18px;border:1px solid rgba(223,188,103,.38);border-top:3px solid var(--gold);border-radius:4px;background:linear-gradient(145deg,rgba(223,188,103,.11),rgba(26,183,190,.035) 58%,transparent),var(--panel);box-shadow:0 10px 26px rgba(0,0,0,.12)}
 .protection-card h3{margin:0 0 8px;color:var(--gold);font:600 17px/1.25 var(--serif)}
 .protection-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.55}
+.guard-evidence{margin-top:13px;padding-top:11px;border-top:1px solid rgba(223,188,103,.24)}
+.guard-evidence>b{display:block;margin-bottom:5px;color:var(--teal);font-size:10px;letter-spacing:.055em;text-transform:uppercase}
+.guard-evidence p{color:var(--soft);font-size:11px;line-height:1.52}
 .protection-letter{margin-top:12px}
 .protection-letter .letter-section:nth-child(even){border-left-color:var(--teal);background:linear-gradient(135deg,rgba(26,183,190,.055),transparent 42%),var(--panel)}
 .protection-evidence{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:10px;margin-top:16px;padding-top:14px;border-top:1px solid rgba(223,188,103,.24)}
@@ -28,7 +31,8 @@ body.arabic-mode .contractual-protection-sec .letter-addressee,
 body.arabic-mode .contractual-protection-sec .control-banner{text-align:right}
 body.arabic-mode .contractual-protection-sec td{direction:rtl;text-align:right;unicode-bidi:plaintext}
 body.arabic-mode .contractual-protection-sec .protection-evidence h4,
-body.arabic-mode .contractual-protection-sec .protection-evidence-group{text-align:right}
+body.arabic-mode .contractual-protection-sec .protection-evidence-group,
+body.arabic-mode .contractual-protection-sec .guard-evidence{text-align:right}
 body.arabic-mode .contractual-protection-sec .protection-evidence-group ul{padding-left:0;padding-right:18px}
 body.arabic-mode .contractual-protection-sec .letter-section{border-left:1px solid var(--line);border-right:3px solid var(--gold)}
 body.arabic-mode .contractual-protection-sec .letter-section:nth-child(even){border-right-color:var(--teal)}

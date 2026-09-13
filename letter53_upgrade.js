@@ -128,6 +128,7 @@ const PROTECTION_AR={
   figuresTitle:'ضبط عدم قبول القيم العددية والتحقق منها',
   figuresIntro:'تُثبت القيم أدناه في السجل دون تبنّيها. وتحدد حالة التحقق منها الصياغة التي يجوز لسامكو استخدامها بأمان، بما يمنع تفسير أي نتيجة مشار إليها لاحقًا باعتبارها مقدارًا متفقًا عليه أو حدًا أقصى للتحليل.',
   figuresHeaders:['القيمة','المسألة / الحالة التحليلية','مرجع ضبط الدليل','حالة التحقق','موقف سامكو المحمي'],
+  cardEvidence:'سند الدليل',
   letterTitle:'خطاب دفاعي مع التحفظ الكامل على الحقوق',
   addressee:'<b>إلى:</b> ACEPM / المهندس<br><b>من:</b> شركة سامكو الوطنية للإنشاءات<br><b>المشروع:</b> منطقة الأعمال الكبرى · المرحلة 02 · المباني B1–B4<br><b>الموضوع:</b> حدثا التأخير رقما 1 و2 — حماية موحّدة للاستحقاق، وطلب قرار قابل للتدقيق، والتحفظ على جميع الحقوق',
   questionsTitle:'إبقاء المسائل غير المجاب عنها مفتوحة ومنع اعتبارها مقبولة ضمنًا',
@@ -144,10 +145,10 @@ const PROTECTION_AR={
   evidence:'<b>الربط بالأدلة:</b> يخضع كل موقف محمي أعلاه للضبط بموجب السجلات EV-001…EV-018 وREL-01…REL-24 الواردة في سجل الأدلة والتحقق. ويظل خطاب ACEPM رقم 055 «مستبعدًا — لا يُستند إليه» ما لم تُفصح ACEPM عن نسخة كاملة ومتحقق منها.'
  },
  guards:[
-  ['لا قبول','تُذكر كل نتيجة عددية لأغراض المطابقة والتسوية التحليلية فقط.'],
-  ['لا تنازل عن الحقوق','لا يجوز أن يؤدي السكوت أو التخفيف أو استمرار التنفيذ أو مناقشة الأرقام إلى إسقاط أي حق لسامكو.'],
-  ['منهجية تحليلية مجمّدة','يستلزم أي تغيير لاحق في النموذج تعريفه مسبقًا وإثباته وضبط إصداره واختبار أثره.'],
-  ['حفظ الحقوق المستقبلية','تظل الدفعة رقم 3 والآثار التراكمية وتمديد مدة التنفيذ والتكاليف القابلة للاسترداد ومسارات فض النزاع الرسمية مفتوحة.']
+  ['لا قبول','تُذكر كل نتيجة عددية لأغراض المطابقة والتسوية التحليلية فقط.','ملف PDF للعقد المبرم، الشروط الخاصة ص30، البند الفرعي 20.2 المعدل (EV-012)؛ خطابا المهندس 050 و053 وخطاب سامكو STR-104 (EV-006, EV-015).'],
+  ['لا تنازل عن الحقوق','لا يجوز أن يؤدي السكوت أو التخفيف أو استمرار التنفيذ أو مناقشة الأرقام إلى إسقاط أي حق لسامكو.','ملف PDF للعقد المبرم والبند الفرعي 20.2 المعدل (EV-012)؛ إخطارات سامكو وسجلات التخفيف وتحديثات التقدم وخطاب STR-104.'],
+  ['منهجية تحليلية مجمّدة','يستلزم أي تغيير لاحق في النموذج تعريفه مسبقًا وإثباته وضبط إصداره واختبار أثره.','ملف PDF المدمج لـ AACE 29R-03 الصفحات 32–33؛ ملفات XER الأصلية 01–05؛ السجل REL-01…REL-24 (EV-003…EV-009, EV-014)؛ الخطابات 050 و053 وSTR-104.'],
+  ['حفظ الحقوق المستقبلية','تظل الدفعة رقم 3 والآثار التراكمية وتمديد مدة التنفيذ والتكاليف القابلة للاسترداد ومسارات فض النزاع الرسمية مفتوحة.','ملف PDF للعقد المبرم ص7 والشروط الخاصة ص30 (EV-011, EV-012)؛ سجل استمرار الدفعة رقم 3؛ خطابا المهندس 050 و053 وخطاب سامكو STR-104.']
  ],
  figures:[
   ['117 يومًا','الحدث 1 · حركة معلم انتهاء المشروع للدفعة رقم 2','جدول البرنامج المرفق بخطاب STR-104 · EV-001','متحقق جزئيًا','نتيجة واردة في البرنامج المقدم فقط، ولا تُعد إقرارًا باستحقاق تعاقدي نهائي. ويظل تحديد الإعدادات الأصلية والسببية والتأخير المتزامن والتعديلات المبررة واجبًا.'],
@@ -306,10 +307,10 @@ PANES.evidence_register=()=>{
 PANES.contractual_protection=(arabic=false)=>{
  const ui=arabic?PROTECTION_AR.ui:null;
  const guards=arabic?PROTECTION_AR.guards:[
-  ['No acceptance','Every numerical result is identified for reconciliation only.'],
-  ['No waiver','Silence, mitigation, progress or discussion cannot surrender SAMCO’s rights.'],
-  ['Frozen methodology','Any later model change requires prior identification, proof, version control and impact testing.'],
-  ['Future rights preserved','Batch No. 3, cumulative effects, EOT, recoverable cost and formal dispute routes remain open.']
+  ['No acceptance','Every numerical result is identified for reconciliation only.','Executed Contract PDF, Particular Conditions p30, amended Sub-Clause 20.2 (EV-012); Engineer Letters 050/053 and SAMCO STR-104 (EV-006, EV-015).'],
+  ['No waiver','Silence, mitigation, progress or discussion cannot surrender SAMCO’s rights.','Executed Contract PDF and amended Sub-Clause 20.2 (EV-012); SAMCO notices, mitigation records, progress submissions and STR-104.'],
+  ['Frozen methodology','Any later model change requires prior identification, proof, version control and impact testing.','AACE 29R-03 PDF pp32–33; native XER set 01–05; REL-01…REL-24 (EV-003…EV-009, EV-014); Letters 050/053 and STR-104.'],
+  ['Future rights preserved','Batch No. 3, cumulative effects, EOT, recoverable cost and formal dispute routes remain open.','Executed Contract PDF p7 and Particular Conditions p30 (EV-011, EV-012); continuing Batch No. 3 record; Letters 050/053 and STR-104.']
  ];
  const figures=arabic?PROTECTION_AR.figures:FIGURE_CONTROL;
  const sections=arabic?PROTECTION_AR.sections:PROTECTION_SECTIONS;
@@ -322,7 +323,7 @@ PANES.contractual_protection=(arabic=false)=>{
  f.appendChild(el('p','lede',arabic?ui.lede:'A consolidated defensive record protecting Delay Event Nos. 1 and 2, all existing and future entitlements, and SAMCO’s right to challenge unsupported dates, logic changes, methodology and quantum.'));
  f.appendChild(el('div','control-banner hold',arabic?ui.issue:'<b>Issue status — protected draft:</b> this layer is evidence-controlled and rights-reserving. It is not an admission, settlement, waiver or acceptance of any Engineer figure. Final issue date, addressee, notice route and live contractual deadlines require Contracts and legal review before signature.'));
  const guard=el('div','protection-guard');
- guards.forEach(x=>{const d=el('article','protection-card');d.append(el('h3',null,x[0]),el('p',null,x[1]));guard.appendChild(d);});
+ guards.forEach(x=>{const d=el('article','protection-card');const evidence=el('div','guard-evidence');evidence.append(el('b',null,arabic?ui.cardEvidence:'Evidence basis'),el('p',null,x[2]));d.append(el('h3',null,x[0]),el('p',null,x[1]),evidence);guard.appendChild(d);});
  f.appendChild(guard);
  f.appendChild(el('h3','s',arabic?ui.figuresTitle:'Numerical non-acceptance and verification control'));
  f.appendChild(el('p',null,arabic?ui.figuresIntro:'The figures below are preserved without adoption. Their status controls what SAMCO may safely say and prevents a cited result from being mischaracterized later as an agreed quantum or analytical ceiling.'));
