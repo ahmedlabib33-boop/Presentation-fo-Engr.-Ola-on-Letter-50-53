@@ -104,6 +104,21 @@ const PROTECTION_SECTIONS=[
  ['12. Closing reservation','SAMCO requests a complete substantive response within seven calendar days of the issued letter date, subject to verification of any governing contractual deadline. Pending that response, every disputed factual, technical, quantum and contractual issue remains open. SAMCO expressly reserves the right to amend, supplement or particularize its position as further native files, records, expert analysis or continuing-event evidence become available. Nothing in this tab or the associated draft shall prejudice any existing or future entitlement.']
 ];
 
+const PROTECTION_ACEPM_PREMISES=[
+ {kind:'ACEPM claim / response',text:'ACEPM’s Letters 050 and 053 state the Engineer’s numerical and methodological conclusions as the current response to SAMCO.',source:'Engineer Letters 050 and 053 · EV-006, EV-015'},
+ {kind:'ACEPM claim',text:'ACEPM accepted the Employer-side reinforcing-steel delay in principle but deferred assessment of the completed Batch No. 2 component while later steel deliveries remained outstanding.',source:'Engineer Letter 050 · Event No. 1 determination · EV-006'},
+ {kind:'ACEPM claim',text:'ACEPM assessed Event No. 2 at 15 calendar days to Ground Works and 12 calendar days to Project Finish.',source:'Engineer Letter 050 and planning attachment · EV-006'},
+ {kind:'ACEPM claim',text:'ACEPM states that actual shop-drawing submission and approval dates were used in its Event No. 2 assessment.',source:'Engineer Letter 050 · Event No. 2 assessment; IFC date-control record · EV-010'},
+ {kind:'ACEPM claim / response',text:'ACEPM has advanced conclusions on event criticality and longest-path treatment and later maintained its response to SAMCO’s objection.',source:'Engineer Letter 050 p4 and Letter 053 · EV-013, EV-015'},
+ {kind:'ACEPM claim',text:'ACEPM states that 24 relationships or lags were incorrect and were amended or removed for its assessment.',source:'Engineer Letter 050 planning attachment; Letter 053 · EV-006, EV-015'},
+ {kind:'ACEPM response status',text:'Letter 053 responds with maintained conclusions and general forensic principles, while the controlled register records Q1–Q8 as not fully answered.',source:'SAMCO STR-104 and Engineer Letter 053 · EV-015 · Q1–Q8'},
+ {kind:'ACEPM methodological position',text:'ACEPM relies on schedule-anomaly correction principles to support model changes, but the disclosed record does not identify one frozen source model and complete settings and change log reproducing every result.',source:'Engineer Letters 050/053; XER comparison set 01–05 · EV-003…EV-009'},
+ {kind:'ACEPM determination status',text:'ACEPM’s current determinations address assessed time effects; the disclosed record does not expressly confirm that SAMCO’s wider, continuing and future rights remain open.',source:'Engineer Letters 050 and 053; executed Contract · EV-006, EV-012, EV-015'},
+ {kind:'ACEPM record status',text:'No verified ACEPM statement expressly asserting that SAMCO waived its rights by continued performance, mitigation or discussion has been identified; the risk is therefore reserved defensively.',source:'Controlled correspondence record through Engineer Letter 053 · EV-015'},
+ {kind:'ACEPM production status',text:'ACEPM has not yet produced the complete native before/after models, result bridge, row-by-row 24-relationship analysis and frozen protocol requested by SAMCO.',source:'SAMCO STR-104; Engineer Letter 053; action register A–L'},
+ {kind:'ACEPM record status',text:'Engineer Letter 053 is the latest verified response in the controlled record. Any alleged Letter 055 remains excluded unless a complete verified copy and attachments are disclosed.',source:'Engineer Letter 053 · EV-015; excluded item EV-016'}
+];
+
 const PROTECTION_EVIDENCE=[
  {sources:['Executed Contract PDF, Particular Conditions p30, amended Sub-Clause 20.2 · EV-012','Engineer Letter 050; SAMCO STR-104; Engineer Letter 053 · EV-006, EV-015'],logic:'A later protection notice must supplement the existing record without converting disputed technical or numerical references into admissions.',limit:'This is protective drafting, not independent proof of entitlement. Contracts and counsel must confirm its legal effect and service requirements.'},
  {sources:['Executed Contract PDF p7, Appendix to Tender Item 20 / Sub-Clause 14.2 · EV-011','Engineer Letter 050, Event 1 determination','SAMCO STR-104 schedule table and Batch No. 2 request · EV-001, EV-002'],logic:'The Employer steel allocation establishes the contractual event basis; the completed Batch No. 2 model supplies the measurable schedule case, while Batch No. 3 remains separately continuing.',limit:'The 126/117 movements remain submitted schedule results until native P6 settings, causation, mitigation and demonstrated concurrency are verified.'},
@@ -138,7 +153,8 @@ const PROTECTION_AR={
   actionA:'عدم إرجاء البت في الجزء المكتمل من الدفعة رقم 2',
   actionJK:'منع أي تغيير مستقبلي غير مفصح عنه في المنهجية',
   actionOther:'تظل المسألة مفتوحة إلى حين اكتمال السجل المفصح عنه',
-  pointEvidenceTitle:'سند النقطة ومسارها الاستدلالي',
+ pointEvidenceTitle:'سند النقطة ومسارها الاستدلالي',
+  sourcesAndControl:'المصادر وضبط الاستدلال',
   sourceBasis:'المصادر الحاكمة والمؤيدة',
   sourceScreenshots:'صور مستندات المصدر',
   expandSources:'توسيع المصادر',
@@ -150,6 +166,10 @@ const PROTECTION_AR={
   protectedPoint:'النقطة المحمية',
   protectedPosition:'موقف محمي',
   sourceRecord:'سجل المصدر',
+  acepmClaim:'مطالبة / رد ACEPM',
+  claimBasis:'أساس الموقف في السجل',
+  samcoPosition:'موقف سامكو وإعادة فحص السجل',
+  protectedConclusion:'النقطة المحمية',
   analyticalLogic:'المنطق التعاقدي والتحليلي',
   evidenceLimit:'حدود الاستدلال',
   evidence:'<b>الربط بالأدلة:</b> يخضع كل موقف محمي أعلاه للضبط بموجب السجلات EV-001…EV-018 وREL-01…REL-24 الواردة في سجل الأدلة والتحقق. ويظل خطاب ACEPM رقم 055 «مستبعدًا — لا يُستند إليه» ما لم تُفصح ACEPM عن نسخة كاملة ومتحقق منها.'
@@ -183,6 +203,20 @@ const PROTECTION_AR={
   ['10. عدم التنازل بالتصرف أو المناقشة','لا يجوز تفسير أي فعل أو امتناع من جانب سامكو — بما في ذلك استمرار التقدم أو التخفيف أو إعادة التسلسل أو حضور الاجتماعات أو تقديم المعلومات أو تقديم برنامج زمني محدّث أو طلب قرار مرحلي أو مناقشة أي قيمة أو تقديم مستخلص أو عدم تكرار التحفظ في كل مناسبة أو مواصلة التنفيذ — باعتباره قبولًا أو تنازلًا أو اختيارًا ملزمًا أو مانعًا من التمسك بالحق أو مخالصة أو وفاءً نهائيًا أو تخليًا عن أي حق. ولا يترتب على أي قرار أو سداد جزئي تسوية الرصيد ما لم توافق سامكو صراحةً بموجب محرر كتابي صادر ممن يملك سلطة اعتماده.'],
   ['11. القرار المطلوب وإنتاج السجلات','تطلب سامكو تقديم المخرجات A–L الواردة في سجل الإجراءات المنضبط، بما يشمل القرار الخاص بالدفعة رقم 2 المكتملة؛ وجميع ملفات «قبل/بعد» الأصلية؛ والمطابقة الكاملة بين 78/76 و71 و43/37 و15/12؛ وتحليل الصفوف الـ24 علاقةً بعلاقة؛ ومصدر كل تاريخ فعلي؛ والإجابات المباشرة عن Q1–Q8؛ وبروتوكولًا تحليليًا مجمّدًا وموقعًا. وأي رد يحذف مسار الحساب الأصلي أو يقتصر على إجابات عامة يُبقي المسألة ذات الصلة دون حسم.'],
   ['12. التحفظ الختامي','تطلب سامكو ردًا موضوعيًا كاملًا خلال سبعة أيام تقويمية من تاريخ إصدار الخطاب، مع مراعاة التحقق من أي ميعاد تعاقدي حاكم. وإلى حين ورود هذا الرد، تظل كل مسألة واقعية أو فنية أو كمية أو تعاقدية محل نزاع مفتوحة. وتتحفظ سامكو صراحةً بحقها في تعديل موقفها أو استكماله أو تقديم مزيد من التفصيل بشأنه كلما توافرت ملفات أصلية أو سجلات أو تحليلات خبراء أو أدلة تتعلق بالحدث المستمر. ولا يجوز أن يخل أي مما يرد في هذا التبويب أو المسودة المرتبطة به بأي استحقاق قائم أو مستقبلي.']
+ ],
+ premises:[
+  {kind:'مطالبة / رد ACEPM',text:'يعرض خطابا ACEPM رقما 050 و053 النتائج العددية والمنهجية للمهندس باعتبارها الرد الحالي على سامكو.',source:'خطابا المهندس 050 و053 · EV-006, EV-015'},
+  {kind:'مطالبة ACEPM',text:'قبلت ACEPM من حيث المبدأ تأخير حديد التسليح الواقع ضمن مسؤولية صاحب العمل، لكنها أرجأت تقييم الجزء المكتمل من الدفعة رقم 2 مع بقاء توريدات حديد لاحقة معلقة.',source:'خطاب المهندس 050 · قرار الحدث رقم 1 · EV-006'},
+  {kind:'مطالبة ACEPM',text:'قيّمت ACEPM أثر الحدث رقم 2 بمقدار 15 يومًا تقويميًا للأعمال الأرضية و12 يومًا تقويميًا لانتهاء المشروع.',source:'خطاب المهندس 050 ومرفقه التخطيطي · EV-006'},
+  {kind:'مطالبة ACEPM',text:'تفيد ACEPM بأنها استخدمت تواريخ التقديم والاعتماد الفعلية لرسومات الورشة في تقييم الحدث رقم 2.',source:'خطاب المهندس 050 · تقييم الحدث رقم 2؛ سجل ضبط تواريخ IFC · EV-010'},
+  {kind:'مطالبة / رد ACEPM',text:'قدمت ACEPM نتائج بشأن حرجية الحدث ومعالجة المسار الأطول، ثم أبقت على ردها اللاحق على اعتراض سامكو.',source:'خطاب المهندس 050 ص4 والخطاب 053 · EV-013, EV-015'},
+  {kind:'مطالبة ACEPM',text:'تفيد ACEPM بأن 24 علاقة منطقية أو مدة تأخير كانت غير صحيحة وأنها عُدلت أو حُذفت لأغراض تقييمها.',source:'المرفق التخطيطي للخطاب 050 والخطاب 053 · EV-006, EV-015'},
+  {kind:'حالة رد ACEPM',text:'يرد الخطاب 053 بالإبقاء على النتائج والاستناد إلى مبادئ عامة في التحليل الجنائي، بينما يسجل السجل المنضبط أن الأسئلة Q1–Q8 لم تُجب عنها بالكامل.',source:'خطاب سامكو STR-104 وخطاب المهندس 053 · EV-015 · Q1–Q8'},
+  {kind:'موقف ACEPM المنهجي',text:'تستند ACEPM إلى مبادئ تصحيح خلل البرنامج لتأييد تغييرات النموذج، إلا أن السجل المفصح عنه لا يحدد نموذج مصدر واحدًا مجمدًا ولا كامل الإعدادات وسجل التغييرات القادر على إعادة إنتاج كل نتيجة.',source:'خطابا المهندس 050/053 ومجموعة مقارنة XER رقم 01–05 · EV-003…EV-009'},
+  {kind:'حالة قرار ACEPM',text:'تتناول قرارات ACEPM الآثار الزمنية التي قيّمتها، لكن السجل المفصح عنه لا يؤكد صراحةً بقاء حقوق سامكو الأوسع والمستمرة والمستقبلية مفتوحة.',source:'خطابا المهندس 050 و053 والعقد المبرم · EV-006, EV-012, EV-015'},
+  {kind:'حالة سجل ACEPM',text:'لم يُحدد أي قول متحقق من ACEPM يقرر صراحةً أن سامكو تنازلت عن حقوقها بسبب استمرار التنفيذ أو التخفيف أو المناقشة؛ ولذلك يجري التحفظ دفاعيًا على هذا الخطر.',source:'سجل المراسلات المنضبط حتى خطاب المهندس 053 · EV-015'},
+  {kind:'حالة إنتاج ACEPM للسجلات',text:'لم تقدم ACEPM حتى الآن كامل نماذج قبل/بعد الأصلية، وجسر النتائج، والتحليل التفصيلي للعلاقات الـ24، والبروتوكول التحليلي المجمد الذي طلبته سامكو.',source:'خطاب سامكو STR-104 وخطاب المهندس 053 وسجل الإجراءات A–L'},
+  {kind:'حالة سجل ACEPM',text:'يمثل خطاب المهندس 053 أحدث رد متحقق منه في السجل المنضبط. ويظل أي خطاب مزعوم رقم 055 مستبعدًا ما لم تُفصح نسخة كاملة متحقق منها ومرفقاتها.',source:'خطاب المهندس 053 · EV-015؛ البند المستبعد EV-016'}
  ],
  questions:[
   ['Q1','لماذا لا يمكن البت بصورة مستقلة في الجزء المكتمل من الدفعة رقم 2 مع بقاء الدفعة رقم 3 مفتوحة؟','STR-104 الصفحات 3 و9','غير مجاب عنه','يعالج الخطاب 053 الأثر الكلي النهائي، لا الجزء المكتمل.','إصدار قرار مرحلي مُسبب.'],
@@ -442,6 +476,7 @@ PANES.contractual_protection=(arabic=false)=>{
  ];
  const figures=arabic?PROTECTION_AR.figures:FIGURE_CONTROL;
  const sections=arabic?PROTECTION_AR.sections:PROTECTION_SECTIONS;
+ const premises=arabic?PROTECTION_AR.premises:PROTECTION_ACEPM_PREMISES;
  const pointEvidence=arabic?PROTECTION_AR.pointEvidence:PROTECTION_EVIDENCE;
  const questions=arabic?PROTECTION_AR.questions:QUESTION_REGISTER;
  const actions=arabic?PROTECTION_AR.actions:ACTIONS;
@@ -460,7 +495,7 @@ PANES.contractual_protection=(arabic=false)=>{
  const wrap=el('div','letter-control protection-letter');
  wrap.appendChild(el('div','letter-addressee',arabic?ui.addressee:'<b>To:</b> ACEPM / The Engineer<br><b>From:</b> SAMCO National Construction<br><b>Project:</b> The Big Business District · Phase 02 · Buildings B1–B4<br><b>Subject:</b> Delay Event Nos. 1 and 2 — consolidated protection of entitlement, demand for auditable determination and reservation of all rights'));
  const storyRoot=el('div','protection-story-root');storyRoot.append(el('span','k',arabic?ui.protectionUnderReview:'Protection under review'),el('strong',null,arabic?ui.protectionRoot:'SAMCO CONTRACTUAL POSITION · EVENTS 01 & 02'));wrap.appendChild(storyRoot);
- const storyKey=el('div','protection-story-key','<span><i class="position"></i>'+(arabic?ui.protectedPosition:'Protected position')+'</span><span><i class="source"></i>'+(arabic?ui.sourceRecord:'Source record')+'</span><span><i class="limit"></i>'+(arabic?ui.evidenceLimit:'Evidential limit')+'</span>');wrap.appendChild(storyKey);
+ const storyKey=el('div','protection-story-key','<span><i class="premise"></i>'+(arabic?ui.acepmClaim:'ACEPM claim / response')+'</span><span><i class="position"></i>'+(arabic?ui.samcoPosition:'SAMCO position and record test')+'</span><span><i class="conclusion"></i>'+(arabic?ui.protectedConclusion:'Protected point')+'</span>');wrap.appendChild(storyKey);
  const sourceToolbar=el('div','protection-sources-toolbar');
  const expandAll=el('button','protection-sources-action protection-sources-expand-all',arabic?ui.expandAllSources:'Expand all sources');expandAll.type='button';
  const retractAll=el('button','protection-sources-action protection-sources-retract-all',arabic?ui.retractAllSources:'Retract all sources');retractAll.type='button';
@@ -472,9 +507,15 @@ PANES.contractual_protection=(arabic=false)=>{
  expandAll.addEventListener('click',()=>setSourceVisibility(true));
  retractAll.addEventListener('click',()=>setSourceVisibility(false));
  sections.forEach((s,i)=>{
-  const d=el('section','letter-section protection-point');const pointHead=el('div','protection-point-head');pointHead.append(el('span','protection-node-label',(arabic?ui.protectedPoint:'Protected point')+' '+String(i+1).padStart(2,'0')),el('h3',null,s[0]));d.append(pointHead,el('p',null,s[1]));
-  const evidence=pointEvidence[i];const sourceBox=el('aside','protection-evidence');
-  const sourceHeader=el('div','protection-evidence-header');sourceHeader.appendChild(el('h4',null,arabic?ui.pointEvidenceTitle:'Point evidence and reasoning trail'));
+  const d=el('section','letter-section protection-point');const premise=premises[i];const evidence=pointEvidence[i];
+  const premiseBox=el('div','protection-acepm-premise');premiseBox.append(el('span','protection-node-label premise-label',premise.kind+' '+String(i+1).padStart(2,'0')),el('strong',null,premise.text),el('p','protection-premise-source','<b>'+(arabic?ui.claimBasis:'Claim/response basis in the record')+':</b> '+premise.source));
+  const claimArrow=el('div','protection-flow-arrow');claimArrow.setAttribute('aria-hidden','true');
+  const positionBox=el('div','protection-samco-position');const pointHead=el('div','protection-point-head');pointHead.append(el('span','protection-node-label',(arabic?ui.samcoPosition:'SAMCO position and record test')+' '+String(i+1).padStart(2,'0')),el('h3',null,s[0]));positionBox.append(pointHead,el('p',null,s[1]));
+  const conclusionArrow=el('div','protection-flow-arrow conclusion-arrow');conclusionArrow.setAttribute('aria-hidden','true');
+  const conclusionBox=el('div','protection-protected-conclusion');conclusionBox.append(el('span','protection-node-label conclusion-label',(arabic?ui.protectedConclusion:'Protected point')+' '+String(i+1).padStart(2,'0')),el('p',null,evidence.logic));
+  d.append(premiseBox,claimArrow,positionBox,conclusionArrow,conclusionBox);
+  const sourceBox=el('aside','protection-evidence');
+  const sourceHeader=el('div','protection-evidence-header');sourceHeader.appendChild(el('h4',null,arabic?ui.sourcesAndControl:'Sources and evidential control'));
   const shotCount=evidence.shots?.length||0;const expandLabel=(arabic?ui.expandSources:'Expand sources')+' ('+shotCount+')';const retractLabel=(arabic?ui.retractSources:'Retract sources')+' ('+shotCount+')';
   const sourceToggle=el('button','protection-evidence-toggle',expandLabel);sourceToggle.type='button';sourceToggle.dataset.expandLabel=expandLabel;sourceToggle.dataset.retractLabel=retractLabel;sourceToggle.setAttribute('aria-expanded','false');
   const sourceBody=el('div','protection-evidence-body');sourceBody.id='protection-evidence-body-'+(arabic?'ar':'en')+'-'+i;sourceBody.hidden=true;sourceToggle.setAttribute('aria-controls',sourceBody.id);
@@ -495,9 +536,8 @@ PANES.contractual_protection=(arabic=false)=>{
    });
    sourceGroup.appendChild(gallery);
   }
-  const logicGroup=el('div','protection-evidence-group');logicGroup.append(el('b',null,arabic?ui.analyticalLogic:'Contractual and analytical logic'),el('p',null,evidence.logic));
   const limitGroup=el('div','protection-evidence-group evidence-limit');limitGroup.append(el('b',null,arabic?ui.evidenceLimit:'Evidential limit'),el('p',null,evidence.limit));
-  sourceBody.append(sourceGroup,logicGroup,limitGroup);d.appendChild(sourceBox);wrap.appendChild(d);
+  sourceBody.append(sourceGroup,limitGroup);d.appendChild(sourceBox);wrap.appendChild(d);
  });
  f.appendChild(wrap);
  f.appendChild(el('h3','s',arabic?ui.questionsTitle:'Unanswered issues preserved against deemed acceptance'));

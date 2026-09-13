@@ -25,7 +25,10 @@ const path = require('path');
   const sourceBodies=pane.locator('.protection-evidence-body');
   const sourceToggles=pane.locator('.protection-evidence-toggle');
   const storyRoot=await pane.locator('.protection-story-root').textContent();
-  const protectedPointLabels=await pane.locator('.protection-node-label').count();
+  const premiseCount=await pane.locator('.protection-acepm-premise').count();
+  const positionCount=await pane.locator('.protection-samco-position').count();
+  const conclusionCount=await pane.locator('.protection-protected-conclusion').count();
+  const premiseCompleteness=await pane.locator('.protection-acepm-premise').evaluateAll(nodes=>nodes.every(node=>node.querySelector('strong')?.textContent.trim()&&node.querySelector('.protection-premise-source')?.textContent.trim()));
   const initialRetracted=await sourceBodies.evaluateAll(nodes=>nodes.length===12&&nodes.every(node=>node.hidden));
   await pane.locator('.protection-story-root').scrollIntoViewIfNeeded();
   await page.screenshot({path:path.join(__dirname,'protection-sources-retracted-desktop.png'),fullPage:false});
@@ -86,6 +89,7 @@ const path = require('path');
   const direction=await page.evaluate(()=>document.documentElement.dir);
   const arabicControls=await pane.locator('.protection-sources-toolbar').textContent();
   await pane.locator('.protection-sources-expand-all').click();
+  const arabicChartParity=await pane.locator('.protection-point').evaluateAll(nodes=>nodes.length===12&&nodes.every(node=>node.querySelector('.protection-acepm-premise strong')?.textContent.trim()&&node.querySelector('.protection-samco-position')&&node.querySelector('.protection-protected-conclusion')));
   const arabic=await sections.evaluateAll(nodes=>nodes.map(node=>({
     title:node.querySelector('h3')?.textContent.trim(),
     shots:node.querySelectorAll('.protection-source-shot').length,
@@ -93,10 +97,10 @@ const path = require('path');
     broken:[...node.querySelectorAll('.protection-source-shot img')].filter(image=>!image.complete||!image.naturalWidth).length
   })));
 
-  const sourceControls={assessmentPattern:/Protection under review/.test(storyRoot)&&/SAMCO CONTRACTUAL POSITION/.test(storyRoot)&&protectedPointLabels===12,initialRetracted,expandedAll,individualRetracted,individualExpanded,retractedAll,arabicLabels:/توسيع (?:جميع )?المصادر/.test(arabicControls)&&/طي (?:جميع )?المصادر/.test(arabicControls)};
-  const report={sections:english.length,totalShots:english.reduce((sum,point)=>sum+point.shots,0),perPoint:english.map(point=>point.shots),english,sourceControls,arabicParity:arabic.length===english.length&&arabic.every((point,index)=>point.shots===english[index].shots&&point.captions===point.shots&&point.broken===0),sources,lightboxOpen,mobile,direction,failedResponses,pageErrors};
+  const sourceControls={assessmentPattern:/Protection under review/.test(storyRoot)&&/SAMCO CONTRACTUAL POSITION/.test(storyRoot)&&premiseCount===12&&positionCount===12&&conclusionCount===12&&premiseCompleteness,initialRetracted,expandedAll,individualRetracted,individualExpanded,retractedAll,arabicLabels:/توسيع (?:جميع )?المصادر/.test(arabicControls)&&/طي (?:جميع )?المصادر/.test(arabicControls)};
+  const report={sections:english.length,totalShots:english.reduce((sum,point)=>sum+point.shots,0),perPoint:english.map(point=>point.shots),english,sourceControls,arabicChartParity,arabicParity:arabic.length===english.length&&arabic.every((point,index)=>point.shots===english[index].shots&&point.captions===point.shots&&point.broken===0),sources,lightboxOpen,mobile,direction,failedResponses,pageErrors};
   console.log(JSON.stringify(report,null,2));
-  const checks=[english.length===12,english.every(point=>point.shots>=3&&point.captions===point.shots&&point.broken===0),Object.values(sourceControls).every(Boolean),report.arabicParity,Object.values(sources).every(Boolean),lightboxOpen,mobile.scrollWidth<=mobile.clientWidth+2,direction==='rtl',failedResponses.length===0,pageErrors.length===0];
+  const checks=[english.length===12,english.every(point=>point.shots>=3&&point.captions===point.shots&&point.broken===0),Object.values(sourceControls).every(Boolean),arabicChartParity,report.arabicParity,Object.values(sources).every(Boolean),lightboxOpen,mobile.scrollWidth<=mobile.clientWidth+2,direction==='rtl',failedResponses.length===0,pageErrors.length===0];
   await browser.close();
   if(checks.some(check=>!check)) process.exitCode=1;
 })().catch(error=>{console.error(error);process.exitCode=1;});

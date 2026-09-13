@@ -37,8 +37,10 @@ assert(/SAMCO Contractual Protection/.test(letter53Upgrade), 'SAMCO Contractual 
 assert(/const PROTECTION_SECTIONS=\[/.test(letter53Upgrade) && (letter53Upgrade.match(/\['\d+\. /g) || []).length >= 12, 'Contractual protection sections are incomplete');
 assert(/const PROTECTION_AR=\{/.test(letter53Upgrade) && /الحماية التعاقدية لموقف سامكو/.test(letter53Upgrade), 'Professional Arabic contractual protection layer is missing');
 assert(/renderContractualProtection/.test(letter53Upgrade) && /site-language/.test(letter53Upgrade), 'Contractual protection language switching is missing');
-assert(/const PROTECTION_EVIDENCE=\[/.test(letter53Upgrade) && /Point evidence and reasoning trail/.test(letter53Upgrade), 'Point-level contractual evidence trail is missing');
-assert(/pointEvidence:\[/.test(letter53Upgrade) && /سند النقطة ومسارها الاستدلالي/.test(letter53Upgrade), 'Arabic point-level evidence trail is missing');
+assert(/const PROTECTION_EVIDENCE=\[/.test(letter53Upgrade) && /Sources and evidential control/.test(letter53Upgrade), 'Point-level contractual evidence trail is missing');
+assert(/pointEvidence:\[/.test(letter53Upgrade) && /المصادر وضبط الاستدلال/.test(letter53Upgrade), 'Arabic point-level evidence trail is missing');
+assert(/const PROTECTION_ACEPM_PREMISES=\[/.test(letter53Upgrade) && /protection-acepm-premise/.test(letter53Upgrade) && /protection-samco-position/.test(letter53Upgrade) && /protection-protected-conclusion/.test(letter53Upgrade), 'ACEPM claim to SAMCO protected-position chart is missing');
+assert(/premises:\[/.test(letter53Upgrade) && /مطالبة \/ رد ACEPM/.test(letter53Upgrade), 'Arabic ACEPM claim to SAMCO protected-position chart is missing');
 assert(/guard-evidence/.test(letter53Upgrade) && /Evidence basis/.test(letter53Upgrade) && /سند الدليل/.test(letter53Upgrade), 'Top protection-card evidence is missing');
 assert(/protection-source-gallery/.test(letter53Upgrade) && /Source-document screenshots/.test(letter53Upgrade) && /صور مستندات المصدر/.test(letter53Upgrade), 'All-point source-document screenshot gallery is missing');
 assert(/const PROTECTION_SCREENSHOTS=\[/.test(letter53Upgrade) && /PROTECTION_EVIDENCE\.forEach/.test(letter53Upgrade) && /PROTECTION_AR\.pointEvidence\.forEach/.test(letter53Upgrade), 'All-point bilingual protection screenshot mapping is missing');
