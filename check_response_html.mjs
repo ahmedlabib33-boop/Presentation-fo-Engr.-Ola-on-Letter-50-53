@@ -4,7 +4,9 @@ import vm from "node:vm";
 
 const target = process.argv[2];
 const source = fs.readFileSync(target, "utf8");
-const scripts = [...source.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)].map((match) => match[1]);
+const scripts = [...source.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)]
+  .filter((match) => !/\bsrc\s*=|application\/ld\+json/i.test(match[1]))
+  .map((match) => match[2]);
 if (!scripts.length) throw new Error("No script blocks found");
 scripts.forEach((script, index) => new vm.Script(script, { filename: `${path.basename(target)}#script-${index + 1}` }));
 

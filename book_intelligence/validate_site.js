@@ -2,7 +2,7 @@ const fs = require('fs');
 const vm = require('vm');
 const path = require('path');
 
-const repo = path.join(__dirname, '..', 'Response-on-53');
+const repo = path.resolve(__dirname, '..');
 const html = fs.readFileSync(path.join(repo, 'index.html'), 'utf8');
 const failures = [];
 const assert = (condition, message) => { if (!condition) failures.push(message); };

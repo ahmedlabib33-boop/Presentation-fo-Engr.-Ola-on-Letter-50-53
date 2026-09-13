@@ -1,6 +1,6 @@
 global.window = {};
-require('../Response-on-53/book-search-corpus.js');
-const { BookIndex } = require('../Response-on-53/book-reader-engine.js');
+require('../book-search-corpus.js');
+const { BookIndex } = require('../book-reader-engine.js');
 const corpus = window.BOOK_SEARCH_CORPUS;
 const topics = [
   { id: 'schedule', roots: ['schedule'], label: { en: 'Schedule planning', ar: 'تخطيط البرنامج الزمني' }, terms: ['schedule', 'programme', 'planning'] },

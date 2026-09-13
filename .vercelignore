@@ -1,0 +1,14 @@
+# Development-only extraction, OCR, test, and screenshot artifacts.
+book_intelligence/
+ifc_schedule_renders/
+/ACEPM identify 24 original logic as dummy.png
+/check_response_html.mjs
+/inspect_shots.mjs
+/replace_event2_arabic_label.mjs
+/replace_event2_label.mjs
+/upgrade_event2_evidence.mjs
+
+# Local-only state and credentials.
+.git/
+.vercel/
+github repo access token.txt

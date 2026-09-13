@@ -1,0 +1,6 @@
+# Local credentials and deployment state must never enter source control.
+github repo access token.txt
+.vercel/
+
+# Local dependency caches.
+node_modules/

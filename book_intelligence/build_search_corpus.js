@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const sourceDir = path.join(__dirname, 'text');
-const output = path.join(__dirname, '..', 'Response-on-53', 'book-search-corpus.js');
+const output = path.join(__dirname, '..', 'book-search-corpus.js');
 
 const sources = [
   { id: 'aace29', file: 'aace_international_recommended_practice_delay_analysis.pages.json', mode: 'native' },
