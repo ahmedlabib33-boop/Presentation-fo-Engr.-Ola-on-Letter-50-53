@@ -1,0 +1,32 @@
+الكود المصري لتصميم وتنفيذ المنشات ‎Raley A‏ 1.18 22222 2 الملحق الثالث الرموزوالمصطلحات | الكود المصري لتصميم وتنفيذ المنشات الخرسائية ‎١.10‏ الملحق الثالث-الوموز والمصطلحات
+‎OM‏ ااا ‎sage‏ | الأس ‎PH = per dated‏
+| الحد الأدلى لعزوم الانحتاء السالبة عند منتصيف ‎Mnin = Min negative bending moments at mid Span of jg‏ محيط محور صلب التسليح العرض الخارج ‎Perimeter of the cemter line of outermost closed pastel‏ .= 0
+فى البلاطات المستمرة المحملة بأحمال حية ثقيلة ‎_fontinuous beams loaded with heavy live loads‏ ا ! لمقاومة عزوم اللي ‎transverse torsion reinforcement‏
+عزوم الوسط السالية ف البحور ‎__Man__=_NegativemiddemomentsinintemalSpars ala‏ | فوا سيق الإجيادعتد طرفالشد ‎Preswessingtendon forceatjackingend‏ حك اع
+‎wall‏ عزم إنحناء مقابل لليعد المقصود إذا كان بسيط  ‎Mg = Maximum bending moment in simply supported‏ مجموع قوى سبق الإجهاد القصوى = ‎Psa‏
+‏اكاك ااا سس سف لي ‎ae‏ | محامل خفض المقاومة القصوى لميلب سيق 1 ‎ne‏ أه طلي ‎Coefficient oF educing “mae: ‘Ste‏ 00
+‎apse‏ اس = ‎١ Me‏ أقصى مقاومة لقطاع العمود ف الضقط ‎Py =. MaxStsength ofcolumnSectionin compression ١١١١‏
+‎yall Ma = _Ulimate ersion moment aa 8‏ الحورية القصوى المؤثرة على القطاع  ‎“y= Maxcenticforce applied ontheSection‏
+عزوم اللي المزثرة على كمرة ‎Mu = Totsionmomentonedgebeam BLM‏ | الأحمال الحية في حالة التصميم بطريقة حالات ‎Uniformly distributedliveload aga‏ 2ت ‎TR,‏
+‏مقاومة القطاع لعزوم الانحناء الموجية ‎Resisting strength of Section for positive bending‏ = 0 طرف الشد ‎jacking end.‏
+اام إجهاد القص الافتراضي ف ‎Y= Nominalshearstressinbeams lye‏
+العزوم ‎bending moment pel glad‏ عصان اح ا ‎Qs «© alg Me‏
+ل ا ين لي ل ا ‎a‏ البواي المحيطة به بكامل الحمل التصميعي ‎adjacent spans are loaded with the total design‏
+أعلى قيمة لعزوم الانحناء المسموح بها في القطاعات ‎load Mumac = Maximum admissible value of ultimate bending‏
+العروم الحانية المالية ‎Bering mores ee re re‏ 1 الل الخرسانية سابقة الإجهاد ‎concrete sections‏
+‎pial‏ حول جور اد ا كلجفيسي ‎wth BIE Bemdinggjomentabour the‏ إجهاد التشغيل في الخرساتة المسموح به لحالة القص  ‎Allowable working concrete shear sieength‏ 2 عو -
+العوم جول مجو زا كاه 6 ‎Reale‏ | إجهاد التشغيل في الخرسانة المسموح به ‎gy 7 Allowable Working, Stresses in concrete for Gaal WLS‏
+النسبة بين معاير المرونة للميلب ومعاير المرونة ‎n = Modular ratio‏ الثاقب ‎punching shear‏
+مجموع أحمال التشغيل للمبغ المؤثرة على جميع العناصر ‎of vertical loads‏ لبن ‎Agha‏ الخرساتة القصوى ف القص ‎Maxeoncrete strengthinshearSSSSS”S*S‏ الو
+الراسية ااا ص ‎See‏ مقاومة الخرساتة القصصوى لإجهاد القص ‎Gap 2 Concrete ultimate punching shear strength Saat‏
+قيمة قوى الشد التانجة عن أحمال التشفيل (الدائمة ‎Value of tension Forces resulting From Working‏ = يلل الاجهادات الناتجة عن قوى القص القصوى نثيجة للأجمال ‏ © ‎Stresses resulting from max shearing forces due‏ ع به 0
+والحيه ست ‎ee eee‏ سا ال اهم مسيك الخارجية المصاحبة لعزم الانحناء الأقصى ‎external loads accompanying max bending Minax‏
+‎aspen‏ على ‎moment-Mmax A mmm antl tena‏
+_خطوة الكانة الجلزوتية ‎OEP cunts ee,‏ اك اطي ‎“"G, = PunchingShearstess. SSt*~CS~S egg‏
+.الأحمال الحية منتظمة التوذيع المؤثرة على البلاطات ‎ve ead‏ لعا ااال ل الإجباد بعد حدوث ‎US‏ فواقد سبق الإجباد ‎prestressing forces after all fosses of prestressing‏
+‎EON CI ttn an See Saad‏ مقدار مشاركة الكانات العمودية في إجيادات ‎Nominal shear stress provided by stirups yall‏ ع ‎Gy‏
+‏الحمل ‎ell‏ منتظم التوزيع ‎Maiformly distributed liveload perunitlength abating‏ 1 ل ل اجهادات القص القمبوى ‎reinforcement‏
+‎E Anchorage om pertneter 0 0 0‏ ات مقاومة القص القصوى الاعتبارية للأسياخ المكسحة ‎Gus = Nominal shear strength provided bybent bars‏
+الأجمال في الاتجاهين هن على ‎awh Moadsindirestions aand by respectively ff gl‏ | مشاركة صلب التسليح ‎pial!‏ الرأبي في المقاومة ‎Sharing of vertical web reinforcement in max.‏ .= سيو 0
+حمل الضغط التوازتي للقطاع ‎_oadofbalancing compression of Section‏ ج10 القصوى لإجبادات القص في الكيرات العميقة ‎stresses of shear strength in deep beams‏
+صفحةرقم: م1١ ‎١-١-١١١١‏ سخةمخصصةللطلبة 860203201800002 صصفحة رقم: ‎Vp‏ نسخة مخصصة للطلية 0 ‎“eep203/2018‏

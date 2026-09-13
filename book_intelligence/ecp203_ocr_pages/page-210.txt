@@ -1,0 +1,38 @@
+الكود المصمري لنصميم وتنفيذ ‎LALA‏ الخرسانية ‎"١1,١‏ الملحق الثالث-الرموز والمصطلحات | الكود المصري لتصميم وتنفيذ المنشات الخرسانية ‎TMA‏ الملعق الثالث.الرموز والمصطلحات
+‎Compression stress in 7‏ = & حدوث الفقد الفوري في سبق الإجياد مباشرة وقبل حدوث  ‎immediate losses in prestressing immediately and‏
+‎١‏ إجهاد التشقيل المسمى يدق ‎AL Maya‏ الاحناء أو ‎TS Alone "werking sess in compression of‏ القواقد ‎eeepc emnrcr ncneeeeee‏ تيعد يمان
+
+Fan = Average compressive strength in concrete on ‏متوسط إجهاد الضغط في الخرسانة على محيط القطاع‎ ! concrete sections subject to bending moments, or ‏الضغط كبير اللامركزية‎
+
+circumference of critical Section (after occurs of ‏اله‎ ١ ‏حدوث كل فواقد سيق الإجباد) عند منتصف‎ ey) ‏الحرج‎ eccentric compressive forces with large eccentricity
+
+fe = Stressin prestressing reinforcement re Bell ‏«الاجياد قي صلب سيق‎ factors at the section edge where tensile stresses alge} ‏زيادة الأحمال عند حرف القطاع الذي يحدث عندة‎
+ETT Specified” yield strength af prestressing she ‏اجهاد الخضوع في الشد لصلب سيق‎ fs “Allowable axial compressive working stresses fore ladall aS ‏إجياد التشغيل المسموح به ف الخرسانة‎
+reinforcement ee ‏الا‎ ww, Oo fe=emin} ‏المحوري‎
+‎Te Sigo in prestressing in the Tension Side of the ay ‏الإجياد في صلب التسليع ناحية الشد في القطاع‎ fg = Allowable working stresses in axial compression of ul ‏إجهاد التشغيل المسموج به في الضغط المعوري‎
+Section after cracking and which is calculated gli ‏التشخ والمحسموب على أساس قطاع مشرخ نحت‎ 0 0 fittleeccernricity 00 ‏التمركز‎
+‎according ‏مد‎ a cracked Section under effect of ‏ا ع6 0 أحمال التشفيل‎ Streasin concrete at the level of prestiessing steel at Lng ‏الإجباد في الخرسانة عند مستوى صلب سيق الإجباد‎ |
+
+working loads. a. ae time of transfer ‏للخرسانة عند نقل قوة سبق الإجهاد‎ shel ‏قوة سبق‎
+
+“ETT LT Aowable working SuresscsinSteel. aah Gan ‏إجهاد التشغيل السموح‎ a ١ -  ةناسرخلل‎
+‏تت تلات‎ Stressesin Steel used in Stirrups ‏الصيلب المسقطيم في‎ Ge ‏إجهاذ التشغيل المسموج‎ face = Stress in concrete at level of prestressing steel due Amal ‏الإجباد قي الخرسانة عند مستوى صلب ميق الإجهاد‎
+on the basis of a cracked section under the doading 31 ‏قطاع مُشرخ عند حدوث أول شرح تحث‎ led ‏على‎ i cy ‏القيمة سالية في جالة ما إذا كانت الإجيادات ضغط‎
+
+المقاومة المميزة ‎(Aspa Legal‏ عند تقل سيق التجباء 5/0002 10 له ‎fy” Characters serengah of coneree‏ لجيه لحمو لصب ‎gh‏ أيه
+‎sto}‏ الضغط فى الخرمائة ‎sat)‏ حدوث كل فواقد سيق ‎Compressive stress in concrete at section centroid‏ ~= =« يرا إجهاد الخضوع أو بالضمان ‎atv eal‏ لي سمت لصت
+الإجهاد ( ‎aie‏ مركز القطاع أو عند اتصال جذع الكمرة  ‎sleet or at the flange bottom face when the section‏ الخضوع لصلب الكانات المقاومة لعزو م اللي بحل ‎TE Vield Stengih oF Steel Suirups carrying torsion‏
+بالبلاطة غندما يكوت المركر داخل البلاظة ‎eeeeeteaidligsitside the Banger‏ فد ‎٠ 3 wail‏ ن/مم؟ ‎moment not exceeding 400 N/mm2‏
+
+~ “yE Eifective depth or span of a deep beam, whichever ~~ ‏العمق الفعال أو بحر الكمرة الخالص أمما أقل‎ fe > Compressive stresses in concrete due to effective  دايجإلا ‏الضضقط في الخرصانتة نتيجة قوق سبق‎ she}
+is sfallé? prestressing force only at the sectian face where ‏حدوث الفواقد في سبق الإجباد) في‎ an) ‏الفعالة فقط‎
+
+حرف القطاع الذي يحدث عنده إجباد شد تحت 6 ‎laa tensile stresses exist under the action of extemal‏ جساءةالقص | | ‎ee‏ ._.جصي9 ور يح ‎ene ime‏
+لكالا كاري سي سس يس و ‎a‏ نم صم بم سمي أل ‎ws‏ الأصمال الميتة منتظمة التوزيع المؤثرة على البلاطات ‎PT Tiiownty distibucedworking dead foads‏
+الإجهادات الابتدائية المتوئدة في الخرساتة الملاصقة  ‎fra «== Initial: Stresses én concrete which is contact to‏ الحمل الدائم المنتظم على وحدة المساحات ‎distributed working dead food in unit.‏ ا
+لصلب سيق الإجهاد قبل حدوث الفواقد المعتمدة على ‎area prestressing Steel before occurs of losses‏
+
+الإجهاد في صلب سيق الاجهاد بعد أخد تأثير كل المواقد في ‎me prestressed reinforcement (after‏ ' جساءة اللي لقطاع مستطيل ‎GC —-= _ Torsion cigidity of rectangular Section‏
+الاعتبار ‎allowance for all prestress losses)‏ دح ده سم عه عوج سه عه 2 ع عه مد اه و ست سن ةع جع د محا د ةع بسع ع و سس ده سر سد« سد دمع مهنس ته سعد سس لهاع لس ص ل ل ع ل ا سس
+سس مم عع جو سس مع ع مسج سطس سوج سس ع سس ع سس سدس لس سس اص و ع . الاحمال الميتة في حالة التصميم بطريقة حالات الحدود ‎Untimate uniformly distributed dead foads‏ = رو
+صفحة رقم: ‎VY p‏ نسخة مخصصة للطلبة 203/2018 ‎ECP‏ صفحةرقم:م11 ‎|١١10‏ لسخةمخصصةلطلبة 203/208 00

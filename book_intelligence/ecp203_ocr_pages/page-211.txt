@@ -1,0 +1,29 @@
+الكود المصري تتميميم وتنفيذ المنشآت الخرساتية ‎5١18‏ الملحق الثالث-الرموز والمصطلحات | الكود المعبري لتصميم وتتفيذ المنشآت الخرسانية ‎1١١18٠‏ الملحق الثالث-الرموز والمصطلحات
+‎nee eee eee‏ سس لاوط ل لفسسي سي سس سسب لاي سج
+‎alla sta pag‏ بين ‎Llearwallheightberween Supports lea‏ جل ا ااا معافل ونكلر رق فملل الآبية ‎Melis sf sib 2806 reaction (Winkle‏
+‎١‏ السمك الإجمال ‎pial)‏ في الانجاه تحت الاعتبار ‎He cent tetera | h = Total thickness of section in the considered‏
+ا 1 معامل التغيرات غير المقصودة ( ‎Wobble friction coefficient of prestressing tendons  ) Wobble coefficient‏ = 9
+ا 20 يعكس تأثير التماسك بين الخرسانة وصلب التسليح في ‎Ky =_A coefficient which takes into account bond‏
+‎we‏ الاتبحاج الفعال ‎spell‏ الاتجاء تحت ‎He = Buckling length or effective height of columointhe jigs‏ | المسافةيين ‎properties of the reinforcingbars eget‏
+‎direction‏ لا أ 1 ييا معامل يعتمد على نوع صلب ‎Gem‏ الإجباد ‎ki = Coefficient depending on kind of prestressing Steet‏
+تفاع ‎agaall‏ اي ولام ‎OF‏ »الوا ل كاد فر يي لقنا ‎Fe Sine OF‏
+‎tee Aeehet ee gy‏ معامل درجة الإحاطة للوصلة وبعتمد على الكمرات ‏ تزه ‎Coefficient of grade of confinement depeading‏ = كنا
+تأثير صلب سبق الإجياد وصلب التسليج العادي ‎Dane wn NoMa nts nelecting reinforcement nn‏ القص في الكمرات المستيرة ‎Ky __ > _Geefficientforshear force for beans ne‏
+عزم القصبور الذاتي (للأساس أو ‎GeluSl‏ والإطارات ‎Ng = Moment of inertia of foundation or foundation‏ كرزازة العمود ‎glad‏ ا سات ‎Ku - Stiffness of upper‏
+وحوائط القص) للوحدة من طول ‎wale pee unistip wit atl‏ ا ييل الغيمة الاسمية للأحمال الحية أو القوى الداخلية الناشئة ‎OL ig‏
+عزم القصبور الذاتي للقطاع الفعال المكاق بعد التشريخ ‎Moment of inertia of cracked concrete section‏ = 8 | لاا
+. على ألا يزيد ‎Ae‏ ...مس ام سس ‎eee‏ اسم المسافة بين نقط الانقلاب للكمرات ‎celle Mly‏ أو طول ‎Distance between point of Inflection for beams and‏ د ‎L‏
+‏غلم التميور ‎cantilevers st fo cre mer alll gi‏ ؛ ‎slabs or Length of‏
+عزم القصور ‎GHA‏ لكامل القطاع الخرصائي حول ‎Moment of inertia of gross concrete section about agree‏ = ا الطول الأكير للياكية ‎Longest Span dimension of seb rrr‏ = 3
+الخمول وبدون اعتبار تأثير الشروخ مع إهمال صلب ‎centroidal axis, neglecting ceinforcement‏ البحر اتفعال ني البلاطاث بسيطة الارتكاز أو المصافة ‎L = Effective length in simple Span stabs or distance Gy‏
+عزم القصور الذاتي خارج الوصلة لكامل القطاع الخرساتي ‎j \, = Moment of inertia of gross concrete section about‏ . طول بحر الكمرة بين محاور الركائز  ‎axes ofsuppons‏ معصيضعط ‎Length ofbeam Span‏ = 1
+للعمود حول محور الخمول وبدون اعتبار الشروخ مع ‎tentroidal axis, neglecting reinforcement‏ المسافة بين ‎Distance between jaints hes‏ _ = 1
+أعزم القصور ‎aL 5 Mamentofinentiactlower column crosssection  لفسلا agua AI‏ طول الوصلة الميكاتيكية او طول الودملة ‎Length of mechanical joint or Length of welded pall‏ 2 010
+عزم القصور الذاتي للتسليج الطوك ‎joint 9 cst a OEM OF inertia forlongitudinal reinforcement oa‏
+‎pe‏ القصور الذاتي للقطاع ‎١ __ Moment ofinertia of Steel Section wala‏ المسافة بين محاور ‎T= Distance between axesofsuppois SR‏
+‎pe‏ القصور ‎b= Mamentafinertia of Steel Section Sade geal hill‏ طول البحر في الاتجاه الموازي لصلب التسليج المطلوب ‎TLS Span Length in the direction parallel tothe required‏
+ثابت للقطاع الحرج في القص الثاقب يشابه عزم القصور ‎Property of the assumed punching shear critical‏ = ولبول عرض ‎OB‏ التسليح المستطيلة مُقاسة بين محوري ‎xX = Breadth of sectangle reinforcing Stirrup measured — GIS‏
+القمطي حول محوري ,بر ‎le‏ التوالي ‎between the two axes of the Stirrup eee Se CtiON analogous 10 polar moment of inertia‏
+‎pall __K = Soafficienttor bending momentcalculaion SSS‏ المستخدم ف حساب العزو ,8 ‎“Ly 2 Spanusedifor caleulatingmomentM;‏
+‎١‏ الاحال التتاميكة أوالقوى الداخلية ‎gb eK Dynamiicloads dpe REBUN‏ الباكية في اتجاه البحر تحت الاعتبار مقاسا من ‎ty = Length of span in the direction where moments are‏
+محامل الطول الفعال للحائط المقيد للحركة العرضية ‎for wall‏ 0ه ‎supports ee cote eee engin‏

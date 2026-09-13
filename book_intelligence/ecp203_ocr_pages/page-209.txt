@@ -1,0 +1,42 @@
+الكود المصري لتصميم وتتفيذ المنشات الخرسانية 7.18 الملحق الثالك-الرموز والمصطلحات | الكود المصري لتصميم وتنفيذ المتشآت الخرسانية -11١؟‏ الملحق الثالث-الرموز والمدطلحات
+طول القطاع الحرج في القص الثاقب مقاسا في الانجام” ‎b, = Length of punclting shear critical section measused‏ الحد الأقصى لعمق الجزء المعرض لإجيادات ضغط في ‎Cini = "Maximum allowable distance from extreme‏
+العمودي على ‎perpendicular to the loaded span direction b1‏ القطاعات المسلحة جبة الشد ققط ‎compression surface to neutral axis in singly‏
+
+0 = Dead loads ‏القيمة الاسمية للأحمال الدائمة أو القوى الداخلية‎ | colin’
+
+D - Diameter of the largest circle that can be drawn  هجات ‏قطر أكبر دائرة يمكن رسميا داخل مقطع الحمود (أو‎ tothe beam.
+
+d = Effective depth of slab i ‏العمق الفعال للبلاطة‎ bending moments ‏الممطحة‎
+‎B= Diameterofcircularcofumn Shalt ‏قطر الحمود‎ “b= Breadth of Strip tansferring bendingmoment. SSCL ‏عرض الشريحة الناقلة لعزوم‎
+B= Diameter ofStee crcularcolumm a ‏قطر العمود الدائي‎ “by = PerimeteraterticalSection SSS gl ‏طول محيط‎ ١
+d= Ffectnedepthofwalteross-secion asta ‏الفعال لقطاع‎ Gaal “by = Perimeter oferitical seetionfor punchingshear wad ll ‏محيط القطاع الحرج في القص‎ gh
+
+is Theaesoteamy ‏ال‎ 001022222555392 os of Wag ‏ا‎ Gl yes ‏لو‎ gee Le ‏قل‎
+
+d = Distance from extreme compression fiber to ‏المسافة بين سطح الانضغاط الخارجي دمركز صلب‎ Steel.
+
+0 = Max dimension of fixing plate ‏البعد الأكبر للوح النثبيت‎ the part casted in Site. ‏بالموقع‎
+‎Dy Diameter of the concrete core enclosed by the  ةناكلا ‏قطر قلب القطاع الخرساتي المحصور داخل محور‎ | by = Breadthofeffective Section ofconnecion. SSCS ‏عرض القطاع الفعال‎
+
+centesline of spiral stirrups by = Breadth of web. ‏عرض الحمدب‎
+0 ‏مف‎ = Distance from extreme compression fiber ‏المسافة من الألياف المعرضة لأقصي إجبادات ضغط إلى م‎ ee = Distance from extreme compression fiber 6  ًاطافضتا ‏بعد محور الخمول عن الحاقة الأكثر‎
+centeoid of prestressed reinforcement ‏مركز ثقل صبلب سبق الإجباد‎ neutral axis
+00 ‏م‎ = Nominal value of loads due to lateral pressures or ‏القيمة الاسمية للأحمال الفاشئة عن الضفوط الجائبية أو‎ c= Thicknessofsolidfloorcover SSS ‏غطاء الأرضية‎ Sala
+internal Forces due to them. ‏القوى الداخلية الناشئة عنها‎ C= Coneretecoverforbas eh ‏الفطاء الخرساقي‎
+
+e = Eccentricity of axial load ‏مقدار لامركزية الحمل المحوري‎ edge
+TE ‏2ع‎ Cleardistance between webs ‏المساقة الخالصة بين الأعصاب‎ ١ c= Dimension of rectangulat, or equivalent ‏بعد الحمود المستطيل أو الحمود المستطيل المكاق‎ -
+TE = Modulusofelasticity SSS ‏معامل المروقة‎ rectangular column measured in the direction of ‏مقاساً في اتجاه بحر البلاطات المسطحة التي تحسب لبا‎
+0 ‏الأمركة قووسيقالإجياد 00000000 ملعتي يميم اه رمم حلم‎ the span of flat sfabs for which moments are being ‏عزوم الانحناء‎
+TE = Mindimension ofFixing plate gall ‏لبعد الأصفر للق‎ ee etttermined
+
+بعد قطاع العمود في اتجاه التحليل ‎Dimension of column Section in analysis direction.‏ = 6 معاير المرونة للخرسانة ‎E, = Modulus of elasticity of concrete‏
+يعد قطاع العمودئ الاتجاه المتحامد على اتجاه التحليل  ‎Dimension of column Section in direction‏ = جساءة الاتحناء لمقطع ‎SS‏ الل ل 00
+
+prestress © = Connection depth oe ‏.عمق الوصلة‎
+
+loading balanced = Depth of the part applied ‏م‎ compressive stresses  حيلستلت ‏عمق الجزء المعرض لإجبادات ضغط المقابل‎
+
+0 ‏بيع‎ 2 Minfimitforthe value of eccentricity ofaxiatload 0 ‏الحد الأدنى لمقدار لامركزية الحمل المحوري‎ ١ equivalent to balanced ‘einforcement of the ‏التوازفى للقطاع‎
+ven ‏د‎ Minimumeccenticty, aS ic
+ECP 203/2018 0 ‏تنسخةمخصصةللطلية‎ 00000١ ‏اصفحةرقموم07‎ 8602032018 dla wake 0-0000 ‏اصفحةرقمدم9]‎

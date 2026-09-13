@@ -1,0 +1,31 @@
+{
+‏الملحقالثالثالرموزوالمطحاتٍ الكود المصري لتصميم وتنفيد المفشآت الخرسانية ٠.1.؟ الملحق الثالث-الرموز والمصطلحات‎ YS ‏المنشات الخرسانية‎ alas ‏الكود المصري لتصميم‎
+Su, Skim of ulate bending moments of beams inthe ‏مجموع مقاومة عزوم الاتحلاء القصوى للكمرات ف‎ ٠ ‏ا‎
+‎plane of analysis in the area of beam— column ‏المستوق الذي يتم فيه التحليل عند منطقة اتمبال العمود‎ a
+al on oo <= een: ‏سس عسي 1 قامش‎ MMU Mealy ae ‏تممص مي يي‎
+My = Negative bending moment resistance for section ‏مقاوعة القحتاع لعزوم الاتحناء السالبة‎ 2 = Breadth of the span in the direction perpendicular ‏عرض الباكية في اتجاه عمودي على اتجاه البحر تحت‎
+M’, = €ffective uniaxial design moment about the y-y axis ‏التصميعي خول محور بر‎ pall | Be fale perpendicular ta ‏طول الباكية في الاتجاه المتعامد علي اتجاه التحليل‎
+Ma = Negative moment calculated for one af the two ‏معد م العزم السالب المحسوب لأحدى البلاطتين‎ two paints ‏ف كلهت‎ eames ‏المسافة بين نقطتي الانقلاب‎
+slabs Lae = Average length of the twa spans adjacent 6 the ‏العيود في الاتجاد‎ ile ‏متوسط طول البحرين على‎
+‏ليل‎ = Difference between bending moments at axis ‏ا قيمة الفرق بين عزوم الانسناء عند محور الركيزة وعزوم  كن‎ ‘cing bars at supports o¢ ‏طول‎ ae ‏طول استمرار السيخ يعد محور الركيزة‎
+Support and at Face of Support for Slabs Supported — 3} ‏استمرار السيخ يعد نقطة انعدام العزوم (نقطة | لقا اال د كفك _—— الانحناء عند وجه الركيزة تبلاطات المرتكزة على حوائط‎ .
+‏ع دايز‎ Max. edge bending momentin the column ‏الانحناء المطرف الأكير في العمود‎ aye ‏كما هو معرف يكل اا ل ( 66645 مالعا ييا‎
+“MERC” Bending moments ‏له‎ column endk resuking om ‏عفد طرق‎ GLA ‏إعزوم الاتحداء النائجة من التحليل‎ a ‏ل ال‎ “hated ‏طول‎
+‎structural analysis ‏العمود‎ tq = Hosicontal distance between lateral support and pall ‏المسافة الافقية بين الدعامة الافقية والطرف‎
+RET Eatin value of Bending moment inmember at ‏علد حاب‎ jamal ‏المعرض له‎ atl ‏قيعة أكير حزم‎ a et ‏للحائظ‎
+‎the ‏مومه‎ of computing deftection weil | lp = Average horizontal distance between lateral ‏متوسط المسافة الافقية بين الدهامات الافقية‎
+strip of the Slab Loaded in span direction a to total 2 ‏البحر الخالص للكمرة الل ا ل من البلاطة في أتجاه البعر دا طول البحر‎
+‏مقو‎ | cee ewsy a a
+TRADE pending momentsinSlabeinboth diections caw Qala ‏اا الحزوم الحانية في‎ = Glearspanberweenfacesoisupports Bld ‏بجر الصا يت‎
+column which accounts for the slenderness of nn ‏عبد‎ frames .
+~~ aio af eicaive lengih beaween inflection points Alana ‏لاجمو رع نسبة الطول المعلق بين خطوية الالقلاب فق شرصة‎ CRIES ‏للزلازل ا‎
+of loaded span to total spat length in direction b ‏من البلاطة في اتجاه البحر الي طول البحر ا‎ Sly = Distance having more Suups Sg ‏مسافةتكلف‎
+‎or LRending ‏هتمي‎ Slabsin both dections saan ‏العزوم العانية قالبلاطات في‎ b= Wansferlengthin prestessedeoncrete St
+TRATTL Bending moments Between two adjacent Slabs ia” ‏بلاطتين متجاودتين فقي حالة اختلاف‎ Uw ‏اح الا عزم الاتصال‎ Walllength ett ‏بيه‎
+‎tase of different values of negative bending ‏خط الاتصصال‎ ile ‏ع1 العزم السالية على‎ 2 Shorter Length of Span measured Fram Colusins ‏الطول الأقصر للباكية مقاسا من محاور الأعمدة‎
+moments on two Sides of contact line we eee eee ene nnn ence
+“My 2 Edge bending moment in bears 06 1086 frowned apoall ‏الحاتي الطري للكمرة التي تكون اطارا مع‎ pall EM, = Sum of utimate bending moremis of columns ing ‏مجموع مقاومة عزوم الاتحناء القصبوى للأعمدة‎
+connection with exterior column assuming the plane of analysis in the area of beam — colume seat ‏المستوى الذي يتم فيه التحثيل عتد منطئة اتصال‎
+bear to be totally fixed at both ends ee i: ee ‏بالكمرة ل‎
+ECP 203/2018 ‏م31-1 تسخة مخصصة للطلية‎ by ‏صبفحة‎ ECP 203/2018 ‏ة للطلبة‎ sed SE Vict p iady ‏صبفحة‎
+‎5

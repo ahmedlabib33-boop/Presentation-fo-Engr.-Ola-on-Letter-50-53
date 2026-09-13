@@ -1,0 +1,712 @@
+
+
+===== PDF PAGE 1 =====
+
+Copyright 2009 AACE, Inc.                                                          AACE International Recommended Practices  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AACE International Recommended Practice No. 38R-06 
+ 
+DOCUMENTING THE SCHEDULE BASIS  
+TCM Framework: 7.2 – Schedule Planning and Development 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Acknowledgments:
+ 
+Edward E. Douglas, III CCC PSP (Author) 
+Rodney B. Adams, CCE 
+Zia Akhtar 
+Thilak M. Bandara 
+Peter R. Bredehoeft, Jr. CEP 
+John P. Buziak, PE 
+Timothy T. Calvey, PE PSP 
+Dr. Tadashi Eguchi 
+Douglas A. Findley, CCC PSP 
+Dennis Read Hanks, PE CCE 
+Sanjay Kelkar 
+Joseph O. Kikiowo 
+Yingsheng Li 
+Gregory N. McDowell, CCC 
+Bill Mendelsohn, EVP 
+Steven S. Pinnell, PE 
+Amit Sarkar  
+Hannah E. Schumacher, PSP 
+H. Lance Stephenson, CCC 
+Donald F. Sulzer 
+Manan N. Vakil, CCE EVP PSP 
+Ronald M. Winter, PSP
+
+===== PDF PAGE 2 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+AACE International Recommended Practice No. 38R-06 
+DOCUMENTING THE SCHEDULE BASIS 
+TCM Framework: 7.2 – Schedule Planning and Development 
+ 
+June 18, 2009
+INTRODUCTION 
+ 
+Scope 
+ 
+This recommended practice (RP) provides an outline and describes a format for the various elements of 
+information that may be included in the schedule basis document. This RP describes the important 
+elements of schedule information that may be included to document the basis and assumptions of this 
+project management tool. This recommended practice includes a checklist in the appendix that can be 
+used to confirm that all elements of the basis document have been considered. 
+ 
+The schedule basis is a document that defines the basis for the development of the project schedule and 
+assists the project team and stakeholders in identifying any key elements, issues and special 
+considerations (assumptions, exclusions, risks/ opportunities, etc.). The project schedule represents the 
+complete logical time-phased representation of the project plan. The schedule basis document may 
+accompany the submittal of the project baseline schedule. 
+ 
+The schedule basis further substantiates the confidence and degree of completeness of the project 
+schedule in order to support change management, reconciliation, and analysis. This document also 
+doubles as a tool for assisting any personnel who are transitioning into the project and may be used in 
+claims situations to illustrate a change of scope. 
+ 
+ 
+Purpose 
+ 
+This AACE International recommended practice is intended to provide a guideline, not to establish a 
+standard for documenting the schedule basis for the planning of projects. This recommended practice is 
+written and intended primarily for use on construction projects by the project team members and 
+stakeholders involved in the planning and scheduling of the project work activities. These RP guidelines 
+may be applicable to many other types of projects. The focus of this recommended practice is on 
+documenting the necessary elements of the schedule basis.  
+ 
+Many project individuals and groups contribute to the planning and development of the project schedule. 
+By documenting the schedule basis, the project team captures the coordinated project schedule 
+development process, which is by nature unique for most construction projects. This improves the final 
+quality and adds value to the project baseline schedule, which serves as the time management navigation 
+tool to guide the project team toward successful project completion. The schedule basis also is an 
+important document used to identify changes during the schedule change management process. 
+ 
+ 
+Background 
+ 
+The requirement to document the basis of the schedule has been an established procedure for several 
+years with many large corporations, and some federal agencies
+[4]. This recommended practice describes 
+the important elements of schedule information that may be included to document the basis and 
+assumptions of this project management tool.
+
+===== PDF PAGE 3 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Documenting the Schedule Basis 
+ 
+June 18, 2009
+2 of 11
+ 
+RECOMMENDED PRACTICE 
+ 
+Documentation of the schedule basis is an important step in reaching the objective for successful use of 
+the project schedule. Describing the various elements of information in the schedule basis document will 
+provide a better understanding of what is or is not included and what is specifically excluded in the project 
+schedule. A structured approach to that schedule documentation will eliminate much of that uncertainty 
+and provide a clearer understanding of the schedule.  
+ 
+Documenting the basis of the cost estimate (BOE) is a generally accepted practice. That estimate basis is 
+frequently used as a reference related to change management as the project moves forward. Many 
+projects however, have invested less effort or have been less interested in documenting the basis of the 
+project schedule for a variety of reasons. The lack of schedule documentation makes it difficult for the 
+project participants to fully understand the overall planning that was incorporated in the project’s 
+schedule, which can have serious adverse effects on the ultimate success or failure of the project to 
+achieve completion in the time forecast in that baseline schedule. Therefore, the basis of that planning 
+process should be documented, as the project schedule is prepared. The schedule basis is not a "one 
+size fits all" document. Using a graded approach for small projects is recommended. Preparation of the 
+schedule basis document should begin concurrently with the first summary version of the project schedule 
+and evolve into further detail as the schedule is developed.  The schedule basis should be a life cycle 
+document relating to the baseline schedule and both should be referenced and updated as the project 
+progresses in accordance with the project change management process. Preparation and maintenance of 
+the schedule basis document is the responsibility of the project entity responsible for preparing and 
+maintaining the project schedule. The basis for the project schedule may be organized in an outline 
+similar to a cost estimate basis outline. The schedule basis document describes essential elements of 
+information such as these listed below: 
+ 
+• Project Description, Schedule Integration Process 
+ Scope of Work (WBS, OBS) 
+ Execution Strategy 
+ Key Project Dates 
+ Planning Basis 
+ Cost Basis 
+ Critical Path 
+ Path of Execution 
+ Punchlist, Turnover, and System Startup 
+ Issues and Concerns 
+ Risks and Opportunities 
+ Assumptions 
+ Exclusions 
+ Exceptions 
+ Baseline Changes/Reconciliation 
+ Schedule Reserve 
+ Project Buy-In 
+ 
+ 
+INFORMATION SOURCES – SCHEDULE BASIS 
+ 
+Project Description, Schedule Integration Process 
+ 
+This section of the schedule basis may briefly and concisely provide a high-level description of the 
+project. Since this document provides the basis for the development of the schedule, it may also describe 
+the process and personnel involved in the development of the project schedule. The phase of the project 
+(i.e. conceptual, design, procurement, execution, or startup) should also be included in this section of the 
+basis, so that there is an early understanding of the overall completeness of the project design and
+
+===== PDF PAGE 4 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Documenting the Schedule Basis 
+ 
+June 18, 2009
+3 of 11
+procurement information can be determined. The schedule basis document should be updated 
+periodically as the project development progresses as well as when there are any major changes of 
+scope or performance requirements for the project. A checklist may be attached to indicate the available 
+project information (and the degree of completeness). This provides the reader with an understanding of 
+the completeness of the information used during schedule development. The schedule integration 
+process would also describe the inclusion of schedule input from subcontractors, design engineers, 
+vendors, third-parties (such as government agencies and utility companies) and the owner. The project 
+schedule should include the input of engineering, procurements, owner furnished fixtures and equipment, 
+work by other contractors, as well as the start up and commissioning “by others”. The basis may describe 
+those as schedule “linkage points” if that work is scheduled separately and not included in the scope of 
+the schedule. 
+ 
+ 
+Scope of Work 
+ 
+The scope of work (what it includes, as well as what it excludes) may be documented and attached as a 
+supporting document to the schedule basis. The work breakdown structure (WBS) defined in the planning 
+stage would be included in this section of the basis. The WBS may identify all the work to be executed as 
+per the contract. Also, this section may include the organizational breakdown structure (OBS) and the 
+division of responsibility (DOR) or responsibility assignment matrix (RAM) so that the schedule can clearly 
+and concisely represent the responsible parties to their appropriate scope items. Including this DOR 
+listing will help eliminate omissions to the project scope as well as minimize redundancy or overlap of 
+responsibilities of project team personnel and contractors. The level of design completion should be 
+identified in the schedule basis document. The schedule basis includes all of the important project 
+conditions, and potential issues or impacts to the project. Risks and schedule contingencies are 
+discussed in detail later in the schedule basis. 
+ 
+ 
+Execution Strategy 
+ 
+The execution strategy may describe and identify these items. 
+1. Briefly describe the type of work (new project, addi tion or expansion, revamp, renovation, relocation). 
+2. Briefly describe the execution st rategy, specifically whether the project is considered one of the 
+following: 
+a. Standard or phased execution (standard workweek, spot overtime, non-shutdown) 
+b. An aggressive execution approach (non-standard workweek, high overtime) 
+c. Options to accelerate the schedule and constructability issues (reference checklist in Appendix A) 
+d. Fast-track approach (engineering incomplete or phased design/procurement at the start of 
+construction plus aggressive execution). 
+e. Shut-down (planned shut-down/outage period s, non-standard workweek, high overtime). 
+3. Briefly describe the contracting strategy: 
+a. Self perform, prime contractor, multip le contracts, alliance, joint venture. 
+4. Briefly describe the procurement strategy. 
+5. Briefly describe the contract type: 
+a. Lump sum, fixed price, cost plus, unit pric e, guaranteed maximum price (GMP), design build, 
+public-private partnership (PPP), 3
+rd party CM, etc. 
+b. The contract performance period as defined by t he contract documents. (I.e.: from the “notice to 
+proceed” (NTP) date to the contract completion date, or commencement date to contract 
+completion date.) 
+c. The project contracting strat egy may be included to describe the various means and methods of 
+completing the project. 
+6. Identify the cash flow profile (availability of funds ) for the project. Note that this information may be 
+privileged or confidential and not included in the basis document.
+
+===== PDF PAGE 5 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Documenting the Schedule Basis 
+ 
+June 18, 2009
+4 of 11
+7. Optionally identify the average and peak resource  demand for the project, as well as the average and 
+peak performance progress that the project can attain. This information is especially important in 
+situations where resources are constrained or especially limited in availability. 
+ 
+ 
+Key Project Dates 
+ 
+Describe the key milestone dates, such as the project start and completion dates, 
+regulatory/environmental key dates, and key interface dates. If the schedule is prepared as a re-baseline, 
+then a key project dates’ report identifying any significant variances between any previously “approved” 
+schedules and the current schedule needs to be prepared and attached. Also, this section may identify 
+the statutory holidays to be recognized, planned turn-around/shut-down dates, holiday breaks, local 
+weather impacts and anticipated lost productivity time periods, and extended workweek time periods. 
+ 
+In addition, key procurement milestones/activities may be identified and described in the schedule basis. 
+The source of time frames must also be explained for the procurement bid, award, fabrication, and 
+delivery activities. Key submittals (such as permitting applications) should be included in the project 
+schedule and described in the schedule basis – particularly those that can impact the time of performance 
+on the project. Those scheduled submittal activities should include adequate time to develop and submit 
+the shop drawings, significant material samples, mock-ups, as well as review/approval time frames for the 
+architect/engineers and owner, along with planned time for construction.  
+ 
+Safety and quality are both important to the project and if there are key project quality control “hold points” 
+and/or inspections, these key scheduled events need to be visible and described in the basis for the 
+schedule. 
+ 
+ 
+Planning Basis 
+ 
+The planning basis describes the methods and sources used for determining the project schedule, 
+including: 
+ 
+ Identify resource planning methodology, crew size /mix expectations, etc. and capacity planning 
+(maximum resources allotted). The resource plan may include a travel/housing plan, as well as an 
+understanding of local hire vs. travel cards. 
+ Activity identification, duration estimating: defi nes methodology use to establish activity durations, 
+which may include information on planned crew mixes or crew sizes. 
+ Identify the project calendars, shift calendars, crew calendars and weather calendars (if any) for the 
+project. 
+ Identify storage facilities, lay-down ar eas, staging areas and their planned usage. 
+ Identify the cost estimate version and issue date, funding sources and cash flow profiles. 
+ Identify source and methodology fo r determining logic and sequencing. 
+ Identify labor productivity adjustments, includ ing protective equipment, congestion (or confined 
+space) assessment, extended work hours, and local weather work limitations. 
+ Identify construction equipment utilization plan. 
+ Identify interfaces with the existing plant and facilities in “brown field” development 
+ Document sources of planned production rates. 
+ Identify equipment, modular, fabrication, v endor shop inspections, and bulk delivery 
+methodologies/strategies, long lead procurements. This includes timing issues such as planning for 
+as late as possible deliveries. 
+ Identify any planned technology implementation (such as building information modeling (BIM)). 
+ Identify basis for any contractor schedules included.  Include subcontractor interfaces/limits of work. 
+ Identify basis for start-up and comm issioning sequencing requirements.  
+ Identify owner requirements (regulat ory, environmental, LEED certification, other quality/inspection 
+requirements).
+
+===== PDF PAGE 6 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Documenting the Schedule Basis 
+ 
+June 18, 2009
+5 of 11
+Critical Path 
+ 
+The purpose of completing this portion of the document is to inform the project team as well as others of 
+the current critical path(s) and near-critical paths of the project. Note: depending on the required level of 
+detail, the complexity of the project, and the geographical size of the project, you may have more than 
+one critical path. 
+ 
+The amount of detail required to describe the critical path is up to the discretion of the project team. 
+However, it should provide enough detail so that all project participants can focus on the areas that could 
+potentially affect the outcome of the project. The critical path described here need not be a detailed CPM 
+of the schedule, but rather a higher level of description. A detailed CPM critical path schedule and near 
+critical activities list may be attached to the schedule basis document. 
+ 
+ 
+Path of Execution 
+ 
+Briefly describe the high level execution sequencing of the project, and the “area” paths of execution 
+(routing of people and equipment while on the site or premises). This will assist the project team in 
+determining the prioritization or postponement of modules and installation of equipment to allow 
+equipment and resources to be used more efficiently and effectively. 
+ 
+ 
+Punchlist, Turnover & System Startup 
+ 
+Punchlist, turnover, commissioning and system startup activities require a realistic basis for inclusion in 
+the schedule, especially when such sequences involve lengthy, complicated, or technically demanding 
+actions. If this work will be performed “by others” (such as an independent agency), then an explanation 
+about when coordination will be completed and the details incorporated into the project schedule.  
+ 
+System functional testing: such as HVAC balancing, life safety and fire alarm/fire suppression system 
+tests, plumbing hydrostatic or pressure tests, mechanical or electrical equipment preliminary operations, 
+and any other scheduled or required “pre-commissioning” work needs to be described in the schedule 
+basis. 
+ 
+ 
+Issues & Concerns 
+ 
+A number of issues and concerns will surface during the development of the schedule. The purpose of 
+this section is to identify any issues or concerns that could not be resolved prior to the approval of the 
+schedule, or the turnover of the schedule to the implementation team, etc. 
+ 
+An issues and concern log identifying open as well as closed items may be provided to the project team 
+for review. Data listed here may be legally or politically sensitive and must be vetted to insure accuracy 
+and appropriateness.  
+ 
+ 
+Risks & Opportunities 
+ 
+The risks and opportunities section is often used to provide an understanding of the critical risks that may 
+occur during the execution of the project. The items presented here may indicate the magnitude (impact) 
+and the probability of occurrence. A qualitative risk assessment may be completed and all risks may be 
+identified on the risk event log. Please note: any risk events that have a high probability (80%+) of 
+occurring (and a medium to low impact to the project) are sometimes managed as if the event will happen 
+and therefore, the management team may apply the appropriate schedule reserves and buffers 
+necessary for controlling the activities and the overall project.
+
+===== PDF PAGE 7 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Documenting the Schedule Basis 
+ 
+June 18, 2009
+6 of 11
+ 
+A quantitative risk assessment may be completed in order to identify the appropriate schedule reserve to 
+ensure successful project completion. The project team may determine the optimistic, pessimistic and 
+most likely durations for the activities in order to calculate the expected durations. This process identifies 
+what the project team may expect in regards to activity durations. 
+ 
+The basis of the schedule may include an explanation about how any potential schedule impacts have 
+been “addressed” in the project schedule: weather; labor strikes or shortages, procurement delivery 
+delays, etc. The schedule risk basis may address those potential risk issues and explain how or if there is 
+any related “schedule contingency” factored into the schedule. Finally, the schedule basis may also 
+describe how the schedule has been evaluated in relation to the cost estimate using a “time versus cost” 
+analysis in addressing the potential for schedule risks and impacts. 
+ 
+ 
+Assumptions 
+ 
+Briefly describe the assumptions used while developing the schedule. Assumptions identify the 
+parameters and conditions used for determining the outcome (project start to completion dates) of the 
+project schedule. 
+ 
+Some examples of assumptions are: fabrication shops will complete the required work as per our 
+priorities and timing, the required craft is available, the project will not require any overtime, all project 
+funding is available at project start, etc. 
+ 
+ 
+Exclusions 
+ 
+Describe items that have not been included and ther efore not supported during the development of the 
+schedule. Some examples or exclusions might be: 
+ 
+ Specialty contractors/resources. 
+ Sharing of equipment (such as cranes, excavators,  etc.). 
+ 
+ 
+Exceptions 
+ 
+The exception section may identify any significant deviations from standard operating practices for 
+developing schedules, including the planning process, reviews and acceptance of the project schedule. 
+Any deliverables identified on the schedule input checklist (in Appendix A) not provided or that did not 
+meet the degree of completeness necessary for the proper development of the schedule may be 
+identified as an exception. If there are any deviations or exceptions from that scheduling specification, 
+describe that variation and submit a request for approval to the project owner. 
+ 
+ 
+Baseline Changes, Reconciliation 
+ 
+This baseline reconciliation section should be completed when the baseline has changed or if/when a 
+more detailed schedule has been developed. This provides a better understanding as to why the 
+schedule has changed from its original or the previously baseline schedule. If there has been a change to 
+the schedule and a recovery plan or a reconciliation effort has been completed, describe the events 
+pertaining to the mitigation of the contributing factors to the delay or acceleration.
+
+===== PDF PAGE 8 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Documenting the Schedule Basis 
+ 
+June 18, 2009
+7 of 11
+Schedule Reserve 
+ 
+Based on the completed schedule risk assessment (see “risks and opportunities” above) and the 
+assessment of the expected completion dates, the project team can then determine the required schedule 
+reserve for the successful completion of the project. Schedule reserve (or contingency) can be expressed 
+either as a number of days or the money required to mitigate the identified risk. Provide a table or 
+schedule as an attachment to the schedule basis, identifying what activity or event has schedule reserve, 
+and the value applied. 
+ 
+ 
+Project Buy-In 
+ 
+Because the schedule basis is such an important document, it likely will not be the creation of just one 
+individual, such as the project scheduler. The project management team including craft superintendents, 
+key subcontractors and technical specialists (i.e. rigging and safety) should be involved in the preparation 
+and review of the schedule basis document. The basis document may not be considered to be a valid 
+description of the project schedule unless it has been approved by the appropriate members of the 
+project management team. Incorrect or faulty information contained in this document may later be 
+detrimental to support a fair resolution of disputes or interpretation of contract documents. 
+ 
+ 
+A Graded Approach  
+ 
+Smaller projects may use a graded approach to development of the basis document. A graded approach 
+would apply a fit-for-use abbreviated version of the full basis table of contents. However, it must still cover 
+all the key basis items. An example of a graded or abbreviated table of contents is as follows: 
+ 
+ Scope of work 
+ Work breakdown structure 
+ Key assumptions and constraints 
+ Issues and impacts (risk) 
+ Inclusions and specific exclusions 
+ Schedule change order process   
+ Integration & progress reporting process 
+ Key procurements and submittals   
+ 
+ 
+SCHEDULING TECHNIQUES AND SOFTWARE 
+ 
+The basis of the schedule should also cover special issues related to the scheduling software and 
+techniques utilized to develop the schedule. Each type and version of scheduling software offers 
+different and changing features and limitations. Contract scheduling specifications may require a 
+specific type of software or require or regulate use of specific software features.  
+ 
+Contractual issues such as scheduling software compatibility may dictate a sub-optimal process. Other 
+issues regulating the basis of the schedule include: 
+ 
+ The use of logical relationships (some software only allows a single relationship between any two 
+activities). 
+ Inter-project dependencies. 
+ Lags and leads. 
+ Constraints. 
+ Multiple calendars established for pr oject holidays and non-work periods. 
+ Resource loading. 
+ Resource leveling.
+
+===== PDF PAGE 9 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Documenting the Schedule Basis 
+ 
+June 18, 2009
+8 of 11
+ CPM software rules settings. 
+ Interface with cost control system 
+ 
+The schedule basis may include the activity coding dictionary used in the schedule to provide for 
+sorting, organization, and filtering capabilities for the various schedule report layouts. 
+  
+The schedule basis may describe any use of “preferential logic” which is defined by AACE as “the 
+contractor’s approach to sequencing the work over and above those sequences indicated in or required 
+by the contract documents. Examples include equipment delivery/setup restraints, crew movements, 
+concrete form reuse, special logic (lead/lag) restraints, etc. that are factored into the schedule which 
+would mask the associated activity float times.”
+[12] 
+ 
+Ownership and use of schedule float is a significant concern that may be clarified by the contract and 
+based upon the project requirements. Any scheduling software technique used for handling project 
+planning assumptions and constraints (such as funding limitations) may also be described. It is important 
+to insure that all of the requirements from the contract schedule specifications are incorporated in the 
+baseline project schedule. If there are any deviations or exceptions from that scheduling specification, 
+describe that variation and submit a request for approval to the project owner. 
+ 
+ 
+CONTRIBUTORS 
+ 
+Edward E. Douglas, III CCC PSP (Author) 
+Rodney B. Adams, CCE 
+Zia Akhtar 
+Thilak M. Bandara 
+Peter R. Bredehoeft, Jr. CEP 
+John P. Buziak, PE 
+Timothy T. Calvey, PE PSP 
+Dr. Tadashi Eguchi 
+Douglas A. Findley, CCC PSP 
+Dennis Read Hanks, PE CCE 
+Sanjay Kelkar 
+Joseph O. Kikiowo 
+Yingsheng Li 
+Gregory N. McDowell, CCC 
+Bill Mendelsohn, EVP 
+Steven S. Pinnell, PE 
+Amit Sarkar  
+Hannah E. Schumacher, PSP 
+H. Lance Stephenson, CCC 
+Donald F. Sulzer 
+Manan N. Vakil, CCE EVP PSP 
+Ronald M. Winter, PSP 
+ 
+ 
+REFERENCES 
+ 
+1. AACE International, Recommended Practice No. 14R-90, Responsibility and Required Skills for a Project 
+Planning and Scheduling Professional, AACE International, Morgantown, WV, (latest revision). 
+2. Baker, S. and K. Baker. On Time/On Budget: A Step-By-Step Guide for Managing Any Project, 
+Prentice Hall, New Jersey, 1992. 
+3. Bechtel Corporate Procedure #302, Revision B, Houston Regional Office, November 4, 1991. 
+4. Douglas, Edward E., CCC PSP. Documenting the Schedule Basis, AACE International Transactions, 
+AACE International, Morgantown, WV, 2005.
+
+===== PDF PAGE 10 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Documenting the Schedule Basis 
+ 
+June 18, 2009
+9 of 11
+5. H. Lance Stephenson, CCC, Scheduling Management: Schedule Basis Memorandum, AACE 
+International Transactions, Morgantown, WV, 2007. 
+6. Gerwick, Ben C. Jr., Constructability Planning, a methodology for improving performance in 
+Construction, University of California, Berkley. 
+7. Hendrickson, Chris, Project Management for Construction, Carnegie Mellon University, Pittsburgh, 
+PA, 1998, Version 2.1 prepared for World Wide Web publication Summer, 2003. 
+http://www.ce.cmu.edu/pmbook, Online, September 2003. 
+8. Knutson, Joan & Bitz, Ira, Project Management, AMACOM, New York, 1991. 
+9. Lewis, James P., Fundamentals of Project Management, Second Edition, AMACOM, NY , 2002. 
+10. Pinnell, Steven S., How to Get Paid for Construction Changes, McGraw-Hill, New York, NY, 1998. 
+11. Project Management Framework, Assumptions and Constraints, Washington State Department of 
+Information Services, prepared for World Wide Web publication 2003. 
+http://www..dis.wa.gov/pmframework, Online, September 2004. 
+12. AACE International Recommended Practice 10S-90, Cost Engineering Terminology, AACE 
+International, Morgantown, WV, (latest revision). 
+13. Hollmann, John K., Editor, Total Cost Management Framework: An Integrated Approach to Portfolio, 
+Program and Project Management, AACE International, Morgantown, WV, 2006.
+
+===== PDF PAGE 11 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Documenting the Schedule Basis 
+ 
+June 18, 2009
+10 of 11
+ 
+APPENDIX A: FORMAT FOR THE BASIS OF THE SCHEDULE 
+ 
+I. Project introduction: project title, cont ract number, date of contract documentation 
+ 
+II. Project description, schedule integration process 
+a. Introduction and description of the project 
+b. Schedule integration process 
+i. Integration of engineering, procurement deliv eries, owner furnished fixtures or equipment, 
+or commissioning “by others” 
+ii. Integration and coordination with subcontractors 
+iii. Master project schedule – resp onsibility of owner, GC, or CM 
+c.  Schedule development checklist 
+ 
+III. Scope of work. Includes: 
+a. Work breakdown structure 
+b. Organizational breakdown structure  
+i. Project team & stakeholders 
+c. Division of responsibility 
+d. Regulatory permits and licensing 
+e. Scope exclusions and inclusions  
+ 
+IV. Execution strategy 
+a. Define project type 
+b. Funding (identify the funding source and cash flow profiles) 
+c. Contracting strategy 
+d. Procurement strategy  
+e. Constructability issues 
+i. Resource demand 
+ii. Logistics 
+f. Total number of calendar days: from start date to end date 
+g. Contract performance periods  
+h. Acceleration – options to improve schedule 
+ 
+V. Key project milestones and key events 
+a. Key interface dates 
+b. Winter productivity dates, summer extended workweek dates 
+c. Source of time frames for bids , award, fabrication, and delivery 
+d. Basis of time frames for shop drawings, review and approval  
+e. Key material samples and submittals 
+f. Mock-ups–construct/erec t, review and approval dates 
+g. Safety and quality: hold points and key inspection dates 
+ 
+VI. Planning basis 
+a. Resource planning methodology, crew size expectations and capacity planning 
+i. Travel & housing plan, as well as an under standing of local hire vs. travel cards. 
+b. Activity identification, duration estimating: def ine methodology for establishing activity durations, 
+which may include crew mixes, crew sizes 
+c. Project calendars, shift calendars, and crew calendars 
+d. Storage facilities, lay-down areas, staging areas usage plan 
+e. Logic and sequencing methodology 
+f. Labor productivity adjustm ents & congestion assessment 
+i. Extended work hours, winter work  
+ii. Document all production rates 
+g. Equipment utilization plan
+
+===== PDF PAGE 12 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Documenting the Schedule Basis 
+ 
+June 18, 2009
+11 of 11
+h. Equipment, modular, fabrication and bulk delivery methodologies/strategies 
+i. Basis for contractor schedules  
+j. Start-up and sequencing requirements  
+k. Owner requirements (regulatory, environ mental, quality/inspection requirements) 
+ 
+VII. Critical path(s) 
+a. Description (written) of critical path(s) 
+ 
+VIII. Path of Execution 
+a. Description of “execution sequencing” 
+i. Execution priorities list 
+b. Path of Execution 
+i. Identifies access restrictions 
+ 
+IX. Punchlist/turn-over/system start-up  
+a. Testing and functional checkout: mechanical, electrical, plumbing, pre-commissioning 
+ 
+X. Issues and concerns list/log  
+ 
+XI. Risk and opportunities 
+a. Qualitative risk assessment 
+i. Risk event log 
+b. Quantitative risk assessment 
+i. Schedule risk assessment  
+1. Probability report 
+c.  “Time versus cost” comparison with budget 
+ 
+XII. Assumptions report 
+ 
+XIII. Exclusions report 
+ 
+XIV. Exceptions report 
+ 
+XV. Baseline changes/reconciliation 
+a. Baseline change (not a recovery pl an, used for stage/gate processes) 
+b. Reconciliation between master and contractor schedules 
+ 
+XVI. Schedule reserve 
+a. Schedule “confidence” report 
+b. Application of schedule rese rve (for scheduled activities) 
+c. Schedule identifying activities with schedule reserve 
+ 
+XVII. Scheduling techniques and software 
+a. Software compatibility with other project control systems 
+b. Logical relationships 
+c. Leads/lags 
+d. Constraints used 
+e. Multiple calendars used 
+f. Activity coding st ructure/dictionary 
+g. Float usage 
+h. Preferential logic 
+i. Compliance with contract  scheduling specifications

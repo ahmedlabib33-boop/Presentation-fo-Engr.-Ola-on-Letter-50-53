@@ -1,0 +1,82 @@
+Source: U.S. Occupational Safety and Health Administration (OSHA)
+URL: https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.703
+Standard Number: 1926.703
+Title: Requirements for cast-in-place concrete.
+Part Number: 1926 - Safety and Health Regulations for Construction
+Subpart: 1926 Subpart Q - Concrete and Masonry Construction
+GPO Source: e-CFR
+Fetched: verbatim text, retrieved via browser from the live OSHA page.
+
+1926.703(a) General requirements for formwork.
+
+1926.703(a)(1) Formwork shall be designed, fabricated, erected, supported, braced and maintained so that it will be capable of supporting without failure all vertical and lateral loads that may reasonably be anticipated to be applied to the formwork. Formwork which is designed, fabricated, erected, supported, braced and maintained in conformance with the appendix to this section will be deemed to meet the requirements of this paragraph.
+
+1926.703(a)(2) Drawings or plans, including all revisions, for the jack layout, formwork (including shoring equipment), working decks, and scaffolds, shall be available at the jobsite.
+
+1926.703(b) Shoring and reshoring.
+
+1926.703(b)(1) All shoring equipment (including equipment used in reshoring operations) shall be inspected prior to erection to determine that the equipment meets the requirements specified in the formwork drawings.
+
+1926.703(b)(2) Shoring equipment found to be damaged such that its strength is reduced to less than that required by Sec. 1926.703(a)(1) shall not be used for shoring.
+
+1926.703(b)(3) Erected shoring equipment shall be inspected immediately prior to, during, and immediately after concrete placement.
+
+1926.703(b)(4) Shoring equipment that is found to be damaged or weakened after erection, such that its strength is reduced to less than that required by Sec. 1926.703(a)(1), shall be immediately reinforced.
+
+1926.703(b)(5) The sills for shoring shall be sound, rigid, and capable of carrying the maximum intended load.
+
+1926.703(b)(6) All base plates, shore heads, extension devices, and adjustment screws shall be in firm contact, and secured when necessary, with the foundation and the form.
+
+1926.703(b)(7) Eccentric loads on shore heads and similar members shall be prohibited unless these members have been designed for such loading.
+
+1926.703(b)(8) Whenever single post shores are used one on top of another (tiered), the employer shall comply with the following specific requirements in addition to the general requirements for formwork:
+
+1926.703(b)(8)(i) The design of the shoring shall be prepared by a qualified designer and the erected shoring shall be inspected by an engineer qualified in structural design.
+
+1926.703(b)(8)(ii) The single post shores shall be vertically aligned.
+
+1926.703(b)(8)(iii) The single post shores shall be spliced to prevent misalignment.
+
+1926.703(b)(8)(iv) The single post shores shall be adequately braced in two mutually perpendicular directions at the splice level. Each tier shall also be diagonally braced in the same two directions.
+
+1926.703(b)(9) Adjustment of single post shores to raise formwork shall not be made after the placement of concrete.
+
+1926.703(b)(10) Reshoring shall be erected, as the original forms and shores are removed, whenever the concrete is required to support loads in excess of its capacity.
+
+1926.703(c) Vertical slip forms.
+
+1926.703(c)(1) The steel rods or pipes on which jacks climb or by which the forms are lifted shall be:
+
+1926.703(c)(1)(i) Specifically designed for that purpose; and
+
+1926.703(c)(1)(ii) Adequately braced where not encased in concrete.
+
+1926.703(c)(2) Forms shall be designed to prevent excessive distortion of the structure during the jacking operation.
+
+1926.703(c)(3) All vertical slip forms shall be provided with scaffolds or work platforms where employees are required to work or pass.
+
+1926.703(c)(4) Jacks and vertical supports shall be positioned in such a manner that the loads do not exceed the rated capacity of the jacks.
+
+1926.703(c)(5) The jacks or other lifting devices shall be provided with mechanical dogs or other automatic holding devices to support the slip forms whenever failure of the power supply or lifting mechanism occurs.
+
+1926.703(c)(6) The form structure shall be maintained within all design tolerances specified for plumbness during the jacking operation.
+
+1926.703(c)(7) The predetermined safe rate of lift shall not be exceeded.
+
+1926.703(d) Reinforcing steel.
+
+1926.703(d)(1) Reinforcing steel for walls, piers, columns, and similar vertical structures shall be adequately supported to prevent overturning and to prevent collapse.
+
+1926.703(d)(2) Employers shall take measures to prevent unrolled wire mesh from recoiling. Such measures may include, but are not limited to, securing each end of the roll or turning over the roll.
+
+1926.703(e) Removal of formwork.
+
+1926.703(e)(1) Forms and shores (except those used for slabs on grade and slip forms) shall not be removed until the employer determines that the concrete has gained sufficient strength to support its weight and superimposed loads. Such determination shall be based on compliance with one of the following:
+
+1926.703(e)(1)(i) The plans and specifications stipulate conditions for removal of forms and shores, and such conditions have been followed, or
+
+1926.703(e)(1)(ii) The concrete has been properly tested with an appropriate ASTM standard test method designed to indicate the concrete compressive strength, and the test results indicate that the concrete has gained sufficient strength to support its weight and superimposed loads.
+
+1926.703(e)(2) Reshoring shall not be removed until the concrete being supported has attained adequate strength to support its weight and all loads in place upon it.
+
+[61 FR 5507, Feb. 13, 1996]

@@ -1,0 +1,397 @@
+
+
+===== PDF PAGE 1 =====
+
+Guide for Shoring/
+Reshoring of Concrete 
+Multistory Buildings
+Reported by ACI Committee 347
+ACI 347.2R-17
+
+===== PDF PAGE 2 =====
+
+First Printing
+January 2017
+ISBN: 978-1-945487-51-4
+Guide for Shoring/Reshoring of Concrete Multistory Buildings
+Copyright by the American Concrete Institute, Farmington Hills, MI. All rights reserved. This material 
+may not be reproduced or copied, in whole or part, in any printed, mechanical, electronic, film, or other 
+distribution and storage media, without the written consent of ACI.
+The technical committees responsible for ACI committee reports and standards strive to avoid 
+ambiguities, omissions, and errors in these documents. In spite of these efforts, the users of ACI 
+documents occasionally find information or requirements that may be subject to more than one 
+interpretation or may be incomplete or incorrect. Users who have suggestions for the improvement of 
+ACI documents are requested to contact ACI via the errata website at http://concrete.org/Publications/
+DocumentErrata.aspx. Proper use of this document includes periodically checking for errata for the most 
+up-to-date revisions.
+ACI committee documents are intended for the use of individuals who are competent to evaluate the 
+significance and limitations of its content and recommendations and who will accept responsibility for 
+the application of the material it contains. Individuals who use this publication in any way assume all 
+risk and accept total responsibility for the application and use of this information.
+All information in this publication is provided “as is” without warranty of any kind, either express or 
+implied, including but not limited to, the implied warranties of merchantability, fitness for a particular 
+purpose or non-infringement.
+ACI and its members disclaim liability for damages of any kind, including any special, indirect, incidental, 
+or consequential damages, including without limitation, lost revenues or lost profits, which may result 
+from the use of this publication.
+It is the responsibility of the user of this document to establish health and safety practices appropriate 
+to the specific circumstances involved with its use. ACI does not make any representations with regard 
+to health and safety issues and the use of this document. The user must determine the applicability of 
+all regulatory limitations before applying the document and must comply with all applicable laws and 
+regulations, including but not limited to, United States Occupational Safety and Health Administration 
+(OSHA) health and safety standards.
+Participation by governmental representatives in the work of the American Concrete Institute and in 
+the development of Institute standards does not constitute governmental endorsement of ACI or the 
+standards that it develops.
+Order information: ACI documents are available in print, by download, on CD-ROM, through electronic 
+subscription, or reprint and may be obtained by contacting ACI.
+Most ACI standards and committee reports are gathered together in the annually revised ACI Manual of 
+Concrete Practice (MCP).
+American Concrete Institute
+38800 Country Club Drive
+Farmington Hills, MI 48331
+Phone: +1.248.848.3700
+Fax: +1.248.848.3701
+www.concrete.org
+
+===== PDF PAGE 3 =====
+
+This guide presents information and design criteria for shoring/
+reshoring operations during the construction of reinforced and 
+post-tensioned multistory buildings. Methods for developing safe 
+construction practices, including sequencing and timing, as well as 
+design examples, are provided. It is written for the use of formwork 
+engineer/contractors and engineer/architects.
+Keywords: construction loads; falsework; form removal; formwork; post-
+tensioning; reshoring; shoring.
+CONTENTS
+CHAPTER 1—INTRODUCTION, p. 2
+1.2—Scope, p. 2
+CHAPTER 2—NOTATION AND DEFINITIONS, p. 2
+2.1—Notation, p. 2
+2.2—Definitions, p. 3
+CHAPTER 3—SHORING/RESHORING 
+CONSTRUCTION NEEDS, p. 3
+3.1—Use of reshoring, p. 3
+3.2—Types of forming systems, p. 3
+CHAPTER 4—CONSTRUCTION LOADS ON 
+FORMWORK, p. 4
+4.1—Construction loads, p. 4
+4.2—Load combinations, p. 4
+4.3—Typical construction phases, p. 5
+4.4—Construction load distribution, p. 6
+4.5—Application of the simplified method, p. 6
+4.6—Factors affecting the construction load distribution, 
+p. 8
+4.7—Post-tensioning load redistribution, p. 9
+CHAPTER 5—STRENGTH OF CONCRETE SLABS 
+AND FORMWORK, p. 10
+5.1—Early-age concrete material strength development, 
+p. 10
+5.2—Construction load factors, p. 11
+5.3—Early-age strength of concrete slabs, p. 11
+5.4—Serviceability of concrete slabs, p. 12
+5.5—Strength of formwork, p. 12
+CHAPTER 6—CONSTRUCTION EXAMPLES, p. 12
+6.1—Two-way slab construction, p. 12
+6.2—Post-tensioned construction example, p. 18
+CHAPTER 7—REFERENCES, p. 20
+Authored documents, p. 21
+Kenneth L. Berndt, Chair Matthew J. Poisel, Secretary
+ACI 347 .2R-17
+Guide for Shoring/Reshoring of Concrete Multistory 
+Buildings
+Reported by ACI Committee 347
+Rodney D. Adams
+Mary Bordner-Tanck
+George Charitou
+Eamonn F. Connolly
+James N. Cornell II
+Jack L. David
+Aubrey L. Dunham
+Jeffrey C. Erson
+Noel J. Gardner
+Brian J. Golanowski
+Timothy P. Hayes
+Gardner P. Horst
+Jeffery C. Jack
+David W. Johnston
+Roger S. Johnston
+Robert G. Kent
+Kevin R. Koogle
+Jim E. Kretz
+H. S. Lew
+Robert G. McCracken
+Eric S. Peterson
+Steffen Pippig
+Douglas J. Schoonover
+Aviad Shapira
+John M. Simpson
+Rolf A. Spahr
+Pericles C. Stivaros
+Daniel B. Toon
+Ralph H. Tulis
+ACI Committee Reports, Guides, and Commentaries are 
+intended for guidance in planning, designing, executing, and 
+inspecting construction. This document is intended for the use 
+of individuals who are competent to evaluate the significance 
+and limitations of its content and recommendations and who 
+will accept responsibility for the application of the material it 
+contains. The American Concrete Institute disclaims any and 
+all responsibility for the stated principles. The Institute shall 
+not be liable for any loss or damage arising therefrom.
+Reference to this document shall not be made in contract 
+documents. If items found in this document are desired by 
+the Architect/Engineer to be a part of the contract documents, 
+they shall be restated in mandatory language for incorporation 
+by the Architect/Engineer.
+ACI 347.2R-17 supersedes ACI 347.2R-05 and was adopted and published January 
+2017.
+Copyright © 2017, American Concrete Institute.
+All rights reserved including rights of reproduction and use in any form or by 
+any means, including the making of copies by any photo process, or by electronic 
+or mechanical device, printed, written, or oral, or recording for sound or visual 
+reproduction or for use in any knowledge or retrieval system or device, unless 
+permission in writing is obtained from the copyright proprietors.
+1
+
+===== PDF PAGE 4 =====
+
+CHAPTER 1—INTRODUCTION
+In multistory cast-in-place concrete building construction, 
+freshly cast floors are placed on formwork that is tempo -
+rarily supported by a system of shores and reshores until the 
+concrete has the ability to be self-supporting. Construction 
+loads imposed by the shoring system can be greater than the 
+permanent structure service load on a single floor. Construc-
+tion loads can also be applied in a manner that differs from 
+the design intent of the completed structure. Furthermore, 
+the concrete of the supporting slabs has to attain suffi-
+cient strength, considering that the capacities of the floors 
+below vary depending on concrete age, ambient conditions 
+following placement, and the rate of strength development 
+properties of the slabs. As a result, it is critical to determine 
+the early-age load capacity of the floor slabs, including 
+punching shear strength, to avoid the possibility of partial or 
+total failure of the structural system. To reduce the construc-
+tion load on the floor immediately below and distribute it to 
+several lower floors or to the ground, it is necessary to add 
+reshores. Therefore, an engineering analysis that considers 
+both the construction load distribution and the early-age 
+load-carrying capacity of the concrete slabs should be 
+performed before shoring/reshoring operations begin.
+Formwork failures and failures caused by improper 
+reshoring or premature removal of supports and inadequate 
+lateral bracing have periodically occurred throughout the 
+history of concrete construction. Premature removal of 
+shores and reshores prior to concrete slabs achieving the 
+necessary strength can contribute to construction failures or 
+defects such as permanent deflections (sagging) or cracking 
+in the completed structure in excess of those anticipated by 
+the design. Also, if overloaded prematurely, time-dependent 
+deflections under load (creep) will be larger than predicted 
+by the design and may be more noticeable and objectionable.
+The schedule and process for removal of forms, shores, 
+and reshores should be based on an analysis of the structural 
+effects. Except for the simplified method described in ACI 
+347R and ACI SP-4, there is no method universally accepted 
+as the proper analysis of the distribution of construction 
+loads to the floor slabs and the shoring system.
+To ensure structural performance and safety during 
+construction, a thorough understanding of construction 
+loads applied to the slabs at early ages is necessary. Equally 
+important is knowledge of the behavior and the strength of 
+early-age concrete members that support their own weight 
+and construction loads.
+For guidance in formwork operations, the formwork 
+engineer/contractor can refer to several codes, standards, or 
+guides, including ACI 347R, ACI 318, ACI 301, ACI SP-4, 
+ANSI/ASSE A10.9, OSHA 29 CFR 1926, and ASCE/SEI 
+37. These documents provide basic guidelines for general 
+formwork operations.
+Other documents that can provide formwork design 
+requirements or guidelines include state and local building 
+codes, and guidelines prepared by contractors, formwork 
+manufacturers, and other construction agencies governing 
+construction practices.
+1.2—Scope
+Although the aforementioned documents provide basic 
+guidelines for general formwork operations, there are no 
+codes or standards that provide detailed design and construc-
+tion requirements specifically for shoring/reshoring opera-
+tions for multistory reinforced and post-tensioned concrete 
+construction. Investigations for usable procedures to estab-
+lish safe and cost-effective shoring/reshoring operations 
+have been ongoing for several decades. These investigations 
+focus on two major areas: 1) determining the distribution 
+of loads carried by the concrete structure during construc-
+tion; and 2) estimating the ability of the concrete members 
+to resist construction loads.
+This guide outlines the importance of appropriate shoring/
+reshoring design for multistory structures and provides basic 
+requirements for safe construction. ACI SP-4 serves as an 
+expanded commentary to ACI 347R and provides detailed 
+information related to formwork practices, including a 
+discussion of shoring/reshoring procedures and analysis 
+examples. Contract documents or the authority having juris-
+diction may require the contractors to supply to the building 
+official, upon request, the structural analysis and concrete 
+strength requirements used in planning and implementing 
+shoring/reshoring operations. Such data and information 
+should be furnished to the engineer/architect who should 
+evaluate the effects of construction loads on the immediate 
+and long-term deflections. The contractors and formwork 
+designers should acquire an understanding of the construc-
+tion loads and the structural behavior of the buildings during 
+construction. This understanding enables them to develop a 
+rational shoring/reshoring system design that is economical 
+without compromising safety, quality, and serviceability.
+The objective of this guide is to present practical guide-
+lines for the design of shoring/reshoring operations. This 
+guide provides tools to design and evaluate construction 
+schedules for shoring/reshoring of multistory reinforced and 
+post-tensioned concrete structures.
+CHAPTER 2—NOTATION AND DEFINITIONS
+2.1—Notation
+b
+o = perimeter of critical section for shear in slabs, in. 
+(mm)
+D = design dead load, lb/ft
+2 (kPa)
+Dc = construction dead load, lb/ft2 (kPa)
+d = distance from extreme compression fiber to centroid 
+of longitudinal tension reinforcement, in. (mm)
+E
+w = reference design value for modulus of elasticity of 
+wood, psi (MPa)
+F
+c = reference design value for compression parallel to 
+grain of wood, psi (MPa)
+f
+c = compressive strength of concrete, psi (MPa)
+fc′ = specified compressive strength of concrete, psi 
+(MPa)
+K = resulting coefficient of the governing punching 
+shear equations from ACI 318 that is a function of 
+column and slab geometry
+L = design live load, lb/ft
+2 (kPa)
+American Concrete Institute – Copyrighted © Material – www.concrete.org
+2 GUIDE FOR SHORING/RESHORING OF CONCRETE MULTISTORY BUILDINGS (ACI 347 .2R-17)
+
+===== PDF PAGE 5 =====
+
+Lc = construction live load, lb/ft2 (kPa)
+n = elevated slab number
+R28 = nominal flexural strength at 28 days, lb/ft2 (kPa)
+Rc = early-age nominal flexural strength, lb/ft2 (kPa)
+U28 = design factored load, lb/ft2 (kPa)
+Uc = construction factored load, lb/ft2 (kPa)
+Vc = nominal shear strength provided by concrete, lb (N)
+Vu = factored shear force, lb (N)
+Vuc = factored construction shear force, lb (N)
+βc = ratio of the early-age concrete compressive strength 
+to 28-day specified strength, βc < 1.0
+λ = modification factor to reflect the reduced mechan -
+ical properties of lightweight concrete relative to 
+normalweight concrete of the same compressive 
+strength
+ϕ = strength reduction factor
+2.2—Definitions
+ACI provides a comprehensive list of definitions through 
+an online resource, “ACI Concrete Terminology,” https://
+www.concrete.org/store/productdetail.aspx?ItemID=CT16. 
+The definitions provided herein complement that source.
+backshores—shores placed snugly under a concrete slab 
+or structural member after the original formwork and shores 
+have been removed from a small area without allowing the 
+entire slab or member to deflect or support its own mass or 
+existing construction loads.
+drop-head shore—shore with a head where part of the 
+head can be lowered to allow removal of horizontal forming 
+components without removing the shore or changing its 
+vertical support for the floor system.
+engineer/architect—engineer, architect, engineering 
+firm, architectural firm, or other agency issuing project plans 
+and specifications for the permanent structure, administering 
+the work under contract documents, or both.
+formwork engineer/contractor —engineer of the form-
+work system or contractor in charge of designated aspects of 
+formwork design and formwork operations.
+preshores—added shores placed snugly under selected 
+panels of a deck forming system before any primary (orig-
+inal) shores are removed.
+reshores—shores placed snugly under a stripped concrete 
+slab or other structural member after the original forms and 
+shores have been removed from a full bay, requiring the 
+new slab or structural member to deflect and support its own 
+weight and construction loads applied before installation of 
+the reshores.
+shore—vertical or inclined support member or braced 
+frame designed to carry the weight of the formwork, 
+concrete, and construction loads.
+CHAPTER 3—SHORING/RESHORING 
+CONSTRUCTION NEEDS
+3.1—Use of reshoring
+In multistory cast-in-place construction, rapid reuse of 
+form material and shores is desired to allow other trades 
+to follow concreting operations as closely as possible. The 
+shores that support the newly placed concrete, formwork, 
+and construction live load transmit those loads to the recently 
+completed floor below, which usually exceeds that floor 
+slab’s load capacity if it is the only source of support. For 
+this reason, shoring or reshoring is provided over a number 
+of floors to distribute the construction load to several floor 
+levels below.
+Stripping formwork is usually more economical if all the 
+form material is removed at the same time before placing 
+reshores. In this case, the structural system is required to 
+support its own weight, thus reducing the load in the reshores. 
+A combination of shores and reshores usually requires fewer 
+levels of interconnected slabs, thus freeing more areas for 
+other trades. If prefabricated drop-head shores are used, the 
+shores can become the reshores if a large area of shoring is 
+unloaded, permitting the structural members to deflect and 
+support their own weight. The drop-head shore has a head 
+that can be lowered to remove forming components without 
+removing the shore or changing its support for the floor 
+system. Later, the shore may be retracted and resnugged to 
+act as a reshore. If the load is not relieved, then they become 
+backshores.
+Backshoring and preshoring are other methods of 
+supporting new construction that are less widely used and 
+involve leaving the original shores in place or replacing 
+them in a small area at a time so as not to allow the slab 
+to deflect and carry its own weight. These methods require 
+careful supervision by the formwork engineer/contractor 
+and review by the engineer/architect to ensure excessive slab 
+and shore loads do not develop.
+3.2—Types of forming systems
+An important consideration in multistory cast-in-place 
+concrete building construction is the type of forming system 
+being used. Selecting the forming system for constructing 
+a cast-in-place concrete structure is a critical decision that 
+affects both the construction schedule and cost. Systems 
+vary from traditional wood post-and-beam formwork/
+shoring to prefabricated systems that involve sophisticated 
+engineering, materials, and equipment.
+There are several prefabricated forming/shoring systems 
+that are used to support concrete slabs during construction, 
+including the four discussed in this guide: 1) shoring-based; 
+2) flying truss; 3) column-mounted; and 4) tunnel-forming 
+systems. The following description of these systems is 
+adapted from Jensen (1986).
+3.2.1 Shoring-based systems—Deck (slab) forms are 
+supported on shores placed on the slab below. The shores may 
+be single posts of wood or metal or assembled from frames. 
+Job-built deck forms usually consist of wood or aluminum 
+stringers and joists (runners) with the deck surface made of 
+plywood, supported on single-post or frame-type shoring. 
+These forms are sometimes made up in larger panels tied or 
+ganged together as tables with attached frame-type shoring 
+for movement by crane. Deck forms may also be assembled 
+on the job from proprietary panels framed in wood, steel, 
+or aluminum, sometimes with their own proprietary shoring 
+systems. Some of these systems allow removal of the slab 
+American Concrete Institute – Copyrighted © Material – www.concrete.org
+ GUIDE FOR SHORING/RESHORING OF CONCRETE MULTISTORY BUILDINGS (ACI 347 .2R-17) 3

@@ -1,0 +1,152 @@
+:root{
+  --call-edge:rgba(223,188,103,.38);
+  --call-glass:rgba(7,17,29,.96);
+  --call-teal:#5fb0a5;
+  --call-coral:#e8735f;
+}
+
+.conference-launcher{
+  position:fixed;
+  right:max(16px,env(safe-area-inset-right));
+  bottom:max(16px,env(safe-area-inset-bottom));
+  z-index:1800;
+  min-height:48px;
+  padding:0 18px;
+  border:1px solid var(--gold);
+  border-radius:999px;
+  background:linear-gradient(135deg,#18283a,#0a1522);
+  color:var(--gold2);
+  box-shadow:0 18px 48px rgba(0,0,0,.42),0 0 0 4px rgba(223,188,103,.07);
+  font:800 13px/1 "Segoe UI",Arial,sans-serif;
+  letter-spacing:.02em;
+  cursor:pointer;
+  touch-action:manipulation;
+}
+.conference-launcher:hover,.conference-launcher:focus-visible{background:#1b2c40;outline:2px solid var(--gold2);outline-offset:2px}
+.conference-launcher.is-live::before{content:"";display:inline-block;width:8px;height:8px;margin-inline-end:8px;border-radius:50%;background:var(--call-coral);box-shadow:0 0 0 5px rgba(232,115,95,.15)}
+
+.conference-dock{
+  position:fixed;
+  right:max(16px,env(safe-area-inset-right));
+  bottom:max(16px,env(safe-area-inset-bottom));
+  z-index:1900;
+  display:none;
+  width:min(390px,calc(100vw - 32px));
+  height:min(610px,calc(100dvh - 32px));
+  min-width:320px;
+  min-height:260px;
+  overflow:hidden;
+  resize:both;
+  border:1px solid var(--call-edge);
+  border-radius:18px;
+  background:var(--call-glass);
+  box-shadow:0 30px 90px rgba(0,0,0,.58),inset 0 1px rgba(255,255,255,.04);
+  backdrop-filter:blur(18px);
+  color:var(--body);
+}
+.conference-dock.open{display:flex;flex-direction:column}
+.conference-dock.expanded{inset:12px!important;width:auto;height:auto;max-width:none;max-height:none;resize:none}
+.conference-dock.minimized{display:none}
+.conference-dock[dir="rtl"]{text-align:right}
+
+.conference-head{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-height:56px;
+  padding:9px 10px 9px 15px;
+  border-bottom:1px solid var(--line);
+  background:linear-gradient(90deg,rgba(223,188,103,.10),transparent 58%);
+  cursor:move;
+  user-select:none;
+}
+.conference-head-copy{min-width:0;flex:1}
+.conference-title{display:block;color:var(--soft);font:800 14px/1.2 "Segoe UI",Arial,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.conference-state{display:block;margin-top:4px;color:var(--dim);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.conference-icon-btn{
+  width:36px;height:36px;flex:0 0 36px;border:1px solid var(--line);border-radius:10px;background:#101e2e;color:var(--soft);font-size:16px;cursor:pointer;touch-action:manipulation
+}
+.conference-icon-btn:hover,.conference-icon-btn:focus-visible{border-color:var(--gold);color:var(--gold2);outline:none}
+
+.conference-setup{display:grid;gap:14px;padding:18px;overflow:auto}
+.conference-setup h3{margin:0;color:var(--gold2);font:700 24px/1.15 var(--serif)}
+.conference-setup p{margin:0;color:var(--body);font-size:13px;line-height:1.65}
+.conference-field{display:grid;gap:6px}
+.conference-field label{color:var(--dim);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.conference-field input{
+  width:100%;min-height:44px;border:1px solid var(--line);border-radius:9px;background:#091522;color:white;padding:10px 12px;font:600 14px "Segoe UI",Arial,sans-serif
+}
+.conference-field input:focus{outline:2px solid rgba(223,188,103,.35);border-color:var(--gold)}
+.conference-primary,.conference-secondary,.conference-action{
+  min-height:44px;border:1px solid var(--line);border-radius:9px;background:#122236;color:var(--soft);padding:9px 12px;font:800 12px "Segoe UI",Arial,sans-serif;cursor:pointer;touch-action:manipulation
+}
+.conference-primary{border-color:var(--gold);background:linear-gradient(135deg,#8a6725,#c69b45);color:#07111d;font-size:13px}
+.conference-secondary{border-color:var(--call-teal);background:rgba(95,176,165,.13);color:#b9f4ec;font-size:13px}
+.conference-starts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.conference-primary:hover,.conference-primary:focus-visible,.conference-secondary:hover,.conference-secondary:focus-visible,.conference-action:hover,.conference-action:focus-visible{filter:brightness(1.12);outline:2px solid rgba(255,225,154,.35);outline-offset:1px}
+.conference-disclosure{padding:10px 12px;border-inline-start:3px solid var(--call-teal);background:rgba(95,176,165,.08);color:#a9bdca;font-size:11px;line-height:1.55}
+
+.conference-live{display:none;min-height:0;flex:1;flex-direction:column}
+.conference-dock.connected .conference-setup{display:none}
+.conference-dock.connected .conference-live{display:flex}
+.conference-toolbar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;padding:8px;border-bottom:1px solid var(--line2)}
+.conference-action{min-height:38px;padding:7px 5px;font-size:10px}
+.conference-action.active{border-color:var(--call-teal);color:#aef0e6;background:rgba(95,176,165,.14)}
+.conference-action.warn{border-color:rgba(232,115,95,.55);color:#ffb5a9}
+.conference-sync-panel{display:grid;min-height:220px;flex:1;place-content:center;gap:10px;padding:28px;text-align:center;background:radial-gradient(circle at 50% 10%,rgba(95,176,165,.13),transparent 62%),#07111d}
+.conference-sync-panel strong{color:var(--gold2);font:700 22px/1.2 var(--serif)}
+.conference-sync-panel span{color:var(--body);font-size:12px;line-height:1.65}
+.conference-peer-state{display:inline-flex;align-items:center;justify-content:center;justify-self:center;min-height:28px;padding:4px 10px;border:1px solid rgba(95,176,165,.35);border-radius:999px;color:#aef0e6;background:rgba(95,176,165,.09);font-size:10px;font-style:normal;font-weight:800}
+.conference-remote-audio{position:absolute;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none}
+.conference-tip{padding:8px 11px;border-top:1px solid var(--line2);color:var(--dim);font-size:10px;line-height:1.45}
+
+.conference-request{
+  display:none;
+  gap:8px;
+  align-items:center;
+  padding:10px;
+  border-bottom:1px solid rgba(224,163,73,.45);
+  background:rgba(224,163,73,.13)
+}
+.conference-request.show{display:flex}
+.conference-request span{min-width:0;flex:1;color:var(--soft);font-size:11px;line-height:1.4}
+.conference-request button{min-height:32px;border:1px solid var(--line);border-radius:8px;background:#13253a;color:white;padding:5px 9px;font-size:10px;font-weight:800;cursor:pointer}
+.conference-request .accept{border-color:var(--call-teal);color:#aef0e6}
+.conference-request .reject{border-color:var(--call-coral);color:#ffb5a9}
+
+.conference-toast{
+  position:absolute;left:12px;right:12px;bottom:12px;z-index:4;display:none;padding:10px 12px;border:1px solid var(--call-edge);border-radius:9px;background:rgba(7,17,29,.96);color:var(--soft);font-size:11px;line-height:1.4;box-shadow:0 12px 35px rgba(0,0,0,.38)
+}
+.conference-toast.show{display:block}
+
+body.arabic-mode .conference-launcher{right:auto;left:max(16px,env(safe-area-inset-left))}
+body.arabic-mode .conference-dock{right:auto;left:max(16px,env(safe-area-inset-left))}
+
+@media (max-width:700px){
+  .conference-launcher{min-height:46px;padding:0 15px;bottom:max(12px,env(safe-area-inset-bottom));right:max(12px,env(safe-area-inset-right))}
+  .conference-dock,.conference-dock.expanded{
+    inset:auto 0 0!important;
+    width:100vw;
+    height:min(64dvh,610px);
+    min-width:0;
+    min-height:250px;
+    max-width:none;
+    max-height:calc(100dvh - 8px);
+    resize:none;
+    border-radius:18px 18px 0 0;
+    padding-bottom:env(safe-area-inset-bottom)
+  }
+  .conference-dock.expanded{height:calc(100dvh - 8px)}
+  body.arabic-mode .conference-dock{left:0;right:0}
+  .conference-head{cursor:default}
+  .conference-toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .conference-sync-panel{min-height:190px;padding:22px 18px}
+}
+
+@media (max-width:390px){
+  .conference-starts{grid-template-columns:1fr}
+}
+
+@media print{
+  .conference-launcher,.conference-dock{display:none!important}
+}

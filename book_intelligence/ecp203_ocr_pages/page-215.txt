@@ -1,0 +1,53 @@
+الكود المصري لتديميم وتنفيذ المنشآت الخرسائية ‎718١‏ الملحق الثالث-الرموزذ والمصطلحات الكود المصري لتصميم ‎Lustig‏ المنشآت الخرسائية -1؟ الملحق الثالث-الرموز والمصطلحات
+الكود المصري لتصميم وتنفيذ المنشآت الخرسائية 7018 0300-7 الملحق الثالث-الرموز والمصطلحات ‎ag‏ المصري لتصميم وتنفيذ المنشآت ‎ee athe‏ ا د ا
+سمك حائط القطاع الصتدوق المكاق للقطاع ‎“y= Thickness of the wall of the box section equivalent cuoynall‏
+يي د سس ةا لاد سس المسافة من محور ‎oo JalaiN‏ الطرف الأقصى للألياف 10 ‎Distance between extreme fiber in tension‏ = 3
+علي ‎aa‏ الفط القطاء ‎de‏ شكل حرق 7 أو ‎al ime oF the flange for Lend Seto‏ اسه | المشدودة في القطاع مع عدم اعتبار تأثير الشروخ ‎neurral axis of gross section ignoring the presence lang‏
+املك ‎aoe‏ ااا صصص ا ‎La‏ امع ل ا التسليح. ‎of normal and prestressing reinforcement‏ سه
+سمك البلاطة ‎abut & = Thickness of slab‏
+الحمل الأقصى عند حالة حد المقاومة أو القوى الداخلية  ‎Uhimate load in case of limit stare or internal forces‏ = لا ‎entre‏ ل ‎"KS" Siifness of torsion elements‏
+‎ee MAM aa‏ .ا ‎OF steel for vere anchorages‏ +36 تفكيكتويت سد معامل ستخدم لحساب ‎pje‏ القصور الذاتي ‎Coefficient used for calculating moment of ineria gall‏ = ¥
+معامل الاقتلاف ‎rR‏ ا للعمود ‎equivalent to the column‏ لست
+حجم صلب التسليح الحتزوني لوحدة الطول من العمود ‎‘ase a Vsp = Volume of spiral steel reinforcement far unit length‏ قصور ‎SLAIN‏ لشريحة البلاطة ‎beam to moment of inertia of slab strip‏
+ااا اللا ا ل ا ‎Coefficient which depends on the cecenity of‏ ع ‎B‏
+‏تسبة حجم صلب التسليح الحلزوني للدورة الواحدة  ‎of volume of spiral stirrupsto stirrup pitch‏ ونه = مولا معامل يعتمد على تأثير لامركزية قوى القص ‎chear‘force‏
+‏العا ااال ‎١‏ هو الحمل الأقصى المناطر ‎lad‏ تحميل تأخذ تاثير الزلازل  ‎loading case taking‏ ه ‎Ultimate toad simulating‏ =
+القيمة الاسمية للأحمال التاشئة عن ضبغط الرياح أو ‎effect of earthquakes in consideration ual Ww = Nominal vatue of loads due to wind pressure or‏ 0
+‎forcesprodiiced Form rece eee RN Mahe a gga‏ رلا 0 ‎١‏ القيمة القصوى ‎__M__=_Bending moments perunitwidthinx atid hu SSboluas¥I papal‏
+الحمل المتتظم التوزيع الموتر عل البلاطات ‎distributed load acting on stabs, cesses‏ ااا ‎ARE‏ القيمة القصوى ‎papal‏ الاتحناء لكل متر في اتجاد ير ...متم طك عاك ‎awl. _Bending moments perunit width iny‏
+الحمل الكلى لوحدة المساحة من الباكية ‎Oe Eo = Total load for unit area of span‏ سس اب
+ل ااا ‎nner eee ener‏ يميز شبك صلب من الأسياخ الملحومة ‎ed steel wire mesh‏ سيم
+حمل البلاطة المنتظم المئتساوي التوزيع على وحدة ‎Bn ot te i w = Uniformly distributed slab load on unit area‏
+الانحراف المعياري ‎ard deviation‏ =
+مسر دوجوو نوعو سامون ا ‎recs ua utc an tear‏ لالتعا ‎oC eC SUR pis‏ | 05 لى للحرسانة (إنشبة بواسون) ‎Poisson's ratio for concrete‏ = ¥
+نسية صلب تسليعح الشد في القطاع الخرساني ‎Mechanical percentage of tension steel‏ = 5 نسية التشكل العرضي للخرسانة لصم الس ألم م 3
+معامل الزحف ‎Creep coefficient‏ - 9
+‎EU PP‏ — 2 تس | النسية المئوية للتسليح الطولي في الحائ ‎mentin wal‏ صتمي مده سي
+ب تسليح الضغط في اع الخرساني ‎ti = Coefficient of over lapping considering ffoct af wi Mechanical percentage of compressive _ steel‏
+لي ولي خا 0_ معامل تراكب يأخل تأثير الأحمال الحية الراسية ‎vertical live loads, semi - dead loads on structure Ute‏
+حم لي الصيصو يا المدايل ايت عياف ا ال ‎elle)‏ لوم المزاد ‎Y= _ Strength reduction Factor‏
+التسية الميكاتيكية لميلب سيق ‎of presteessed steel eer tn‏ لومم عم ‎B = Angle of depth variation measured with respect to <> Fe Boemhh ati‏
+‎an‏ المتتظم التوزيع ‎een eee nnn‏ اا اا بي زاوية ميل تغير العمق مقاسة من محور الكمرة ‎beam longitudinal axis‏
+‎cnn ld re ar‏ سس سس ةي ين ‎Angle between bent bars and longitudinal axis of‏ = 5
+المسافة من بداية طرق الشد بالمتر على امتداد كابل ‎ugly x = Distance from jacking end along prestressing jaw‏ ميل التسليح الجذعي مع محور الكمرة 2-6
+الاجهاد ‎dons‏ سم مس مس مس ا م سس سس و مع سس ‎ot ete enna‏
+ااا ااا ‎Length of inclined part of bent bars | = Neel 7 Tien nny appt acy nee‏ = 1
+‎Mew‏ 8 5 + 4 1 مكسحة ‎ee‏
+‏مساقة امتداد ثأثير الفقد في سبق الإجهاد ‎Xe = Distance of extension of lesses effect on‏ لا ا ات م 3
+فة بين سطع تحميل الكوا القصبيرة وخط ‎between surface of loading short‏ © =
+‎prestressing‏ المسافة بين ‎cantil line of axial loads ¢h 3 aad‏
+ل 0/1060 ‎ee‏ 8 د ‎ievers and line of axial loads (horizontal rain‏
+بعد قلب العمود مقاسا من محاور الكانات ‎se yl - Distance of column core measured from Stirrups‏ الصو ااال ا ‎OPT‏
+‎Iclent depending on ratio t, i tz‏ =
+‎a al axes‏ عاق ‎a neg ann eM‏ ات
+ا ‎SRB‏ د 7 ‎x‏ 3 أ ‎‘Onstant for calculating inertia of concrete secticr Atlee pl‏ 2
+طول كانة التسليح المستطيلة مقاسة بين محوري الكانة  ‎Cal ya = Length of rectangle reinforcing stirrup measured‏ خاص يحساب ‎ncn SE an‏
+القطر الا 5 ‎Nominal bar diameter‏ +
+‎fittest between the axis of the stirrup‏ .ايز ااي سمي امه عسي سس مع مسمس سعد سس 0
+م ‎Factor which depends on the bar position with ~ an ihe aT‏ = له
+‎a a We 5 5 = Leverarm i ba-‏
+الست مي مو م مويه مس بع موسو دومحو ربمسيد د ده يي يد لست معامل موقع السيخ وجودة الخرصانة ‎respect to casting surface‏ _
+إجباد الخطبوع لصلب الكانات المقاومة لعزوم اللي بحد  ‎Bt neta fx = Yield strength for steel of stirrups resisting torsion‏
+‎Correction factor depending on bat surface 5 5 imi Yea/o t 3i‏ =
+: 3 8 3/20
+صفحة ‎VAT pip)‏ تسخة مخصهمبة للطلبة 203/2018 ‎dase ECP‏ رقم: م198١‏ نسخة مخصصة للطلبة ‎fants‏

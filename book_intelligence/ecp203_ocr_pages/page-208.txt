@@ -1,0 +1,45 @@
+الكود المصري لتصميم وتنفيذ المنشات الخرسائية 1:18 الملعق الثالث-الرموز والمصطلحات الكود المصري كتصميم وتنفيذ المتشات الخرسانية ‎VN A=‏ الملحق الثالث-الرموز والمصطلحات
+الكود المصري لتصميم وتقفية ‎eS A‏
+مساحة قلب ‎pla‏ الخرساني المحدرد بدائرة مجور الكانة  ‎Area of concrete core enclosed by the spizal stirrups‏ = يق المساحة الكلية تمقطع الكانات شاملة الافرع المتعامدة ‎including‏ 0000 جع ل ‎a,‏
+‏الحلزونية ا 00 خلال المسافة 5وعموديا على البعد ‎perpendicular branches Within the distance 5 and Yi‏
+أقصى قيمة لعمق ‎١‏ امستطيل المكاق لاجبادات الضغط في ‎dmx = Maximum depth of the equivalent rectangular‏ ا ‎perpenchcular ta dimension y;‏
+الخرسانة في حالة القطاعات المسلحة في ‎Aye‏ الشد فقط : مسلط صمي ااال . الحد الأدثي لمساحة التسليج ‎pola‏ بالكمرات ‎of web reinforcementin beams‏ ممه ‎Min‏ = سريف
+مساحة صلب التسليح المطلوب لمقاومة قوى الشد = ‎_Meaoftensilefoice reinforcement requiced‏ لي ل مساحة فرغ الكافة اللإزمة لمقاوعة عزوم ‎AM‏ كما ماده دوه ‎AP‏ عم ‎ANE‏ افا منرم عت البلا
+المساحة المحصورة داخل مسار قص اللي بالقطاء لوحدة ‎Ao = area enclosed by shear flow path‏ ا 00 3526
+‎tet‏ ااال ‎ce‏ اش سس نوبط ‎nt nent once‏ سوس هه المساحة الكلية لمجموع صلب التسليج الطوي وقطاع ‎At = Area of Steel ection,‏ 0
+أقل مممافة اح ببابين مجاور أنوا- الثثبيت ‎ag = Min. allowable distance between bixing plates‏ الصلب
+‎esses otetppesgentnssceee‏ ا ا ‎TD secceeeeccecectee ceceeetcceccceeeet‏ مساحة صلب التسليع الجذعي الرأمي قي الكعرات العميقة ‎A  Vertieal web ccinforcensent in deep beans‏ 0
+المساحة المحصورة داخل محور صلب التسليح العرضي  ‎Aon = Area enclosed by cenierline of the outermost‏ . البعد الاعقباري للقطاع 7 ‎RB “Wail ewer [en‏
+عساحة صلب التملع قي جبة القد ‏ .ا ‎tension reinforcement‏ لمم ا ل عرض شفة الضغط للقطاع على شكل حرف 1 أو | ‎flange of T-section‏ مسبت رست ‎OE Width of‏
+مساحة الصلب المتماسك غير مسبق الشد في ‎Ay = Area of non — prestressed bonded Steel in als‏ البعد الأكير لمسباح التحميل المستمار ‎oa 1 an se‏
+العناصر الممتخدم بها صلب سبق إجباد غير متماسك ‎members where unbonded prestressed Steel fs‏ مجموع عروض الأمصاب للقطاع الصندوق ‎bes Section TT‏ عد ريت ‎Summed‏ 5
+مساحة مبلب التسليح الطولي المطلوب لمقلومة عزوم ‎Required area af longitudinal seinforcement for Wb‏ د ‎Aga‏ عرض الجذع ‎<a 3-86 20 0 ~ 1 serena ers ee seen‏ ~
+‎Be wel 7 3 oa‏ =
+مساحة صيلب التسليج الطوي فى ‎uel‏ قطاع معرض.  ‎Area of longitudinal stcel bars im section subject to‏ = عم ‎١‏ البحد ‎pall‏ لعتصر ‎pee : ay wc it jenn —— Bl‏
+‎al HA dimension of torston elemer paisd pio. - ce ous‏
+الفوقاضقط ااا ا سس 2 سييست بعد العمود المستطيل ‎b= Dimension of rectangle column‏
+مساحة صلب التممليح ‎١‏ المتحامد على مستوؤي القص ‎Ag = Area of reinforcing Stecl perpendicular ta Shea:‏ عرض الدعامة الأققية ‎Esta‏ اا 00 ‎١‏ م سذافه 7 ‎ar re oe‏ 7 151 اسه
+ني ‎readth af horizontal wail su‏ =
+ا 0 ابص ‎SL.‏ البعد القصير للقاعدة او طول مقطع العمود ‎of column‏ طتهمعا ‎Short dimension of footing or‏ 2 8
+مساحة مبلب التسليد المقاوم ‎S54)‏ الشهر ‎Ag = Area ofshear- friction reinforcement Bay‏
+‎a Ss 2‏ كن ‎BE‏ 3
+‎section‏
+‏الاحتكاك 0 سر ع سح مس سحه وده تاه بجا ل وو لكو يصع ووه ‎tee‏ علا و لاا اك ولص لوده وس
+مساحة التسليح الحلولي الإضاقي ‎Aa = Additional, fengitudinal reinforcement area‏ القطر الأكير ‎bn, pS‏ أو مرة و ا ب ا سا اس اا صا ا سس ا ا ف ا 6ن ا عه مع مت .سسا ماص اع اع اا ا ا
+العد الادنى لمساحة التسليح الحلولي الإضاني ‎oe & Astin = Minimum amount of additional longitudinal‏ يد 9 ‎a‏ الا 9 ‎Max. Diameter of bars‏
+: الاعتباري الأكبر للركام أمهما أكبر ‎Nominal Size of gravel, which is bigger.‏
+‎reinforcement area‏ -0090:1ل101 للب مدهب سد مم هج د سيد مه صمي سس سمه مسي م عع مم مس سس م سمس معو صم وسمد م ‎(conten‏ لمت سس حم يت سب ست يه ل ان الس سس لس اع مس ا تو ب حا
+ض القطاع في حالة القطاعات المستططليلة ‎tien i : Section.‏ =
+ص ال لاب يج المسافة الأفقية الفعلية بين ‎oe ae‏ 1 1 3
+أقصى مساحة تتليح مسمو با في القطاعات المساحة ‎Max. Allowable reinforcing area in reinforced‏ ع ‎Avmac‏ 5 زه بين محل لوخ التنبييتموقة اه ‎axis‏ مدع ممم اهز ههلا امسعة, 5 2 ‎١‏
+‎an -‏ الخرسمانة
+أقل نسية تسليح مسموح بها في القطاعات المعرضة لمزوم  ‎Awmin =~ Man. allowable reinforcement ratio in sections‏ القمق ‎senate ida eee‏ مد مسد د عه مس2 22 مس م م ع مس سس جا 8 ع م مه ص م وا م ل م ع ص ‎a‏
+‏اتجناء ‎Subjected to bending moments.‏ المسافة الرأسية الفعلية بين محور لوح التثبيت ‎Actual vertical distance between axis of Fixing plate ang‏ = 3
+مساحة مقطع ‎BS‏ التسليح الحلزونية ‎Arp = Cross section area af Spiral reinforcing Stirrup.‏ وي لق طلا شا لا ‎se‏ 1ت ‎seer not CORE‏
+مسباحة صلب التسليع الموجودة فعليا ‎Sd a re Agprowede = Area of actual existing reinforcing Stecl.‏
+مساحة صلب التسليه المطلوية حسابيا 000 ‎ Catculated required arca of reinforcing Steel‏ > يميف طول القطاع الحرج في القص الثاقب كما هو معروف في ‎by = Length of punching shear critical section measured iy‏
+مساحة قطاع الصلب ‎Steel profile cross Section.‏ أه ‎bela 37 Ay = Area‏ جاو الفيليل ياااااااااا ص 217101509 اي
+مساحة الكانات المقاومة لقوى ‎iol An = Area of stirrups resisting shearing forces ail‏ بعدى العمود المستطيل الصلب ‎b, = One of the dimensions of the rectangle Stecl‏
+مساحة مقطع فروع الكانات ‎Cross section area of Stirrups branches‏ د ‎As‏ لتنامع
+ل ‎ils aa a a oA OR SS‏ مس ع ‎a 2 NR SE AS eS‏ للا عن يك ‎a _ ce ee ee ee‏ _
+صفحة رقم: م7-17 نسخة مخصصة للطلبة 203/2018 ‎ECP‏ صفحة رقم: م717 نسخة مغخصصة للطلبة 203/2018 ‎ECP‏

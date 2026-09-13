@@ -1,0 +1,686 @@
+
+
+===== PDF PAGE 1 =====
+
+Copyright 2009 AACE, Inc.                                                          AACE International Recommended Practices  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AACE International Recommended Practice No. 48R-06 
+ 
+SCHEDULE CONSTRUCTABILITY REVIEW  
+TCM Framework: 7.2 – Schedule Planning and Development 
+11.5 – Value Management and Value Improving Practices (VIPs) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Acknowledgments:
+ 
+Edward E. Douglas, III CCC PSP (Author) 
+Ricardo Accioly 
+Rodney B. Adams, CCE 
+Zia Akhtar 
+Kenneth Baker 
+Michael P. Bomi 
+Timothy T. Calvey, PE PSP 
+Paul L. Conant, Jr. 
+Douglas A. Findley, CCC PSP 
+Ricardo Garcia da Roza 
+John K. Hollmann, PE CCE CEP 
+John J. MacDonald 
+Robert C. Powell, CCE 
+Benjamin Price 
+Mahmoud M. Saleh 
+Hannah E. Schumacher, PSP 
+Donald F. Sulzer 
+Ronald M. Winter, PSP
+
+===== PDF PAGE 2 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+AACE International Recommended Practice No. 48R-06 
+SCHEDULE CONSTRUCTABILITY REVIEW 
+TCM Framework: 7.2 – Schedule Planning and Development, 11.5 – Value 
+Management and Value Improving Practices (VIPs) 
+ 
+August 28, 2009
+INTRODUCTION 
+ 
+Purpose 
+ 
+This recommended practice (RP) is intended to serve as a guideline, not establish a standard for 
+schedule constructability reviews. This recommended practice describes the schedule constructability 
+review (SCR) process and some of the recommended planning that should be considered when 
+developing a construction project execution-phase schedule. This recommended practice includes a 
+suggested review process for the construction project schedule. This RP was written as a stand alone 
+document however it can be used as a companion guideline with the AACE Recommended Practice 30R-
+03 Implementing Project Constructability.
+ [26] 
+ 
+ 
+RECOMMENDED PRACTICE 
+ 
+Construction contract schedule specifications frequently require reviews of the project baseline schedule 
+with very little guidance about how that review process should be accomplished. There may be contract 
+language that suggests the “schedule should be consistent with the project scope” and that there should 
+be an appropriate level of detail to facilitate integration of the various contractors or trades [21]. Numerous 
+technical articles have been published that recommend analyzing the project cost and schedule. Several 
+of those articles describe a recommended process for the detailed analysis of construction project cost 
+estimates. It was difficult to locate comparable information from these technical resources that describes 
+the process to analyze the construction project schedule. Constructability review checklists that were 
+located assume an understanding of what is required by an SCR and barely mention the need to perform 
+a construction schedule assessment. A schedule constructability review is performed to analyze and 
+assess the feasibility of the construction plan. The SCR compares the planned sequence of work with the 
+project scope as defined in the work breakdown structure (WBS), site requirements, and the specific 
+needs of the client. This recommended practice will focus on constructability concepts influencing the 
+construction execution planning and a suggested review assessment for the construction project 
+schedule.  
+ 
+ 
+Background 
+ 
+The Construction Industry Institute (CII) and AACE International define “constructability [as] the optimum 
+use of construction knowledge and experience in planning, design/engineering, procurement, and field 
+operations to achieve overall project objectives.“
+[4, 25] 
+ 
+A constructability review is a structured review of the plans and specifications with the focus on the 
+buildability, biddability and efficiency of construction. Constructability reviews are performed to assure 
+consistency between design, fabrication, and installation. These reviews identify errors, conflicts, and 
+omissions and as a result of constructability reviews future costly field changes can be minimized.  
+ 
+The application of constructability concepts to capital construction projects have been reported to provide 
+a return on investment of at least ten to one (10:1). Implementing project constructability concepts 
+reduces project costs and schedule while having a positive impact on quality and safety.[4] 
+ 
+A constructability review is the process of evaluating the construction documents (design drawings, and 
+technical specifications) for clarity, consistency, completeness, and ease of construction to achieve 
+overall project objectives. The objective of this review is to provide clarity, consistency, and completeness 
+of the contract documents to facilitate construction bidding, administration, and interpretation to achieve 
+overall project objectives.[6]
+
+===== PDF PAGE 3 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Schedule Constructability Review 
+ 
+August 28, 2009
+2 of 10
+ 
+Several factors influence the effectiveness of a constructability review program: the project delivery 
+system, project contracting strategy, procurement strategy for material and equipment, as well as the 
+completeness of the project scope definition. Constructability reviews generally consist of:  
+ 
+• construction involvement during project design;  
+ detailed project scope review;  
+ detailed review of construction plans and specifications;  
+ execution plan development and review;  
+ detailed schedule and budget review; and  
+ development of identified alternatives. 
+ 
+Constructability reviews are performed as a cross check of construction documents for accuracy, 
+completeness, and systems design coordination issues. “During the constructability review, the focus is 
+on improving:  
+ 
+ consistency, clarity and completeness of t he construction drawings and specifications  
+ consistency, applicability, enforceability, and compre hensiveness of the general condition ("front end" 
+documents)  
+ applicability of construction installation technology, methodology or materials  
+ consistency between plans and site conditions  
+ identification of project-specific issues, t heir probable consequences, and proposed mitigation 
+recommendation”
+[23] 
+ 
+According to studies the implementation of constructability reviews and assessments at all stages of the 
+project from conception to commissioning have been shown to provide opportunities to identify both cost 
+and schedule savings for the project. Early involvement of construction industry experience can reduce or 
+eliminate problems, by identifying potential conflicts and facilitate a balance between production 
+requirements and building site constraints.[18] 
+ 
+While the implementation of a constructability review program can be difficult it can be even more difficult 
+to establish a formal schedule constructability assessment program.  
+ 
+ 
+Schedule Constructability Review 
+ 
+A project construction schedule should be a comprehensive and realistic plan that represents the specific 
+activities, reasonable durations for the activities, and the planned sequence of work for the project. The 
+logic or sequence of work activities should represent how the project will be built and how the various 
+activities are interrelated. The primary objective of an SCR is to determine if the project schedule is 
+“accurate, logical and achievable.”
+[1] 
+ 
+A schedule constructability review is intended to assess whether the construction schedule is 
+comprehensive and complete. The focus of an SCR is to assess the following:  
+ 
+ consistency 
+ clarity 
+ completeness and reasonableness of the work sequence 
+ coordination of the schedule with the various engineering disciplines 
+ coordination of the schedule with the require ments for efficient start-up, and commissioning 
+ adequacy of lead time for material and equipment procurement 
+ site restrictions and adequacy of site access 
+ 
+The SCR is intended to disclose problems in the following areas:
+
+===== PDF PAGE 4 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Schedule Constructability Review 
+ 
+August 28, 2009
+3 of 10
+ reasonableness of work sequence  
+ comprehensiveness and completion of construction planning 
+ coordination and interface among the various craft trades and engineering disciplines 
+ adequacy of lead time for material and equipment procurement 
+ site work restrictions and adequacy of site access  
+ 
+ 
+Schedule Constructability Reviews During the Various Phases of a Project 
+ 
+The expectations for accuracy, completeness, and the level of construction schedule detail will increase 
+with development of the project through the various phases from the pre-construction planning time line 
+through to the detailed execution schedule for construction. It has been recommended that the SCR 
+process should be implemented in “vertical slices” for each discipline or major feature of work. For 
+example a vertical slice through the site civil work would include all engineering and design disciplines as 
+well as the civil and underground (mechanical & electrical) contractors. Changes and additions would 
+then be implemented before reviewing the next vertical slice. The final review would encompass the 
+entire project with all project participants, contractors, engineering design, and procurement represented. 
+The conceptual or feasibility phase schedule could be expected to consist of a dozen key milestones and 
+possibly a bar chart of the significant project activities. Later into the project pre-construction planning 
+before the execution phase, there would be a high level of detail to identify the hundreds (or possibly 
+thousands) of activities required to complete the construction and installation of the multiple features and 
+systems for the startup and operation of that type of facility. In some industries such as the process 
+industry, there would be a numeric classification assigned to the schedule as the project scope definition 
+is developed. 
+ 
+ 
+Design Phase 
+ 
+As project planning and design progresses beyond the conceptual phase, schedule activities will be 
+added to identify the important features of work: site areas to be modified (cleared, excavated, shored, 
+underground utilities, etc.); then key equipment to be installed and major systems to be operationally 
+tested will be included as the schedule is developed during the design phase. Although the design phase 
+construction schedule is intended to ultimately guide the construction contractor (or entity) who will 
+perform the construction work, these schedules have a tendency to represent the work at a higher level 
+(with less detail) and may not portray accurate estimated durations for construction success. The duration 
+inaccuracies in the design phase may occur due to a lack of accurate quantity details. Design phase 
+construction schedules will typically identify key construction milestones and construction phase activities 
+that portray the overall plan for the client. However the phases within these schedules may overlap but 
+generally do not link the specific detailed craft interfaces. Key equipment installations may be included at 
+various construction points, but often the deliveries are inaccurately forecasted due to a failure to verify 
+realistic equipment fabrication and delivery schedules.  
+ 
+The level of detail for a construction schedule can be expected to increase in complexity during the 
+design phase for a construction project. An SCR can be performed at any of the key design completion 
+phases: schematic design, detailed design, etc., corresponding with various stages of construction 
+document completion (30%; 60%; 90% 100%).Traditionally a constructability review will be conducted 
+after the construction documents are complete and prior to contractor bidding. Under an integrated 
+project delivery (IPD) contract, the preconstruction phases are identified differently as follows: 
+conceptualization, criteria design, detailed design, implementation documents, and buy-out phases; 
+however the intent of the SCR at this phase has the same focus the identity of potential coordination 
+issues, availability of specified materials, equipment and commodities, out of sequence work, missed 
+work details, unrealistic activity durations, potential time delays, and inter-contractor coordination points 
+prior to issuing project bid documents.
+
+===== PDF PAGE 5 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Schedule Constructability Review 
+ 
+August 28, 2009
+4 of 10
+Procurement Phase 
+ 
+Depending upon the requirements outlined in the request for proposal (RFP), potential construction 
+bidders may be required to provide a detailed procurement/fabrication and construction schedule with 
+their proposal for the construction project. That proposal construction schedule must consider the vendors 
+input as well as the project and site requirements, and the specific needs of the client. An SCR of these 
+potential bidders along with the proposed procurements in relation to their construction schedules can be 
+appropriate and beneficial prior to the construction contract award. 
+ 
+ 
+Execution Phase
+ 
+ 
+The project construction execution phase schedule represents the construction entity’s means and 
+methods for successfully accomplishing the construction work. A constructability review of the execution 
+phase schedule is intended to compare the schedule with the entire scope of the project construction 
+efforts and should be conducted prior to the owner’s acceptance/approval of that construction schedule.  
+The execution phase SCR can assess a variety of items that could affect the time phased plan for 
+performance of the work:  
+ 
+ physical limitations of the work site  
+ material and equipment “lay down” and storage area requirements 
+ availability of job site utilities 
+ interfaces with the public domain, other construction contractors, and other entities 
+ availability and completeness of design documents and drawings 
+ limitations and restrictions on hours of operation 
+ seasonal influences on the work; local holiday s and other factors affecting productivity rates 
+ physical limitations of construction equipment 
+ physical limitations and “handle-ability” of construction components 
+ the owner’s operational requirements 
+ interfaces and coordination with utility companies 
+ availability of labor, equipment and materials; long lead time equipment items 
+ site safety and security; safety and security of the general public 
+ traffic impacts 
+ aesthetics and safety aspects of barriers and buffers 
+ noise mitigation 
+ job site cleanliness and maintenance requirements 
+ construction cost and schedule 
+ pay item structures and quantities 
+ quality control, quality assurance,  and system testing requirements
+[14] 
+ 
+ 
+Schedule Constructability Review Considerations 
+ 
+The schedule review must be conducted by someone who is knowledgeable and understands the 
+construction requirements of the project. The schedule review must be conducted by a person or persons 
+with experience in the unique requirements for that type of project whether it is general commercial 
+facility; high rise building with unique vertical construction requirements; horizontal or linear construction 
+such as highways; or specialized projects such as tunnels, bridges, waste water treatment facilities, 
+brownfield sites, sports stadiums, casinos, expensive custom homes, railroads & transit projects, or power 
+plants, etc. 
+ 
+The constructability team reviewers should have experience with similar types of projects to better 
+perform a constructability assessment, to provide a credible evaluation of the sequence of work and the 
+activity durations established for the work. Schedule activity durations are partially established by 
+consideration of the quantities to be installed from the cost estimator’s drawing take off, as well as other
+
+===== PDF PAGE 6 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Schedule Constructability Review 
+ 
+August 28, 2009
+5 of 10
+project factors that might affect productivity such as site congestion or seasonal impacts which can better 
+be determined by an experienced constructor.  
+ 
+The constructability schedule reviewer is often not a scheduling professional but must have an 
+understanding of good scheduling practices and generally accepted principles for “building” the schedule 
+that accurately represents the sequence and logic of how the project will be built. Some of the important 
+considerations for the constructability schedule reviewer include: 
+ 
+ Completeness. The schedule must be comprehensive in scope including all predecessor and 
+successor work activity relationships from the construction notice to proceed (NTP), mobilization, 
+execution and on through demobilization. 
+ 
+ Coordination. The schedule must take into account the coordination and interfaces with all project 
+participants. 
+ 
+ Start-up and commissioning. The schedule must be integrated with the requirements for start-up, 
+commissioning and transition to efficient operations of the facility and support systems. 
+ 
+ Identification of work done by others. Craft trades; subcontractors; vendors and suppliers; and work 
+performed “by others” must be clearly indicated for appropriate clarity in the plan. 
+ 
+ Control points. Engineering & design completion requirements should be indicated in the scheduled 
+sequence as a milestone such as “issued for construction (IFC) design documents”. 
+ 
+ Safety, security and environmental requirements. The schedule should take into account the special 
+safety, security or environmental requirements above and beyond the generally accepted standards.  
+ 
+ Long lead items. Material and equipment procurements should be a major focus during the 
+construction schedule assessment. Adequate lead time for material and equipment procurements is 
+essential. The evaluation of procurement advantages of using prefabricated, preassembled and 
+modularized components is very important to be resolved early in order to avoid potential design 
+impact. The source of the established durations for ordering, fabrication, and shipping time needs to 
+be verified. “Just in time” delivery is an important concept to keep in mind during the planning. The 
+impact of late deliveries is obvious in the delay potential for the project. The impact of “too early” 
+delivery of materials and equipment can be just as significant: requiring additional storage and 
+laydown areas; protection from the weather or damage in storage location; multiple handling of the 
+material; etc. On more than one project, the constructor has incurred significant costs and 
+inefficiencies related to longer than planned storage and warehousing.  
+ 
+ Weather impact considerations. An important element of the construction planning is to identify 
+seasonal weather periods that could potentially impact the construction work. The potentially adverse 
+weather time frames, when it is either too hot or too cold to work, should be included in the 
+construction planning and incorporated into the schedule. Historic weather information is readily 
+available and should be consulted when developing the construction schedule. For example the 
+National Oceanic and Atmospheric Administration (NOAA) web site maintains a historic weather 
+database for all regions of the United States. Consider using the scheduling software calendar 
+features to factor in the potential adverse weather seasons. Construction schedule work activities that 
+are susceptible to these weather impacts, particularly critical path activities should be assigned to that 
+weather calendar. The completion of “facility enclosure” should occur prior to the inclement weather 
+season in order to allow interior work to proceed without unnecessary delay or damage to the interior 
+work. It is important to consider both maximum and minimum temperature requirements for material 
+installation. Improper planning can result in costly extras for construction. Proper sequencing for the 
+completion of climate control systems to provide temporary (or permanent) heating/cooling for the 
+installation of climate sensitive materials such as sheetrock, millwork, and flooring.
+
+===== PDF PAGE 7 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Schedule Constructability Review 
+ 
+August 28, 2009
+6 of 10
+ Appropriateness of detail. The construction schedule should not be a duplication of the project 
+submittal register, expediting log, or the project completion punch list. Those are separate project 
+management documents. 
+ 
+ 
+Site Planning Development 
+ 
+Site access and work restrictions need to be an element of the SCR. Work restrictions includes items 
+such as allowable hours for construction noises; seasonal periods of non-work; labor or contract 
+restrictions related to work on weekends or holidays; etc. There are several other elements related to the 
+development of the site plan and specific site conditions that should be considered in the project planning. 
+Specialists involved in the project need to be included in the planning for cranes; fire protection; safety; 
+material management (procurement, transportation, delivery, and storage); and others. The site plan must 
+include required spaces for the temporary facilities and material/equipment laydown areas and existing 
+plant structures and features. The laydown areas should be located to allow the most direct access route 
+possible to the final equipment locations and avoid multiple turns along the route. The site arrangement 
+plan must be finalized early and should not be changed without valid reason. The following are important 
+factors to consider in any schedule constructability assessment:
+[2] 
+ 
+ Temporary construction. Establish a list and locations for the placement of required temporary 
+facilities including: offices, warehouse(s), laydown areas, parking, tool cribs, fabrication shops (plan to 
+locate adjacent to storage areas), medical facility & staff, welders’ testing facility, chemical product 
+(MSDS) storage, hazardous waste and combustible storage, etc. Layout the roads, access ways, 
+fabrication shops and storage to avoid the cross flow of materials and minimize traffic interference. 
+Consider outfitting “prepackaged” fabrication shops in large storage containers or trailers. These 
+shops completely loaded with tools, equipment, and consumable supplies and could be readily 
+moved to the work location and set on concrete work slabs. When practical, position the temporary 
+facilities to take advantage of natural drainage patterns. The planning should also include removal of 
+the temporary facilities at, or near the end of, the project construction phase to allow for any 
+remaining construction work (grading, landscaping, paving, curbs, etc.) that may be required. 
+ 
+ Site access planning. Site access planning can result in significant savings of both labor cost and 
+time. Location of the main gate should be centered on the construction work to minimize lost time due 
+to travel. Depending on labor contract agreements (union and non-union) the project may be required 
+to have separate craft entry gates and parking areas. Maximize open spaces for work areas, 
+turnarounds, and maintenance. The width of roads and gates must be sized to accommodate the 
+largest cranes and equipment that will be used or placed on the project. Staging areas should be 
+established for items that are to be preassembled at the site before erection. These ground level 
+preassembly construction activities increase productivity and enhance safety. Consider the use of 
+man lifts in lieu of scaffolding where practical as scaffolding systems can be time consuming and 
+expensive to erect and maintain. A daily review of site access & egress is required as the site can 
+change daily as the installation work progresses. 
+ 
+ Site plan. The site arrangement plan should be reviewed along with the scheduled construction 
+sequencing to be sure that the planned haul routes for heavy equipment are not closed because of 
+height, width, length, and weight previously installed facilities/features or other restrictions. There 
+should be a contingency plan for late delivery of large equipment so that other work can proceed. 
+Review the site plan for equipment and material deliveries to avoid double handling by setting the 
+items directly into position when received. As previously mentioned preassembly and modularization 
+should be incorporated into the construction schedule as much as practical for the project.  
+ 
+ Staffing and manpower planning. A review of the manpower loading and craft staffing levels is an 
+important element of the SCR. Consider the field craft manpower requirements in relation to the 
+schedule and prioritize the engineering sequence of design releases to improve leveling of critical 
+labor peaks. The required craft skills for the various phases of the project need to be compared with
+
+===== PDF PAGE 8 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Schedule Constructability Review 
+ 
+August 28, 2009
+7 of 10
+the local craft labor availability during the planned construction phase. Other projects in the area that 
+might compete for craft resources also need to be considered. 
+ 
+ Optimum sequencing. The construction sequence should be optimized so that there are not any 
+engineering or procurement constraints. In other words, the project schedule should be construction 
+driven and the engineering and procurement activities should support that construction schedule. 
+Forecasted procurement durations for material/equipment deliveries must be evaluated and adjusted 
+to support the construction timing and sequence requirements. Work that is not restricted by 
+engineering or procurement lead-time should be pushed ahead quickly by construction. 
+ 
+ Site safety. Site safety planning includes providing clear access routes to prevent congestion as well 
+as good escape or evacuation routes in case of fire or other emergencies on site. Minimize “hot work” 
+permit areas and establish construction buffer areas away from existing operating facilities to reduce 
+potential accidents involving facility operations personal who normally should not to be in the 
+construction work areas.  
+ 
+ Civil work sequencing. The construction schedule should maximize the completion of underground 
+work as early as practical on the project. Storm drains and sewage drain systems should be 
+completed early. Temporary ditching and standby pumping units to remove surface water quickly 
+should be including in the construction planning when appropriate. If possible the permanent plant 
+sewage treatment facility should be completed early and placed into operation to minimize the need 
+for temporary facilities. Drainage during construction excavation should be directed away from 
+equipment foundations. It may be beneficial to complete parking areas early to reduce dust control 
+requirements and provide parking for trades or additional storage for construction materials or 
+equipment. 
+ 
+ Permanent systems used during construction. If permitted by the contract specifications, the 
+permanent plant lighting should be completed as early as practical so that it can be used for night 
+work, shift work, and security. Use as much of the permanent systems equipment (transformers, 
+lighting panels, yard lighting) as possible for temporary power requirements. Temporary power should 
+be installed underground to reduce exposure to construction equipment damages. Layout overhead 
+temporary power lines along fence lines to minimize interference with crane booms, and other 
+construction rigging. Covered storage should be provided with a controlled climate for sensitive 
+electrical and instrumentation components. Permanent mechanical and piping systems should be 
+used as much as possible for temporary services (compressed air, steam, water, etc.). In summary, 
+maximize the use of permanent systems whenever possible or practical. Issues regarding warranties 
+and vendor support must be taken into consideration and resolved before making the final decision to 
+use permanent rather than temporary facility systems. 
+ 
+ 
+Schedule Constructability Review Checklist  
+ 
+This SCR checklist is intended to recommend a process and sequence to analyze and assess the 
+construction planning to identify potential coordination issues, out of sequence work, missed work details, 
+unrealistic activity durations, potential time delays, and inter-contractor coordination items. The SCR 
+should include the construction site and work flow assessment as well as an analysis of the “work 
+schedule” related to: 
+ 
+ abutting contractors 
+ limited work hours, restrictions on some cons truction activities such as blasting, trucking 
+ maintenance of traffic, restrictions on traffic flow and access to site 
+ disruption to public and businesses 
+ coordination with utilities and other agencies 
+ coordination with suppliers (long lead orders) 
+ subcontractors’ delays; contractors (ability) to effectively manage subs
+
+===== PDF PAGE 9 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Schedule Constructability Review 
+ 
+August 28, 2009
+8 of 10
+ weather effects on schedule 
+ cash flow and contractor payments.” [21] 
+ 
+ 
+Site Construction Schedule Checklist  
+ 
+A SCR checklist should generally follow the established sequence of construction. A constructability 
+guide prepared by Edward D. Wright with Obrien-Kreitzberg Associates Inc. is very good resource that is 
+available on the internet
+ [24]. Portions of that guide as related to schedule assessment have been included 
+in the following proposed checklist: 
+ 
+ 
+Site Access
+ 
+ 
+Getting into the site work area: 
+ construction permits 
+ environmental permits 
+ site clearing & grading requirements: location of disposal sites for spoils 
+ main entrance gate centrally located 
+ accessibility for construction personnel, equipment, and material delivery 
+ one way traffic pattern and parking for craft trades  
+ fences, barricades, traffic control, ro ad closures, rerouting of normal traffic 
+ separate routes for construction traffic,  vendor deliveries and construction vehicles 
+ utilities: relocation, insta llation of temporary utilities 
+ 
+Getting around the site interior work areas: 
+ accessibility for heavy equipment (crawler canes, etc.) 
+ facilities for construction field office s, client, subcontractors, and medical  
+ temporary power & utilities  
+ weather effects on work areas 
+ sewage & storm drainage system 
+ warehouse(s) & laydown areas 
+ fabrication shops 
+ modular equipment & components 
+ construction vehicle parking, maintenance and service area 
+ sign and markers 
+ 
+ 
+Site Civil Work 
+ 
+ clearing & grubbing  
+ site excavation & fill (ditches & trenches) 
+ storm drainage & sewers 
+ duct banks and und erground utilities 
+ pile driving, shoring, retaining walls 
+ grading & paving 
+ 
+ 
+Facility Work
+ 
+ 
+ foundations & footings 
+ concrete: cast in-place and pre-cast 
+ structural framework; wind ows; exterior siding, cladding, facades; & roof systems 
+ building enclosure 
+ mechanical & electrical rough-in
+
+===== PDF PAGE 10 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Schedule Constructability Review 
+ 
+August 28, 2009
+9 of 10
+ interior walls & ceiling 
+ doors & hardware 
+ interior finishes; mill work, painting 
+ mechanical systems installation, cleaning, pressure testing, & final connection 
+ electrical conduit & cable tray loading, pulling cables, wiring connections & testing circuits 
+ furniture & fixtures 
+ system(s) checkout & startup: (i .e. HVAC system balancing, etc.)  
+ 
+ 
+REFERENCES 
+ 
+1. Bechtel Corporation, The Project Schedule - Part 1 & 2, Prime Contracts Management Bulletin No. 
+10, June 1991 & No. 11, December 1991, San Francisco, CA. 
+2. Bechtel Corporation, Bechtel Constructability Handbook, Rev. 0, 1992, San Francisco CA. 
+3. Constructability Catalog, Construction Engineering Research Laboratory, Champaign IL, 
+www.cacer.army.mil 
+4. Construction Industry Institute (CII). Constructability: A Primer, Publication RS3-1 (July), CII, Austin, 
+Texas, 1986. 
+5. Construction Industry Institute (CII). Benefits and Costs of Constructability, CII Publication SD-83- 
+1992. 
+6. Construction Management Association of America (CMAA). Fifth Annual Survey of Owners 
+Presentation September 2004, World-wide Web document, http://cmaanet.org/fmi_survey.php, 
+(January 3, 2005). 
+7. Dovichi, Stephanie L., A Lesson in Constructability 101, Coalition for Adequate School Housing 
+(CASH), 2002, Sacramento, CA, www.cashnet.org June 2004. 
+8. Folk, P. Douglas, Esq. Constructability: Does the Design Convey Enough Information? ,Schinner 44th 
+Annual Meeting of Invited Attorneys, 2005. 
+9. Gransberg, Douglas D., Implementing Project Constructability, AACE International Transactions, 
+AACE International, Morgantown, WV, 2005. 
+10. Gibson, G.E., C.I. McGinnis, W.S. Flanigan, and J.E. Wood, Constructability in the Public Sector, J. of 
+Constr. Engr. and Mngt. ASCE, 122 (3), New York, NY: 274-280, 1996. 
+11. Hanlon, Eric J., Constructability Information Classification Scheme, American Society of Civil 
+Engineers (ASCE), 1995. 
+12. Heat Recovery Steam Generator – HRSGs – Constructability, www.babcockpower.com, April 14, 
+2007 
+13. Jergeas, G. and J. Van der Put, Benefits of Constructability on Construction Projects, Journal of 
+Construction Engineering and Management, ASCE, Vol. 127, (4), 2001. 
+14. Keville Enterprises, Constructability Reviews, www.keville.com/constructability_reviews, June 2006. 
+15. KJM & Associates, Constructability Reviews, www.kjmassoc.com, June 2004. 
+16. McDonald, Donald F. Jr., Weather Delays and Impacts, Cost Engineering journal, AACE 
+International, Morgantown, WV, May 2000. 
+17. Pocock, James B., Constructability State of Practice, Means, Methods & Trends, AEI/CI, 2005, 
+www.mmtmagazine.org, April,17, 2007  
+18. Ruby, David I, Ruby, Jay, & Volpe, Brian M.; Constructability: A Design Philosophy to Build On, 
+Modern Steel Construction, April 2007.  
+19. Staub-French, Sheryl, Providing Cost and Constructability Feedback to Designers, Construction 
+Research Congress 2003. 
+20. Thabet, Walid, Design/Construction Integration thru Virtual Construction for Improved 
+Constructability, White Paper, Berkley-Stanford CEM Workshop, August 1999, Stanford CA.  
+21. Touran, Ali, CMAA, Owners Risk Reduction Techniques using a CM, Checklist for Capital 
+Construction Projects, Northeastern University. October 2006 
+22. U.S. Army Corps of Engineers (USACE), Engineer Regulation 415-1-11: Biddability, Constructability, 
+Operability, and Environmental Review, Department of the Army, Washington, D.C., 1994. 
+23. Vanir Construction Management Services, Constructability Reviews,  
+www.vanir.com/services/ConstructabilityReview, June 2006
+
+===== PDF PAGE 11 =====
+
+Copyright 2009 AACE International, Inc.                                                          AACE International Recommended  Practices 
+Schedule Constructability Review 
+ 
+August 28, 2009
+10 of 10
+24. Wright, Edward D. P.E., Obrien-Kreitzberg Assoc. Inc, Constructability Guide, March 1994, 
+www.azdot.gov/highways/constgrp/PDF 
+25. AACE International Recommended Practice No. 10S-90 Cost Engineering Terminology, AACE 
+International. Morgantown, WV, (latest revision). 
+26. AACE International Recommended Practice No. 30R-03 Implementing Project Constructability, AACE 
+International, Morgantown, WV, (latest revision).  
+27. Hollmann, John K., Editor, Total Cost Management Framework: An Integrated Approach to Portfolio, 
+Program, and Project Management, AACE International, Morgantown WV, 2006. 
+28. AIA Integrated Project Delivery: A Guide, American Institute of Architects Contract Documents 
+Committee, http://info.aia.org/SiteObjects/files/IPD_Guide_2007.pdf 
+29. McGraw-Hill Construction, Best Practices in Integrated Project Delivery for Overall Improved Service 
+Delivery Management, www.http://ce.construction.com, June 2009 
+30. Integrated Project Delivery (IPD), http://www.kalblue.com/construction/bim/integrated-project-delivery-
+ipd, June 2009 
+ 
+ 
+CONTRIBUTORS 
+ 
+Edward E. Douglas, III CCC PSP (Author) 
+Ricardo Accioly 
+Rodney B. Adams, CCE 
+Zia Akhtar 
+Kenneth Baker 
+Michael P. Bomi 
+Timothy T. Calvey, PE PSP 
+Paul L. Conant, Jr. 
+Douglas A. Findley, CCC PSP 
+Ricardo Garcia da Roza 
+John K. Hollmann, PE CCE CEP 
+John J. MacDonald 
+Robert C. Powell, CCE 
+Benjamin Price 
+Mahmoud M. Saleh 
+Hannah E. Schumacher, PSP 
+Donald F. Sulzer 
+Ronald M. Winter, PSP

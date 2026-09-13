@@ -1,0 +1,66 @@
+[
+  {
+    "file": "AACE_International_Recommended_Practice_Delay_Analysis.pdf",
+    "pages": 135,
+    "text_pages": 135,
+    "text_chars": 440248,
+    "bytes": 1414384,
+    "output": "aace_international_recommended_practice_delay_analysis.txt"
+  },
+  {
+    "file": "aace-48r-06-schedule-constructability-review_compress.pdf",
+    "pages": 11,
+    "text_pages": 11,
+    "text_chars": 37223,
+    "bytes": 274166,
+    "output": "aace_48r_06_schedule_constructability_review_compress.txt"
+  },
+  {
+    "file": "ACCE Schedule Basis 38r-06.pdf",
+    "pages": 12,
+    "text_pages": 12,
+    "text_chars": 33395,
+    "bytes": 117704,
+    "output": "acce_schedule_basis_38r_06.txt"
+  },
+  {
+    "file": "American concrete institute - ACI_347_2R_17_official.pdf",
+    "pages": 5,
+    "text_pages": 5,
+    "text_chars": 18921,
+    "bytes": 598758,
+    "output": "american_concrete_institute___aci_347_2r_17_official.txt"
+  },
+  {
+    "file": "American concrete institute - ACI_347R_14_official.pdf",
+    "pages": 11,
+    "text_pages": 11,
+    "text_chars": 49724,
+    "bytes": 698865,
+    "output": "american_concrete_institute___aci_347r_14_official.txt"
+  },
+  {
+    "file": "Egypt Housing & Building Research Center - HBRC_ECP203_official.pdf",
+    "pages": 225,
+    "text_pages": 0,
+    "text_chars": 0,
+    "bytes": 6226840,
+    "output": "egypt_housing___building_research_center___hbrc_ecp203_official.txt"
+  },
+  {
+    "file": "fidic_-_conditions_of_contract_for_construction_for_building_and_engineering_works_designed_by_the_employer_(1999).pdf",
+    "pages": 128,
+    "text_pages": 128,
+    "text_chars": 352031,
+    "bytes": 749609,
+    "output": "fidic___conditions_of_contract_for_construction_for_building_and_engineering_works_designed_by_the_employer__1999.txt"
+  },
+  {
+    "file": "OSHA_1926_703_Cast_In_Place_Concrete.txt",
+    "pages": null,
+    "text_pages": null,
+    "text_chars": 5803,
+    "bytes": 5803,
+    "output": "osha_1926_703_cast_in_place_concrete.txt"
+  }
+]

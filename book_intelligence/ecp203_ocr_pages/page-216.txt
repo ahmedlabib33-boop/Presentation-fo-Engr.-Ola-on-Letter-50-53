@@ -1,0 +1,26 @@
+الكود المصري لتصميم وتنفين المنشآت الخرسانية -18.؟ الملحق الثالث-الرموز والمصطلحات | الكود المحبري لتحبميم وتنفيذ المنشآت الخرصانية 14:؟ المنحق الثالث-الرموز والمصطلحات
+معاملات ‎yaad‏ إجيادات ‎coeticentforsteel alla‏ مصاع يس مي ا الل
+‎aes A‏ تسليح المقطع ‎area of section reinforcement‏ معامل زيادة مقاومة الخرسانة في القص خاص بالكمرات  ‎a = Correction coefficient for ultimate flexural strength‏
+امل يستخدم في حساب مقاو 58 - معامل العزوم المنقولة بالاتحناء عند اتصال البلاطة ‎Coefficient of moment transferred by flexure atslab‏ = %
+معامل توزيع الأحمال منتظمة التوزيع في البلاطات ‎aE Coetfciemt of distibuting uniform loads in solid‏ المسطحة بالقيود ‎COC mere‏
+معامل يربط العلاقة بين المتوسط والقيمة التصميمية ‎banc baat cb EES Sena “B= Coefficient which relates the average crack width to‏ مسي ‎section‏ ا لاك
+‎igs‏ الميل بين صلب التسليح في ‎lath‏ المحور ‎x‏ واتجاد > ‎Angle between reinforcing in direction of the‏ ع 0 0006 الاتفعال الناتج عن التحميل ‎occuring due teinitiatfoading a‏ ةا ل
+. إجهادات الشد الرئيسية ‎axis and direction of the principal tensile stresses‏ معامل يستخدم في حساب عرض الشرخ ‎tetany‏ على قطر  ‎Coefficient used in calculating cracks, depending‏ = مير
+‎cull‏ يستخدم في ‎las‏ طول التماسك عند الركائز ‎a= Constant used for calculating anchorage length in‏ . السيغ المستعمل بالقطاع وعوامل اخرى  ‎afbarusedin section and atherfactors‏ افيا ااا
+البسيطة وعند نقطٍ اتعدام عزوم ‎simple supports and points of zero moments sb th‏ - معامل خفض مقاومة ميثب التسليح ‎Material strength reduction factor for‏ = %
+النسبة بين الحواف المستمرة للبلاطة إلى الطول ‎continuous edocs of the slab and its ١‏ لمع ا رم 0 7 ‎Acoefficient which accounts for the effect of tensile‏ د 5
+المحيطيا ااا كن ‎ce circumference length ١‏ 0 وال نقص مقاومة الخرسانة لإجباد القص في حالة وجود ‎forces on the nominal shear strength provided by‏
+محامل يمتخدم في حساب مقاومة القص الثاقب للخرسانة ‎concrete “fp “B= Coefficient used for calculating punching shear‏
+سسايقة ‎Sendemessiatioformalls SSS Pree Pent of prestressed concrete‏ 0
+‎Jlasstl nL‏ الايد لإجهاد الخضصوع أو لإجباد الضمان ‎Steel strain at yield or proof stress‏ 7 5
+مجموع أقطار الأخربة عند المستوى الذي يحتوي على أكبر  ‎١ - Sum of diameters of at the level containing largest‏ كلب
+معامل يمكس تأثير خواص التماسك تصلب التسليج على ‎Bt =. Coefficient showing effect of bond characters of‏ ب ‎Apel‏ صلب سبق الإجباد في القطاغ الخرساني ‎Hp = Ratio of prestressed reinforcement‏
+الزيادة المتوسطة للانفعال في الصلب بالنسبة ‎steel reinforcement on average increase in steel Gly AM‏ الاتفحال قي الخرسانة عند مستوق صلب سيق الإجياد و0استميوميم ‎Strain in concrete at the level of‏ = ع ©
+حول ‎teat‏ ا ‎strain relative to concrete around the steel‏ نتيجة سبق الإجباد يعد أخذ تأثير كل الفواقد في الاعتبار  ‎reinforcement duc to prestressing force after taking‏
+معامل يأخذ تأثير فترة التحميل على قيمة الؤيادة ‎١ 0 82 - Coefficient which account for the duration of‏ - الاتقعال ‎anys‏ ال ‎fain‏ و ‎SE‏
+‏. المتوسطة للاتفمال في المصلب بالنسبة للخرساتة ‎fs = Elasticstaininconcrete ae loading or the repeated loading Aye‏ ©
+اتفال ‎Maxtensiestain lat‏ اح اه ا الاتفعال ف مبلب سبق الإجهاد ‎Bull‏ عن توافق التقجالات ‎to strain’‏ ملك ‎Stain” in presressing steel‏ ا اله 0
+.قيمةالحيود ‎gil‏ المتوسطة | 0 ‎aie Be - Averagesdedeviation‏ الحد الأقصى لعزوم الاتحناء ‎compatibility at ultimate flexural strength limit‏
+‎oly Jala‏ مقاومة ‎tat 8. =A cofient which acount forthe est OF aia‏ كل الفراقد ق ‎Ae Ing alllossesinno consideration, el‏ الل
+قوق ضغط ‎compressive forces on the nominal shear steength‏ معامل خقض المقاومة القصوى تصملب سبق الإجباد ‎Yow = Material strength reduction factor for prestressing‏
+اصفحةرقم: م18 ‎١-0000‏ نسخةمخصصةلطبة 00 00203/2018م ‎S*S*«wS Tp‏ انسنةمخصصةللطية 8002032018000

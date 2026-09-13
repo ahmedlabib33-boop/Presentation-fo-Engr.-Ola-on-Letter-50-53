@@ -1,0 +1,38 @@
+الكود المصري لنصميم وتنفيذ المنشآت الخرسائية 5.14 الملحق الثالث-الرموز والمصبطلحات الكود المصري لتصميم وتنفيذ المنشآت الخرسائية ‎TAA‏ الملحق الثالث-الرموز والمصطلحات
+‎Shinkagestrain Sha‏ = & معامل يستخدم ‎Glas!‏ الترخيم الإضاقي الناتج عن ‎Coefficient used for calculating excessive deflection‏ = ©
+الزحف والانكماش ‎creep and shrinkage‏ مع ‎occurring due‏
+الحمل المنتظم المكاق (للأحمال الأصلية المتقولة) وذلك ‎awe = Uniform load equivalent to the original loads, wo‏ |
+لحماب ‎calculate che maximum bending moments in‏
+عزوم الانحناء القصوى في الكمرات ‎beams‏
+‏مزدوجة ويؤخذ من جدول (5-؟ ‎double bending moments ~ taken from table ) 6- 241١1‏
+)12-1
+زافية ميل الكايل على محور الكمرة 0000000 كيه ‎Angle ofinclination efcable onthe beam‏ =“
+الحمل المنتظم المكاق (للأحمال الأصلية المنقوئة) وذلك ‎“Bix = Uniform load equivalent 10 original loads for‏
+لحساب قوى القص وردود الافعال في الكمرات ‎calculating shear forces and reactions in beams‏
+لاإ ددرن ‎Y= Coefficient of moment transferred by to!‏
+‎slab-column connection‏
+الفقد في سيق الإجياد فيجة الرحف ‎Al, = Lossesin prestressingstress duetoceepSSSS”S*S*«w‏
+الققد في سيق الإجباد نتيجة الاتضقاط ‎“TA, = Losses in prestressing stress due to elastic yall‏
+‎shortening‏
+‏- الققد في ‎cals‏ سبق الإجهاد تثيجة الاتكماش للعنصر  ‎Lossesin prestressing stress due toshvinkage‏ = بياش 7
+‎Aap = 2 prestressingforce. = SSSSSS™S™S~*~Sw‏
+زاوية الميل بين صلب التسليح في اتجاد المحور ‎of inclinavion between reinforcing steel in slag X‏ لوهم ‎“QS‏
+‏إجيادات الشد الرئيسية ‎direction of x-axis and direction of main tensile‏
+‎stresses:‏
+‎Xo Bea rr‏
+‎Diameteroftestedspecmen SSS Cheb ye gl‏ = 3"
+اطول الشياس ‎a)‏ للش اديه ‎ee‏
+‏الققدف سبق الإجهاد نتيجة استرخاء صلب سبق الإجهاد ‏ أه ‎Losses in prestressing force due 10 relaxation‏ = لك |
+‎prestressing steel‏
+يميز صلب التسليح علي المقاومة ‎(High tensile steel)‏ 5د 400/600 ‎Diameter ofhigh grade steel‏ = 048
+رتية ‎Veh‏
+‏معامل تصصحيح يتوقف على شكل طرف ‎a= Coefficientdepends on condition ofbarend gull‏
+معامل يستخدم في تصميم الأعمدة المعرضة تعزوم اتحتاء ‎a, = Coefficients used in designing column subjected ta‏
+مؤدوجة ويؤخذ من جدول ‎double bending moments- taken from table (6-12- )1-١7-5(‏
+)1
+محاملات لتقدير الأحمال المنتظامة البكافئة للأجمال ‎“ay Py = Coefficients for estimating uniform loads‏
+الأصلية المفروضبة على الكمرات ‎equivalent to original loads estimated on beams‏
+يميز صلب طرق عادى ‎2/51٠ AG,‏ أو .28/54 00000 اتطهماءو ارام ‎eS Defines of normal mild‏
+القطر المكاق ‎Equivatentdiameter ofbarbundle asl‏ ع الو 0
+معامل يحتمد على لوعالصلب 00000000 ‎ay 2 Factor for type of prestressingtondon‏
+اصفحةرقم م507 ‎3١١0-0-00‏ لسخةمخصصةلطلبة 00000 ‎TECP203/2018‏ صفحة رقم: ‎Vea‏ سحة مخصصة ‎ECP 203/2018 Ala‏

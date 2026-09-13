@@ -1,0 +1,1090 @@
+
+
+===== PDF PAGE 1 =====
+
+The attached excerpted resource materials have been made available for use 
+within ACI University.   
+ 
+To obtain a full version of this document, please visit the ACI Store.  
+ 
+For additional education products, please visit ACI University.
+
+===== PDF PAGE 2 =====
+
+Objectives of safety, quality, and economy are given priority in these 
+guidelines for formwork. A section on contract documents explains 
+the kind and amount of specification guidance the engineer/
+architect should provide for the contractor. The remainder of the 
+guide advises the formwork engineer/contractor on the best ways 
+to meet the specification requirements safely and economically. 
+Separate chapters deal with design, construction, and materials 
+for formwork. Considerations specific to architectural concrete 
+are also outlined in a separate chapter. Other sections are devoted 
+to formwork for bridges, shells, mass concrete, and underground 
+work. The concluding chapter on formwork for special methods of 
+construction includes slipforming, preplaced-aggregate concrete, 
+tremie concrete, precast concrete, and prestressed concrete.
+Keywords: anchors; architectural concrete; coatings; construction; 
+construction loads; contract documents; falsework; form ties; forms; form-
+work; foundations; quality control; reshoring; shoring; slipform construc-
+tion; specifications; tolerances.
+CONTENTS
+CHAPTER 1—INTRODUCTION AND SCOPE, p. 2
+1.1—Introduction, p. 2
+1.2—Scope, p. 2
+CHAPTER 2—NOTATION AND DEFINITIONS, p. 2
+2.1—Notation, p. 2
+2.2—Definitions, p. 2
+CHAPTER 3—GENERAL CONSIDERATIONS, p. 3
+3.1—Achieving economy in formwork, p. 3
+3.2—Contract documents, p. 4
+CHAPTER 4—DESIGN, p. 5
+4.1—General, p. 5
+4.2—Loads, p. 6
+4.3—Member capacities, p. 9
+4.4—Safety factors for accessories, p. 9
+4.5—Shores, p. 10
+4.6—Bracing and lacing, p. 10
+4.7—Foundations for formwork, p. 10
+4.8—Settlement, p. 10
+CHAPTER 5—CONSTRUCTION, p. 10
+5.1—Safety precautions, p. 10
+5.2—Construction practices and workmanship, p. 12
+5.3—Tolerances, p. 13
+5.4—Irregularities in formed surfaces, p. 14
+5.5—Shoring and centering, p. 14
+5.6—Inspection and adjustment of formwork, p. 14
+5.7—Removal of forms and supports, p. 15
+5.8—Shoring and reshoring of multistory structures, p. 17
+Kenneth L. Berndt, Chair
+ACI 347R-14
+Guide to Formwork for Concrete
+Reported by ACI Committee 347
+Rodney D. Adams
+Mary Bordner-Tanck
+George Charitou
+Eamonn F. Connolly
+James N. Cornell II
+Jack L. David
+Aubrey L. Dunham
+Jeffrey C. Erson
+Noel J. Gardner
+Brian J. Golanowski
+Timothy P. Hayes
+Gardner P. Horst
+Jeffery C. Jack
+David W. Johnston
+Roger S. Johnston
+Robert G. Kent
+Kevin R. Koogle
+Jim E. Kretz
+H. S. Lew
+Robert G. McCracken
+Eric S. Peterson
+Steffen Pippig
+Matthew J. Poisel
+Douglas J. Schoonover
+Aviad Shapira
+John M. Simpson
+Rolf A. Spahr
+Pericles C. Stivaros
+Daniel B. Toon
+Ralph H. Tulis
+Consulting Members
+Samuel A. Greenberg
+R. Kirk Gregory
+ACI Committee Reports, Guides, and Commentaries are 
+intended for guidance in planning, designing, executing, and 
+inspecting construction. This document is intended for the use 
+of individuals who are competent to evaluate the significance 
+and limitations of its content and recommendations and who 
+will accept responsibility for the application of the material it 
+contains. The American Concrete Institute disclaims any and 
+all responsibility for the stated principles. The Institute shall 
+not be liable for any loss or damage arising therefrom.
+Reference to this document shall not be made in contract 
+documents. If items found in this document are desired by 
+the Architect/Engineer to be a part of the contract documents, 
+they shall be restated in mandatory language for incorporation 
+by the Architect/Engineer.
+ACI 347R-14 supesedes ACI 347-04 and was adopted and published July 2014.
+Copyright © 2014, American Concrete Institute.
+All rights reserved including rights of reproduction and use in any form or by any 
+means, including the making of copies by any photo process, or by electronic or 
+mechanical device, printed, written, or oral, or recording for sound or visual reproduc-
+tion or for use in any knowledge or retrieval system or device, unless permission in 
+writing is obtained from the copyright proprietors.
+ACI 347R-14, Chapter 1-4, has been excerpted for 
+use with the ACI Online CEU Program.
+1
+
+===== PDF PAGE 3 =====
+
+CHAPTER 6—MATERIALS, p. 18
+6.1—General, p. 18
+6.2—Properties of materials, p. 19
+6.3—Accessories, p. 19
+6.4—Form coatings and release agents, p. 21
+CHAPTER 7—ARCHITECTURAL CONCRETE, p. 21
+7.1—Introduction, p. 21
+7.2—Role of architect, p. 21
+7.3—Materials and accessories, p. 23
+7.4—Design, p. 23
+7.5—Construction, p. 24
+7.6—Form removal, p. 25
+CHAPTER 8—SPECIAL STRUCTURES, p. 25
+8.1—Discussion, p. 25
+8.2—Bridges and viaducts, including high piers, p. 25
+8.3—Structures designed for composite action, p. 25
+8.4—Folded plates, thin shells, and long-span roof struc-
+tures, p. 26
+8.5—Mass concrete structures, p. 27
+8.6—Underground structures, p. 28
+CHAPTER 9—SPECIAL METHODS OF 
+CONSTRUCTION, p. 29
+9.1—Preplaced-aggregate concrete, p. 29
+9.2—Slipforms, p. 29
+9.3—Permanent forms, p. 31
+9.4—Forms for prestressed concrete construction, p. 32
+9.5—Forms for site precasting, p. 32
+9.6—Use of precast concrete for forms, p. 33
+9.7—Forms for concrete placed under water, p. 33
+CHAPTER 10—REFERENCES, p. 34
+Authored references, p. 35
+CHAPTER 1—INTRODUCTION AND SCOPE
+1.1—Introduction
+Many individuals, firms, and companies are usually 
+involved in the design of the facility to be built and in the 
+design and construction of the formwork. The facility team 
+typically involves structural engineers and architects who 
+determine the requirements for the concrete structure to be 
+built. For simplicity, the facility design team will usually 
+be referred to as the engineer/architect, although they may 
+be referred to separately in some situations. The form-
+work team may include the general contractor, formwork 
+specialty subcontractors, formwork engineers, form manu-
+facturers, and form suppliers. The participating companies 
+and firms also have form designers and skilled workers 
+executing many detailed tasks. For simplicity, the formwork 
+team will usually be referred to as the formwork engineer/
+contractor, although they may be referred to separately in 
+some situations.
+This guide is based on the premise that layout, design, 
+and construction of formwork should be the responsibility 
+of the formwork engineer/contractor. This is believed to be 
+fundamental to the achievement of safety and economy of 
+formwork and of the required formed surface quality of the 
+concrete.
+The paired values stated in inch-pound and SI units are 
+usually not exact equivalents. Therefore, each system is to 
+be used independently of the other.
+1.2—Scope
+This guide covers:
+a) A listing of information to be included in the contract 
+documents
+b) Design criteria for horizontal and vertical loads on 
+formwork
+c) Design considerations, including safety factors for 
+determining the capacities of formwork accessories
+d) Preparation of formwork drawings
+e) Construction and use of formwork, including safety 
+considerations
+f) Materials for formwork
+g) Formwork for special structures
+h) Formwork for special methods of construction
+CHAPTER 2—NOTATION AND DEFINITIONS
+2.1—Notation
+C
+CP =  concrete lateral pressure, lb/ft2 (kPa)
+Cc =  chemistry coefficient
+Cw =  unit weight coefficient
+c1 =  slipform vibration factor , lb/ft2 (kPa)
+g
+ =
+ gravitational constant, 0.00981 kN/kg
+h
+ =
+ depth 
+of fluid or plastic concrete from top of place-
+ment to point of consideration in form, ft (m)
+R
+ =
+ rate of placement, ft/h (m/h)
+T
+ =
+ temperature 
+of concrete at time of placement, °F 
+(°C)
+w
+ =
+ unit weight of concrete, lb/ft3
+ρ =  density of concrete, kg/m3
+2.2—Definitions
+The 2014 ACI Concrete Terminology (http://www.
+concrete.org/Tools/ConcreteTerminology.aspx) provides a 
+comprehensive list of definitions. The definitions provided 
+herein complement that source.
+backshores—shores left in place or shores placed snugly 
+under a concrete slab or structural member after the original 
+formwork and shores have been removed from a small area, 
+without allowing the entire slab or member to deflect or 
+support its self-weight and construction loads.
+brace—structural member used to provide lateral support 
+for another member, generally for the purpose of ensuring 
+stability or resisting lateral loads.
+centering—falsework used in the construction of arches, 
+shells, space structures, or any continuous structure where 
+the entire falsework is lowered (struck or decentered) as a 
+unit.
+climbing form—form that is raised vertically for 
+succeeding lifts of concrete in a given structure.
+American Concrete Institute – Copyrighted © Material – www.concrete.org
+2 GUIDE TO FORMWORK FOR CONCRETE (ACI 347R-14)
+
+===== PDF PAGE 4 =====
+
+drop-head shore—shore with a head that can be lowered 
+to remove forming components without removing the shore 
+or changing its support for the floor system.
+engineer/architect—the engineer, architect, engineering 
+firm, architectural firm, or other agency issuing project plans 
+and specifications for the permanent structure, administering 
+the work under contract documents, or both.
+falsework—temporary structure erected to support work 
+in the process of construction; composed of shoring or 
+vertical posting and lateral bracing for formwork for beams 
+and slabs.
+flying forms—large, prefabricated, mechanically handled 
+sections of floor system formwork designed for multiple 
+reuse; frequently including supporting truss, beam, or 
+shoring assemblies completely unitized.
+form—temporary structure or mold for the support of 
+concrete while it is setting and gaining sufficient strength to 
+be self-supporting.
+formwork—total system of support for freshly placed 
+concrete, including the mold or sheathing that contacts the 
+concrete as well as supporting members, hardware, and 
+necessary bracing.
+formwork engineer/contractor —engineer of the form-
+work system or contractor in charge of designated aspects of 
+formwork design and formwork operations.
+ganged forms—large mechanically hoisted assemblies 
+with special lifting hardware used for forming vertical 
+surfaces; also called “gang forms”.
+horizontal lacing—horizontal bracing members attached 
+to shores to reduce their unsupported length, thereby 
+increasing load capacity and stability.
+preshores—added shores placed snugly under selected 
+panels of a deck-forming system before any primary (orig-
+inal) shores are removed.
+reshores—shores placed snugly under a stripped concrete 
+slab or other structural member after the original forms and 
+shores have been removed from a full bay, requiring the 
+new slab or structural member to deflect and support its own 
+weight and existing construction loads to be applied before 
+installation of the reshores.
+scaffold—temporary structure with an elevated platform 
+for supporting workers, tools, and materials.
+shore—vertical or inclined support member or braced 
+frame designed to carry the weight of the formwork, 
+concrete, and construction loads.
+slipform—a form that is pulled or raised as concrete is 
+placed.
+surface air voids—small regular or irregular cavities, 
+usually not exceeding 0.6 in. (15 mm) in diameter, resulting 
+from entrapment of air bubbles in the surface of formed 
+concrete during placement and consolidation.
+CHAPTER 3—GENERAL CONSIDERATIONS
+3.1—Achieving economy in formwork
+The engineer/architect can improve the overall economy 
+of the structure by planning so that formwork costs are mini-
+mized. The cost of formwork can be greater than half the 
+total cost of the concrete structure. This investment requires 
+careful thought and planning by the engineer/architect when 
+designing and specifying the structure and by the formwork 
+engineer/contractor when designing and constructing the 
+formwork. Formwork drawings, prepared by the formwork 
+engineer/contractor, can identify potential problems and 
+should give project site employees a clear picture of what is 
+required and how to achieve it.
+The following guidelines show how the engineer/architect 
+can plan the structure so that formwork economy may best 
+be achieved:
+a) To simplify and permit maximum reuse of formwork, 
+the dimensions of footings, columns, and beams should 
+be of standard material multiples, and the number of sizes 
+should be minimized.
+b) When interior columns are the same width as or smaller 
+than the girders they support, the column form becomes a 
+simple rectangular or square box without boxouts, and the 
+slab form does not have to be cut out at each corner of the 
+column.
+c) When all beams are made one depth (beams framing 
+into girders as well as beams framing into columns), the 
+supporting structures for the beam forms can be carried on a 
+level platform supported on shores.
+d) Considering available sizes of dressed lumber, 
+plywood, and other ready-made formwork components and 
+keeping beam and joist sizes constant will reduce labor cost 
+and improve material use.
+e) The design of the structure should be based on the use 
+of one standard depth wherever possible when commercially 
+available forming systems, such as one- or two-way joist 
+systems, are used.
+f) The structural design should be prepared simultane -
+ously with the architectural design so that dimensions can 
+be better coordinated. Minor changes in plan dimensions to 
+better fit formwork layout can result in significant reductions 
+in formwork costs.
+g) The engineer/architect should consider architectural 
+features, depressions, and openings for mechanical or elec -
+trical work when detailing the structural system, with the aim 
+of achieving economy. Variations in the structural system 
+caused by such items should be shown on the structural 
+plans. Wherever possible, depressions in the tops of slabs 
+should be made without a corresponding break in elevations 
+of the soffits of slabs, beams, or joists.
+h) Embedments for attachment to or penetration through 
+the concrete structure should be designed to minimize 
+random penetration of the formed surface.
+i) Avoid locating columns or walls, even for a few floors, 
+where they would interfere with the use of large formwork 
+shoring units in otherwise clear bays.
+j) Post-tensioning sequences should be carried out in 
+stages and planned in a way that will minimize the need for 
+additional shoring that may be required due to redistribution 
+of post-tensioning loads.
+American Concrete Institute – Copyrighted © Material – www.concrete.org
+ GUIDE TO FORMWORK FOR CONCRETE (ACI 347R-14)  3
+
+===== PDF PAGE 5 =====
+
+3.2—Contract documents
+The contract documents should set forth the tolerances 
+required in the finished structure but should not attempt to 
+specify the means and methods by which the formwork engi-
+neer/contractor designs and builds the formwork to achieve 
+the required tolerances.
+The layout and design of the formwork should be a 
+joint effort of the formwork engineer and the formwork 
+contractor. The formwork construction in compliance with 
+the formwork design is the responsibility of the formwork 
+contractor. When formwork design is not by the contractor, 
+formwork design is the responsibility of the formwork 
+engineer. This approach gives the necessary freedom to 
+use skill, knowledge, and innovation to safely construct an 
+economical structure. By reviewing the formwork drawings, 
+the engineer/architect can understand how the formwork 
+engineer/contractor has interpreted the contract documents. 
+Some local jursidictions have legal requirements defining 
+the specific responsibilities of the engineer/architect in 
+formwork design, review, or approval.
+3.2.1 Individual specifications—The specification for 
+formwork will affect the overall economy and quality of the 
+finished work; therefore, it should be tailored for each partic-
+ular job, clearly indicate what is expected of the contractor, 
+and ensure economy and safety.
+A well-written formwork specification tends to equalize 
+bids for the work. Vague or overly restrictive requirements 
+can make it difficult for bidders to understand exactly what 
+is expected. Bidders can be overly cautious and overbid or 
+misinterpret requirements and underbid. Using standard 
+specifications such as ACI 301 that have many input sources 
+in development can mitigate these possible problems.
+A well-written formwork specification is of value not only 
+to the owner and the contractor, but also to the field repre-
+sentative of the engineer/architect, approving agency, and 
+the subcontractors of other trades. Some requirements can 
+be written to allow discretion of the contractor where quality 
+of finished concrete work would not be impaired by the use 
+of alternative materials and methods.
+Consideration of the applicable general requirements 
+suggested herein are not intended to represent a complete 
+specification. Requirements should be added for actual 
+materials, finishes, and other items peculiar to and neces-
+sary for the individual structure. The engineer/architect can 
+exclude, call special attention to, strengthen, or make more 
+lenient any general requirement to best fit the needs of the 
+particular project. Further detailed information is given in 
+ACI SP-4.
+3.2.2 Formwork materials and accessories—If the partic-
+ular design or desired finish requires special attention, the 
+engineer/architect can specify in the contract documents 
+the formwork materials and any other feature necessary to 
+attain the objectives. If the engineer/architect does not call 
+for specific materials or accessories, the formwork engineer/
+contractor can choose any materials that meet the contract 
+requirements.
+When structural design is based on the use of commer -
+cially available form units in standard sizes, such as one- or 
+two-way joist systems, plans should be drawn to make use 
+of available shapes and sizes. Some variation from normal 
+tolerances should be permitted by the specification: a) for 
+connections of form units to other framing; and b) to reflect 
+normal installation practices and typical used condition of 
+the form type anticipated.
+3.2.3 Finish of exposed concrete—Finish requirements for 
+concrete surfaces should be described in measurable terms 
+as precisely as practicable. Refer to 5.4, Chapter 7, and ACI 
+347.3R.
+3.2.4 Design, inspection, review, and approval of form-
+work—Although the safety of formwork is the responsibility 
+of the contractor, the engineer/architect or approving agency 
+may, under certain circumstances, decide to review and 
+approve the formwork, including drawings and calculations. 
+If so, the engineer/architect should call for such review or 
+approval in the contract documents.
+Approval might be required for unusually complicated 
+structures, structures whose designs were based on a partic -
+ular method of construction, structures in which the forms 
+impart a desired architectural finish, certain post-tensioned 
+structures, folded plates, thin shells, or long-span roof 
+structures.
+The following items should be clarified in the contract 
+documents:
+a) Who will design the formwork
+b) Who will determine post-tensioning sequence and 
+support needed for redistribution of loads resulting from 
+stressing operations
+c) Who will design shoring and the reshoring system
+d) Who will inspect the specific feature of formwork and 
+when will the inspection be performed
+e) What reviews, approvals, or both, will be required for:
+i. Formwork drawings, calculations, or both
+ii. Post-tensioning support
+iii. Reshoring design
+iv. Formwork preplacement inspection
+f) Who will give such reviews, approvals, or both.
+3.2.5 Contract documents—The contract documents 
+should include all information about the structure neces-
+sary for the formwork engineer to design the formwork and 
+prepare formwork drawings and for the formwork contractor 
+to build the formwork such as:
+a) Number, location, and details of all construction joints, 
+contraction joints, and expansion joints that will be required 
+for the particular job or parts of it
+b) Sequence of concrete placement, if critical (examples 
+include pour strips and hanging floors)
+c) Tolerances for concrete construction
+d) The live load and superimposed dead load for which the 
+structure is designed and any live-load reduction used
+e) Intermediate supports under stay-in-place forms, such 
+as metal deck used for forms and permanent forms of other 
+materials supports, bracing, or both, required by the struc-
+tural engineer’s design for composite action; and any other 
+special supports
+f) The location and order of erection and removal of shores 
+for composite construction
+American Concrete Institute – Copyrighted © Material – www.concrete.org
+4 GUIDE TO FORMWORK FOR CONCRETE (ACI 347R-14)
+
+===== PDF PAGE 6 =====
+
+g) Minimum concrete strength required before removal of 
+shoring and any project specific reshoring requirements
+h) Special provisions essential for formwork for special 
+construction methods and for special structures such as 
+shells and folded plates. The basic geometry of such struc-
+tures, as well as their required camber, should be given in 
+sufficient detail to permit the formwork contractor to build 
+the forms
+i) Special requirements for post-tensioned concrete 
+members. The effect of load transfer and associated move-
+ments during tensioning of post-tensioned members can be 
+critical, and the contractor should be advised of any special 
+provisions that should be made in the formwork for this 
+condition
+j) Amount of required camber for slabs or other struc-
+tural members to compensate for deflection of the structure. 
+Measurements of camber attained should be made at the 
+soffit level after initial set and before removal of formwork 
+supports
+k) Where chamfers are required or prohibited throughout 
+the project at all element corners, such as door openings, 
+window openings, beams, columns wall ends, and slab edges
+l) Requirements for inserts, waterstops, built-in frames for 
+openings and holes through concrete; similar requirements 
+where the work of other trades will be attached to, supported 
+by, or passed through formwork
+m) Size and location of formed openings through a struc-
+tural slab or wall should be shown on the structural drawings
+n) Where architectural features, embedded items, or the 
+work of other trades could change the location of structural 
+members, such as joists in one- or two-way joist systems; 
+such changes or conditions should be coordinated by the 
+engineer/architect
+o) Locations of and details for architectural concrete; 
+when architectural details are to be cast into structural 
+concrete, they should be so indicated or referenced on the 
+structural plans because they can play a key role in the struc-
+tural design of the form.
+CHAPTER 4—DESIGN
+4.1—General
+4.1.1 Planning—All formwork should be well planned 
+before construction begins. The amount of planning required 
+will depend on the size, complexity, and importance (consid-
+ering reuses) of the form. Formwork should be designed for 
+strength and serviceability. System stability and member 
+buckling should be investigated in all cases.
+4.1.2 Design methods—Formwork is made of many 
+different materials, and the commonly used design practices 
+for each material are to be followed (refer to Chapter 6). 
+For example, forms are designed by either allowable stress 
+design (ASD) methods or load and resistance factor design 
+(LRFD) methods. When the concrete structure becomes 
+a part of the formwork support system, as in many multi -
+story buildings, it is important for the formwork engineer/
+contractor to recognize that the concrete structure has been 
+designed by the strength design method. Accordingly, in 
+communication of the loads, it should be clear whether they 
+are service loads or factored loads.
+Throughout this guide, the terms “design”, “design load”, 
+and “design capacity” are used to refer to design of the form-
+work. Where reference is made to design load for the perma-
+nent structure, structural design load, structural dead load, or 
+some similar term is used to refer to unfactored loads (dead 
+and live loads) on the structure. Load effects on these tempo-
+rary structures and their individual components should be 
+determined by accepted methods of structural analysis.
+4.1.3 Basic objectives—Formwork should be designed so 
+that concrete slabs, walls, and other members will have the 
+correct dimensions, shape, alignment, elevation, and posi-
+tion within established tolerances. Formwork should also be 
+designed so that it will safely support all vertical and lateral 
+loads that might be applied until such loads can be supported 
+by the concrete structure. Vertical and lateral loads should 
+be carried to the ground by the formwork system or by the 
+in-place construction that has adequate strength for that 
+purpose. Responsibility for the design of the formwork rests 
+with the contractor or the formwork engineer hired by the 
+contractor to design and be responsible for the formwork.
+4.1.4 Design deficiencies—Some design deficiencies that 
+can lead to unacceptable performance or structural failure 
+are:
+a) Lack of allowance in design for loadings such as 
+concrete pressures, wind, power buggies, placing equip-
+ment, and temporary material storage
+b) Inadequate design of shoring, reshoring, or backshoring
+c) Inadequate provisions to prevent rotation of beam forms 
+where the slabs frame into them on only one side (Fig. 4.1.4)
+d) Insufficient anchorage against uplift due to battered 
+form faces or vertical component of bracing force on single-
+sided forms
+e) Insufficient allowance for eccentric loading due to 
+placement sequences
+f) Failure to investigate bearing stresses between individual 
+formwork elements and bearing capacity of supporting soils
+g) Failure to design proper lateral bracing or lacing of 
+shoring
+h) Failure to investigate the slenderness ratio of compres-
+sion members
+i) Inadequate provisions to tie corners of intersecting 
+cantilevered forms together
+j) Failure to account for loads imposed on form hardware 
+anchorages during closure of form panel gaps when aligning 
+formwork
+k) Failure to account for elastic shortening during 
+post-tensioning
+l) Failure to account for changing load patterns due to 
+post-tensioning transfer
+4.1.5 Formwork drawings and calculations—Before 
+constructing forms, the formwork engineer/contractor may 
+be required to submit detailed drawings, design calculations, 
+or both, of proposed formwork for review and approval by 
+the engineer/architect or approving agency. If such draw-
+ings are not approved by the engineer/architect or approving 
+agency, the formwork engineer/contractor should make such 
+American Concrete Institute – Copyrighted © Material – www.concrete.org
+ GUIDE TO FORMWORK FOR CONCRETE (ACI 347R-14)  5
+
+===== PDF PAGE 7 =====
+
+changes as may be required before the start of construction 
+of the formwork.
+The review, approval, or both, of the formwork draw-
+ings does not relieve the contractor of the responsibility 
+for adequately constructing and maintaining the forms so 
+that they will function properly. Design values and loading 
+conditions should be shown on formwork drawings. As 
+related to form use, these include formwork design values of 
+construction live load, allowable vertical or lateral concrete 
+pressure, maximum equipment load, required soil bearing 
+capacity, material specification, camber required, and other 
+pertinent information, if applicable.
+In addition to specifying types of materials, sizes, lengths, 
+and connection details, formwork drawings should provide 
+for applicable details, such as:
+a) Procedures, sequence, and criteria for removal of 
+forms, shores, reshores, and backshores and for retracting 
+and resnugging drophead shores to allow slab to deflect and 
+support its own weight prior to casting of next level
+b) Design allowance for construction loads on new slabs 
+when such allowance will affect the development of shoring 
+schemes, reshoring schemes, or both (refer to 4.5 and 5.8 for 
+shoring and reshoring of multistory structures)
+c) Anchors, form ties, shores, lateral bracing, and hori-
+zontal lacing
+d) Means to adjust forms for alignment and grade
+e) Waterstops, keyways, and inserts
+f) Working scaffolds and runways
+g) Weepholes or vibrator holes, where required
+h) Screeds and grade strips
+i) Location of external vibrator mountings
+j) Crush plates or wrecking plates where stripping can 
+damage concrete
+k) Removal of spreaders or temporary blocking
+l) Cleanout holes and inspection openings
+m) Construction joints, contraction joints, and expansion 
+joints in accordance with contract documents
+n) Sequence of concrete placement and minimum elapsed 
+time between adjacent placements
+o) Chamfer strips or grade strips for exposed corners and 
+construction joints
+p) Reveals (rustications)
+q) Camber
+r) Mudsills or other foundation provisions for formwork
+s) Special provisions, such as safety, fire, drainage, and 
+protection from ice and debris at water crossings
+t) Special form face requirements
+u) Notes to formwork erector showing size and location of 
+conduits and pipes projecting through formwork
+v) Temporary openings or attachments for climbing crane 
+or other material handling equipment.
+4.2—Loads
+4.2.1 Vertical loads—Vertical loads consist of dead and 
+live loads. The weight of formwork plus the weight of the 
+reinforcement and freshly placed concrete is dead load. The 
+live load includes the weight of the workers, equipment, 
+material storage, runways, and impact.
+Fig. 4.1.4—Prevention of rotation is important where slab frames into beam form on only 
+one side.
+American Concrete Institute – Copyrighted © Material – www.concrete.org
+6 GUIDE TO FORMWORK FOR CONCRETE (ACI 347R-14)
+
+===== PDF PAGE 8 =====
+
+Vertical loads assumed for shoring and reshoring design 
+for multistory construction should include all loads trans-
+mitted from the floors above as dictated by the proposed 
+construction schedule (refer to 4.5).
+The formwork should be designed for a live load of not 
+less than 50 lb/ft
+2 (2.4 kPa) of horizontal projection, except 
+when reductions are allowed in accordance with ASCE/SEI 
+37. When motorized carts are used, the live load should not 
+be less than 75 lb/ft
+2 (3.6 kPa).
+The unfactored design load for combined dead and live 
+loads should not be less than 100 lb/ft 2 (4.8 kPa), or 125 lb/
+ft2 (6.0 kPa) if motorized carts are used.
+4.2.2 Lateral pressure of concrete—The design of vertical 
+formwork is determined by the lateral pressure exerted 
+by the fresh concrete, which in turn is determined by the 
+mobility characteristics of the concrete and the method of 
+consolidating the concrete. Research (ACI Committee 622 
+1957, 1958; Gardner and Ho 1979; Gardner 1980, 1981, 
+1985; Clear and Harrison 1985; Johnston et al. 1989; British 
+Cement Association 1992; Dunston et al. 1994; Barnes and 
+Johnston 1999, 2003) has assisted in developing recommen-
+dations for lateral pressures of conventional concrete.
+Methods of consolidating concrete include rodding or 
+spading (no longer used or recommended for large place -
+ments), internal vibration, and external vibration. The inten-
+sity and depth of internal vibration affect the lateral pressure 
+exerted by vibrated concrete. Often, chemical admixtures 
+are used in conventional concrete to facilitate consolidation.
+In recent years, concrete technology has evolved with the 
+use of supplemental cementitious materials and specialty 
+chemical admixtures. Conventional concrete with slump 
+values less than 9 in. (225 mm) are typically vibrated to 
+ensure proper consolidation. With the increase in slump 
+beyond 9 in. (225 mm), it is preferable to determine the 
+slump flow spread of the concrete (ASTM C1611/C1611M) 
+rather than slump. Concrete mixtures with slump flow spread 
+between 15 and 24 in. (400 and 605 mm) may need vibration 
+to consolidate satisfactorily; this depends on the placement 
+conditions and characteristics of the structural element. Self-
+consolidating concrete (SCC) is a class of high-performance 
+concrete that can consolidate under its own mass. Such 
+concrete can be placed from the top of the formwork or can 
+be pumped from the base without mechanical consolidation 
+(ACI 237R).
+The lateral pressure of concrete in formwork can be 
+represented as shown in Fig. 4.2.2. Unless the conditions of 
+4.2.2.1 for conventional concrete or 4.2.2.2 for SCC are met, 
+formwork should be designed for the hydrostatic pressure of 
+the newly placed concrete given in Eq. (4.2.2.1a).
+When working with mixtures using newly introduced 
+admixtures that increase set time or increase slump char -
+acteristics, Eq. (4.2.2.1a) should be used until the effect on 
+formwork pressure is understood by testing, measurement, 
+or both.
+4.2.2.1a Inch-pound version—The lateral pressure of 
+concrete, C
+CP (lb/ft2), can be determined in accordance with 
+the appropriate equation listed in Table 4.2.2.1a(a).
+ CCP = wh (4.2.2.1a(a))
+            
+max
+9000150CP c w
+RC CC T
+=+ 
+ (4.2.2.1a(b))
+with 
+a minimum of 600Cw lb/ft2, but in no case greater than 
+wh
+         
+CC C T
+R
+T
+CP cwmax
+,=+ +
+
+
+150 43 400 2800
+ 
+(4.2.2.1a(c))
+with 
+a minimum of 600Cw lb/ft2, but in no case greater than 
+wh, where Cc is defined in Table 4.2.2.1a(b) and Cw is defined 
+in Table 4.2.2.1a(c).
+4.2.2.1b SI version— The lateral pressure of concrete, CCP 
+(kPa), can be determined in accordance with the appropriate 
+equation listed in Table 4.2.2.1b.
+ CCP = ρgh (4.2.2.1b(a))
+            
+max
+7857.2 17.8
+CP c w
+RC CC T
+=+  +  
+(4.2.2.1b(b))
+with 
+a minimum of 30C w kPa, but in no case greater than 
+ρgh.
+max
+1156 2447.2 17.8 17.8
+CP c w
+RC CC TT
+= ++  ++
+ (4.2.2.1b(c))
+with 
+a minimum of 30C w kPa, but in no case greater than 
+ρgh, where C c is defined in Table 4.2.2.1a(b) and Cw is 
+defined in Table 4.2.2.1a(c).
+Fig. 4.2.2—Concrete lateral pressure distribution.
+American Concrete Institute – Copyrighted © Material – www.concrete.org
+ GUIDE TO FORMWORK FOR CONCRETE (ACI 347R-14)  7
+
+===== PDF PAGE 9 =====
+
+4.2.2.2 When working with self-consolidating concrete, 
+the lateral pressure for design should be the full liquid head 
+unless the effect on formwork pressure is understood by 
+measurement or prior studies and experience. The lateral 
+pressures developed by SCC are determined by consid-
+ering the rate of concrete placement relative to the rate of 
+development of concrete stiffness/strength. Any method has 
+to include a measure of the stiffening characteristics of the 
+SCC and should be capable of being easily checked using 
+on-site measurements. Often, laboratory tests are needed as 
+a precursor to on-site monitoring tests. Several methods for 
+estimating lateral pressure of nonvibrated SCC have been 
+proposed (Gardner et al. 2012; Khayat and Omran 2011; 
+Lange et al. 2008; DIN 18218:2010-01; “DIN Standard on 
+Formwork Pressures Updated” 2010; Proske and Graubner 
+2008) and continue to be developed as additional data become 
+available. Experience with these methods is presently some-
+what limited. Thus, evaluation of estimated pressure on the 
+Table 4.2.2.1b—Applicable lateral pressure equations for concrete other than SCC - SI version
+Slump* Internal vibration depth Element Rate of placement Pressure equation
+Greater than 175 mm Any Any Any 4.2.2.1b(a)
+Less than or equal to 175 mm Greater than 1.2 m Any Any 4.2.2.1b(a)
+Less than or equal to 175 mm Less than or equal to 1.2 m
+Column† Any 4.2.2.1b(b)
+Wall‡ less than or equal to 4.2 m tall Less than 2.1 m/h 4.2.2.1b(b)
+Wall‡ greater than 4.2 m tall Less than 2.1 m/h 4.2.2.1b(c)
+Wall‡ 2.1 to 4.5 m/h 4.2.2.1b(c)
+Greater than 4.5 m/h 4.2.2.1b(a)
+*Slump for determination of lateral pressure shall be measured after the addition of all admixtures.
+†For the purpose of this document, columns are defined as vertical elements with no plan dimension exceeding 2 m.
+‡For the purpose of this document, walls are defined as vertical elements with at least one plan dimension exceeding 2 m.
+Table 4.2.2.1a(b)—Chemistry coefficient C c
+Cement type Slag Fly ash Retarders* Cc
+I, II, or III None None
+None 1.0
+Included 1.2
+Any
+Less than 70 percent Less than 40 percent
+None 1.2
+Included 1.4
+Greater than or equal to 70 percent Greater than or equal to 40 percent
+None 1.4
+Included 1.5
+*Retarders include any admixture, such as a retarder, retarding water reducer, retarding mid-range water-reducing admixture, or high-range water-reducing admixture, that delays 
+setting of concrete.
+Table 4.2.2.1a(c)—Unit weight coefficient C w
+Inch-pound version SI version
+Unit weight of concrete, lb/ft3 Cw Density of concrete, kg/m3 Cw
+w < 140 0.5[1 + (w/145 lb/ft3)] 
+but not less than 0.80 ρ < 2240 0.5[1 + (w/2320 kg/m3)]
+but not less than 0.80
+140 ≤ w ≤ 150 1.0 2240 ≤ ρ ≤ 2400 1.0
+w > 150 w/145 lb/ft3 ρ > 2400 w/2320 kg/m3
+Table 4.2.2.1a(a)—Applicable lateral pressure equations for concrete other than SCC - Inch-pound version
+Slump* Internal vibration depth Element Rate of placement Pressure equation
+Greater than 7 in. Any Any Any 4.2.2.1a(a)
+Less than or equal to 7 in. Greater than 4 ft Any Any 4.2.2.1a(a)
+Less than or equal to 7 in. Less than or equal to 4 ft
+Column† Any 4.2.2.1a(b)
+Wall‡ less than or equal to 14 ft tall Less than 7 ft/h 4.2.2.1a(b)
+Wall‡ greater than 14 ft tall Less than 7 ft/h 4.2.2.1a(c)
+Wall‡ 7 to 15 ft/h 4.2.2.1a(c)
+Greater than15 ft/h 4.2.2.1a(a)
+*Slump for determination of lateral pressure shall be measured after the addition of all admixtures.
+†For the purpose of this document, columns are defined as vertical elements with no plan dimension exceeding 6.5 ft.
+‡For the purpose of this document, walls are defined as vertical elements with at least one plan dimension exceeding 6.5 ft.
+American Concrete Institute – Copyrighted © Material – www.concrete.org
+8 GUIDE TO FORMWORK FOR CONCRETE (ACI 347R-14)
+
+===== PDF PAGE 10 =====
+
+basis of more than one method is advisable until satisfactory 
+performance is confirmed for the range of parameters asso-
+ciated with the project. Measuring pressures during place -
+ment and adjusting the rate of placement to control pres-
+sures within the capacity of the forms can be a wise precau-
+tion when using unproven SCC mixtures. Researchers and 
+contractors have used pressure cells inserted through the 
+form face and load cells on form ties with pressure based on 
+tributary area as methods of measurement (Johnston 2010).
+SCC placement pressures have the potential to reach full 
+liquid head pressures. Generally, concrete lateral pressures 
+will not reach full equivalent liquid head pressure but agita-
+tion of the already-placed concrete in the form will cause 
+form pressure to increase. There are site and placement 
+conditions that will increase form pressure. Site conditions 
+that can transmit vibrations to the freshly-placed concrete 
+can cause it to lose its internal structure and reliquefy. Heavy 
+equipment operating close to the forms, or continued work 
+on the forms, will transmit vibration. Dropping concrete 
+from the pump hose or placing bucket will also agitate the 
+in-place concrete. Concrete pumped into the bottom of a 
+form will always create pressures higher than full liquid 
+head.
+4.2.2.3 Alternatively, a method for either conventional 
+or self-consolidating concrete based on appropriate exper -
+imental data can be used to determine the lateral pressure 
+used for form design (Gardner and Ho 1979; Gardner 1980, 
+1985; Clear and Harrison 1985; British Cement Association 
+1992; Dunston et al. 1994; Barnes and Johnston 1999, 
+2003) or a project-specific procedure can be implemented 
+to control field-measured pressures in instrumented forms 
+to the maximum pressure for which the form was designed 
+(Johnston 2010).
+4.2.2.4 If concrete is pumped from the base of the form, 
+the form should be designed for full hydrostatic head of 
+concrete wh (or ρgh) plus a minimum allowance of 25 
+percent for pump surge pressure. Pressures can be as high as 
+the face pressure of the pump piston; thus, pressure should 
+be monitored and controlled so that the design pressure is 
+not exceeded.
+4.2.2.5 Caution is necessary and additional allowance for 
+pressure should be considered when using external vibration 
+or concrete made with shrinkage-compensating or expansive 
+cements. Pressures in excess of the equivalent hydrostatic 
+head can occur.
+4.2.2.6 For slipform lateral pressures, refer to 9.2.2.4.
+4.2.3 Horizontal loads—Braces and shores should be 
+designed to resist all horizontal loads such as wind, cable 
+tensions, inclined supports, dumping of concrete, and 
+starting and stopping of equipment. Wind loads on enclo -
+sures or other wind breaks attached to the formwork should 
+be considered in addition to these loads.
+4.2.3.1 Formwork exposed to the elements should be 
+designed for wind pressures determined in accordance with 
+ASCE/SEI 7 with adjustment as provided in ASCE/SEI 37 
+for shorter recurrence interval. Alternately, formwork may 
+be designed for the local building code-required lateral wind 
+pressure but not less than 15 lb/ft
+2 (0.72 kPa). Consideration 
+should be given to possible wind uplift on the formwork.
+4.2.3.2 For elevated floor formwork, the applied value of 
+horizontal load due to wind, dumping of concrete, inclined 
+placement of concrete, and equipment acting in any direc -
+tion at each floor line should produce effects not less than the 
+effect of 100 lb/linear ft (1.5 kN/m) of floor edge or 2 percent 
+of total dead load on the form distributed as a uniform load 
+per linear foot (meter) of slab edge, whichever is greater.
+4.2.3.3. For wall and column form bracing design, the 
+applied value of horizontal load due to wind and eccen -
+tric vertical loads should produce effects not less than the 
+effect of 100 lb/linear ft (1.5 kN/m) of wall length or column 
+width, applied at the top.
+4.2.3.4 Formwork in hurricane-prone regions should be 
+given special consideration in accordance with ASCE/SEI 
+37.
+4.2.4 Special loads—The formwork should be designed 
+for any special conditions of construction likely to occur, 
+such as unsymmetrical placement of concrete, impact of 
+machine-delivered concrete, uplift from concrete pressure, 
+uplift from wind, concentrated loads of reinforcement, form 
+handling loads, and storage of construction materials. Form 
+designers should provide for special loading conditions, such 
+as walls constructed over spans of slabs or beams that exert 
+a different loading pattern before hardening of concrete than 
+that for which the supporting structure is designed.
+Imposition of any construction loads on the partially 
+completed structure should not be allowed, except as speci-
+fied in formwork drawings or with the approval of the engi-
+neer/architect. Refer to 5.8 for special conditions pertaining 
+to multistory work.
+4.2.5 Post-tensioning loads—Shores, reshores, and 
+backshores need to be analyzed for both concrete place -
+ment loads and for all load transfer that takes place during 
+post-tensioning.
+4.3—Member capacities
+Member capacities for use in the design of formwork, exclu-
+sive of accessories, are determined by the applicable codes 
+or specifications listed in Chapter 6. When fabricated form-
+work, shoring, or scaffolding units are used, manufacturer’s 
+recommendations for working capacities should be followed 
+if supported by engineering calculations or test reports of a 
+qualified and recognized testing agency. The effects of cumu-
+lative load duration should be considered in accordance with 
+the applicable design specification for the material.
+4.4—Safety factors for accessories
+Table 4.4 shows recommended minimum factors of 
+safety, based on committee and industry experience, for 
+formwork accessories, such as form ties, form anchors, and 
+form hangers. In selecting these accessories, the formwork 
+designer should be certain that materials furnished for the 
+job meet these minimum ultimate-strength safety require -
+ments compared to the unfactored load. When manufactur -
+er’s recommended factors of safety are greater, the manu-
+facturers recommended working capacities should be used.
+American Concrete Institute – Copyrighted © Material – www.concrete.org
+ GUIDE TO FORMWORK FOR CONCRETE (ACI 347R-14)  9
+
+===== PDF PAGE 11 =====
+
+4.5—Shores
+Shores and reshores or backshores should be designed 
+to carry all loads transmitted to them. A rational analysis 
+(ACI 347.2R and ACI SP-4) should be used to determine 
+the number of floors to be shored, reshored, or backshored; 
+and to determine the loads transmitted to the floors, shores, 
+and reshores or backshores as a result of the construction 
+sequence.
+The analysis should consider, but should not necessarily 
+be limited to:
+a) Structural design load of the slab or member including 
+live load, partition loads, and other loads for which the engi-
+neer of the permanent structure designed the slab. Where 
+the engineer included a reduced live load for the design of 
+certain members and allowances for construction loads, such 
+values should be shown on the structural plans and be taken 
+into consideration when performing this analysis.
+b) Dead load weight of the concrete and formwork
+c) Construction live loads, such as the placing crews and 
+equipment or stored materials
+d) Specified design strength of concrete
+e) Cycle time between the placement of successive floors
+f) Strength of concrete at the time it is required to support 
+shoring loads from above
+g) The distribution of loads between floors, shores, and 
+reshores or backshores at the time of placing concrete, strip-
+ping formwork, and removal of reshoring or backshoring 
+(Grundy and Kabaila 1963; Agarwal and Gardner 1974; 
+Stivaros and Halvorsen 1990)
+h) Span of slab or structural member between permanent 
+supports
+i) Type of formwork systems, that is, span of horizontal 
+formwork components and individual shore loads
+j) Minimum age of concrete when creep deflection is a 
+concern
+k) Loads applied due to post-tensioning transfer
+Commercially available load cells can be placed under 
+selected shores to monitor actual shore loads to guide the 
+shoring and reshoring during construction (Noble 1975).
+Field-constructed butt or lap splices of timber shoring 
+are not recommended unless they are made with fabricated 
+hardware devices of demonstrated strength and stability. If 
+plywood or lumber splices are made for timber shoring, they 
+should be designed to prevent buckling and bending of the 
+shoring.
+Before construction, an overall plan for scheduling of 
+shoring and reshoring or backshoring, and calculation of 
+loads transferred to the structure, should be prepared by a 
+qualified and experienced formwork designer. The struc-
+ture’s capacity to carry these loads should be reviewed or 
+approved by the engineer/architect. The plan and responsi-
+bility for its execution remain with the contractor.
+4.6—Bracing and lacing
+The formwork system should be designed to transfer all 
+horizontal loads to the ground or to completed construction 
+in such a manner as to ensure safety at all times. Diagonal 
+bracing should be provided in vertical and horizontal 
+planes where required to resist lateral loads and to prevent 
+instability of individual members. Horizontal lacing can 
+be considered in design to hold in place and increase the 
+buckling strength of individual shores and reshores or back-
+shores. Lacing should be provided in whatever directions are 
+necessary to produce the correct slenderness ratio l/r for the 
+load supported, where l is the unsupported length and r is 
+the least radius of gyration. The braced system should be 
+anchored to ensure stability of the total system.
+4.7—Foundations for formwork
+Proper foundations on ground, such as mudsills, spread 
+footings, or pile footings, should be provided. Formwork 
+footings and bracing anchors should be designed to resist the 
+loads imposed without exceeding the allowable soil bearing 
+capacity, without incurring excessive settlements affecting 
+the formwork structural integrity and stability, and without 
+deviating from the specified concrete elevation. If soil under 
+mudsills is or may become incapable of supporting super -
+imposed loads without appreciable settlement, it should be 
+stabilized or other means of support should be provided. 
+Mudsills should be protected from loss of soil bearing 
+strength. Causes might include scour due to running water, 
+nearby excavations, or the increase of moisture content 
+caused by the supporting soil becoming wet or saturated. No 
+concrete should be placed on formwork supported on frozen 
+ground.
+4.8—Settlement
+Formwork should be designed and constructed so that 
+vertical adjustments can be made to compensate for antici -
+pated take-up, elastic deformations, and settlements.
+CHAPTER 5—CONSTRUCTION
+5.1—Safety precautions
+Formwork engineers and formwork contractors should 
+follow all state, local, and federal codes, ordinances, and 
+regulations pertaining to forming and shoring. In addition to 
+Table 4.4—Minimum safety factors of formwork 
+accessories
+Accessory
+Safety 
+factor* Type of construction†
+Form tie 2.0 All applications
+Form anchor
+2.0
+3.0
+Formwork anchors supporting form weight, 
+concrete pressures and wind load only
+Formwork anchors supporting form weight, 
+concrete pressures, wind loads, construction 
+personnel live loads, and impact
+Form 
+hangers
+2.0 All applications
+Anchoring 
+inserts used 
+as form ties
+2.0 Precast-concrete panels when used as 
+formwork
+*Safety factors are based on the ultimate strength of the accessory when new.
+†Higher factors of safety are required by OSHA 1926 for work platform accessories.
+To purchase a complete copy of ACI 347R-14,
+please visit the ACI Bookstore
+American Concrete Institute – Copyrighted © Material – www.concrete.org
+10 GUIDE TO FORMWORK FOR CONCRETE (ACI 347R-14)

@@ -1,0 +1,31 @@
+الكود المحبري لتصميم وتتفيذ المنشآت الخرسانية 1:14 الملحق الثالث-الرموز والممبطلحات الكود المعبري لتصصميم وتتفيذ المنشآت الخرسانية ٠18.؟‏ الملحق الثانث-الرموذ والمصطلحات
+| مقاومة القص القصوى الاعتيارية ‎GUIKU‏ العمودية ‎Gop Lal gaz = Nominalshearstrength provided by stinups de‏ الكاثات ف اتجاد ‎Ts < Spacingberween stirupsinaxisdirecion gall‏
+مشاركة ‎cles‏ التسليح الجذعي الأفتي في المقاومة ‎MithduibGiheumaiea eee ae = Sharing of horizontal web Steel rein fer cement in‏ ° ,3
+النقيقة 201 قرخ الات ‎nana nemncca te te‏ وم اال ‎arene Se‏ عرض توزيع ‎to a concentrated lead in the direction  علستلا de yopeall ola G deal‏
+مقدار إجياد القص الناتج عن عزوم لي والذي يمكن إعمال  ‎qu = Value of Shearing Stresses resuhing from torsion‏ الرئيسي عند الركيزة ‎perpendicular to the main reinforcement‏
+تأثير عزوم اللي القصصوى التي تسبب إجبادات تقل عنه ‎١ moment on which the effect of max torsion‏
+‎moment which causes leases. stresses may be‏ | عرض توزيع الحمل في الاتجاه الموازي للتسليح الرئيسي ‎ - Initial width uniformly loaded for an equivalent ١‏ يه 0
+‎the neglected‏ مد ‎concentrated load in the direction parallel‏
+قوى القص القصوى النائجة من الأحمال الدائمة واحية ‎Q = Max shear stresses resulting from dead and live‏ العنيقة ‎deep beams‏
+‎a‏ | المسافةيين الكانات قي ‎Ts = Spacingbetween stirupsin distancelo LAL‏
+“مقاومة القص الأققية التصميعية القصرى ‎Oy = Maxhorizontldesignshearsrengih‏ - العسافة القصوى بين الكانات في الأعمدة المقاومة للزلازل ‎Maximum straps spacing in seistic resisting‏ = مو 0
+‎ale!‏ القص الأقصى المسموح به في القطاعات الخرسانية  ‎columns Gum = Max alfowable shear stress in reinforced concrete‏
+المي ايت ٍ معامل يستخدم في حساب ‎WK‏ ويعتمد على الاتفعال في ‎Coefficient used in calculating wk depending on‏ سرع 0
+‎ete,‏ ا :سيا مك المسافة بين صلب التسليح الجذعي الرأسي في الكمرات ‎5y = Spacing between web vertical reinforcement in‏
+القيمة القصوى لإجياد القص الثاقب . اا اك العميقة ‎deep beams‏
+القيمة القصوي لقوة القص المؤثرة على القطاع الحرج ‎١ Quy, = Maximum Panching shearforce‏ القيمة الاسمية للأحمال الناسة بتاثير درجة الحرارة وقروق ‎“TT TET Nominal value of leading due to effect of‏
+‎el‏ الببوط والزحف والاتكماش أو القرى الداخلية الناشئة ‎temperature, creep, shrinkage differential‏
+قوة القص القصوى في الكمرات متغيرة العمق ‎Coenen. Setllementand internal forces produced fromehem ge Qu = Maximum shear force for beams with variabie‏
+إجباد القص الثاقب الناتج عن العزوم ‎My‏ وباغتبار ‎Punching shear strength resulting from moment, Ya.‏ = يو العمق (السمك) الكلى للقطاع ‎t= _Overallthickness of concrete member ila ST‏
+معامل العزوم المنقولة باللي ‎and considering ‘Yq. coefficient of moments‏ سمك ‎(Le)‏ اليلاطة ‎t = Thickness of slab‏
+معامل العزوم المتقولة باللي ‎and considering Y,, coefficient of momenis‏ سمك الصلب المغاف للقطاع الخرساني ‎t = Thickness of steel section covering the concrete‏
+‎section transferred dy torsion‏
+انسيةالمستطيلية ‎for reciangular (recangularty 000-00١١١١١١‏ ولام ‎Aspect‏ ال ش17 ‎Gs Thitknessofwal SSS‏
+مقدار لا بعدى يستخدم لحساب ‎B‏ كبا في شكل ‎TE Upper reinforcement tite ihe Gland R, = Non- dimensional value used to calculate Basin (o°11-9)‏
+‎AIF‏ الزمن بالماعة من بدء شد سبق الاجباد ‎t = Time in hours starting at tensioning of prestressing‏
+معامل الحد الأقصى لمقاومة عزوم الانحناء ‎reinforcement Ras = Ultimate flexural strength coefficient for singly‏
+تصف قطر تقوس المواسير التي تحتوي صلب سبق ‎ducts containing‏ أت ‎fs - Radius of curvature‏ طول الخبلع في اتجاه الانبعاج ‎Sidetength in buckling plane‏ جر ايل
+الانحراف المعياري لنتاقج اختبارات المقاومة لخرساتات ‎Standard deviation‏ = 5 | عرض الحمل في الاتجاه العمودي على التسليح الرئيسسي 7 ‎main‏ مذ ‎Loaded width in direction perpendicular‏ = 11
+سيق للمقاول صما ا ‎reinforcement eee‏
+القيعة القصوى للأحمال الناشئة عن ‎aj‏ أو ‎Max vatue for force resulting rom earthquakes oF spill‏ = 5 عرض ‎andl‏ الاتجاه الموازي التسليح الرئيسي ‎direction parallel to main‏ مز ‎Loaded wth‏ = ©
+الداخلية التاشئة عتها ‎reinfercement internal forcing resulting from them‏

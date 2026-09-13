@@ -1,0 +1,35 @@
+الملحق الثائي- اشتراطات التنفيذ وضبط الجودة للخرسانة سابقة الإجباد
+الرموز الفنية
+جدول (م؟-1) الخواص الميكانيكية لأسلاك سبق الإجهاد المسحوبة على البارد عمق المستطيل المكاق لإجهادات الضغط ‎TTL Depth ofthe equivalent recrangularstress block Alay!‏
+‎(Cold drawn wires)‏ في المواصبفات البريطانية 5896 89+ ليق الأصفر لطع التخميل المستطل الشك  ‎Swede ofrecargularberingsurace‏ 00
+المسافة بين وجه الركيزة والحمل المركز ‎a = Distance between the cancentrated load and face‏
+القطر الأسمي (مم) البحر القصير الفعال ‎Shorter effective span of slab Bed‏ = 3
+)0/0( (إجهاد ضمان + ‎(Yu)‏ القطر الاعتباري الأكبر للأسياخ ‎mur‏ أو مرة وقصف ‎a Nominal maxs Diameter of bats yay oF one and‏
+المقاس الاعتباري الأكبر للركام أو (المقاس الأكير لكركام + ‎‘half max. nominal size of aggregates or (max size‏
+: سه ]| سس ]| كس رن سس اير ااا يوط عزط ا /ل( 591150 لل
+المسافة الأفقية الفعلية بين محاور ألواح التثبيت ‎a = Aetual horizontal distance between axes of Fixing‏
+‎sali 6.0‏ الطويل للقاعدة ‎A - tong length of foating‏
+‎ee 2 7 |‏ مساحة قطاع الجزء المحصور بين سطع منطقة ‎A= Area of that part of eross section between flexural dl‏
+ومحور القطاع المار يمركز ثقله ‎tension face and center of gravity of gross section‏
+* تحدد النسية المثوية للاسترخاء بعد ‎١٠٠١‏ ساعة وذلك لأي من نوي الأسلاك المنتجة سواء العادية أو منخفضة ‎moment M, ee ne‏ 2
+الاستيخاء. ‎allan‏ ممم ‎Ny = AteaofSecondary‏
+المسافات المعرفة قي شكل ‎abe = Distance as shown in fig. (10-8) (AV)‏
+المساقة الرأسية الفعلية بين محاور ألواح ‎a= Actual vertical distance berween axes of Fixing casi‏
+‎plates.‏
+‎ay = Suspended shomspanofslab SSC pa lal nel‏
+‎TA, = loadedbearingatea nga pl Lin‏
+أكبو مساحة للسطح المقاوم للازتكاز متمائلة ومتمركزة مع ‎Ay Maximum area of the portion of the supporting‏
+مسطح التحميل ‎surface that is geometrically similar to and Ay‏
+‎concentric with the loaded area‏
+‎A, = Cross-sectional areaofconerete giggle‏
+‎٠‏ مساحة قطاع الخرساتة الفعال ف ‎het =. Effective concrete areaintension SSC‏
+المساحة الكلية للقطاع يدون حدّف مساحة الفتحات  ‎"Ag = Atea enclosed by outside perimeter of concrete‏
+‎cross section including area of openings‏
+مساحة القطاع الخساني المطلوبة في التصميم ‎Areaof concrete section required by calculation‏ = ويه -
+مساحة صلب التسليح الأسامي لمقطع الكابول المقلوم ‎Ay = Areaof main flexural steel reinforcementin corbels‏
+المساحة الكلية للقطاع الخرساني ‎A, = Gross area of concrete section‏
+| التسليح الأفقي بالكوابل التصيرة والكمرات العميقة ‏ ومع ‎“Ay = Horizontal reinforcement in corbels and‏
+‎beams |‏
+مساحة القطاع القعال خلال منطقة الوصلة في مستوى ‎“A, = Area of effective section in splice sector in a plane‏
+موازي لمستوى الصلب المتعامد ‎ode‏ مستوى القص ‎parallel to the Steel plane perpendicular to Shear‏
+‎ee plane.‏
