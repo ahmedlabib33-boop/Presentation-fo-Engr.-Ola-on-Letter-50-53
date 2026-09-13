@@ -141,6 +141,15 @@ const PROTECTION_AR={
   pointEvidenceTitle:'سند النقطة ومسارها الاستدلالي',
   sourceBasis:'المصادر الحاكمة والمؤيدة',
   sourceScreenshots:'صور مستندات المصدر',
+  expandSources:'توسيع المصادر',
+  retractSources:'طي المصادر',
+  expandAllSources:'توسيع جميع المصادر',
+  retractAllSources:'طي جميع المصادر',
+  protectionUnderReview:'الحماية محل المراجعة',
+  protectionRoot:'موقف سامكو التعاقدي · الحدثان 01 و02',
+  protectedPoint:'النقطة المحمية',
+  protectedPosition:'موقف محمي',
+  sourceRecord:'سجل المصدر',
   analyticalLogic:'المنطق التعاقدي والتحليلي',
   evidenceLimit:'حدود الاستدلال',
   evidence:'<b>الربط بالأدلة:</b> يخضع كل موقف محمي أعلاه للضبط بموجب السجلات EV-001…EV-018 وREL-01…REL-24 الواردة في سجل الأدلة والتحقق. ويظل خطاب ACEPM رقم 055 «مستبعدًا — لا يُستند إليه» ما لم تُفصح ACEPM عن نسخة كاملة ومتحقق منها.'
@@ -450,12 +459,30 @@ PANES.contractual_protection=(arabic=false)=>{
  f.appendChild(el('h3','s',arabic?ui.letterTitle:'Rights-reserving defensive letter'));
  const wrap=el('div','letter-control protection-letter');
  wrap.appendChild(el('div','letter-addressee',arabic?ui.addressee:'<b>To:</b> ACEPM / The Engineer<br><b>From:</b> SAMCO National Construction<br><b>Project:</b> The Big Business District · Phase 02 · Buildings B1–B4<br><b>Subject:</b> Delay Event Nos. 1 and 2 — consolidated protection of entitlement, demand for auditable determination and reservation of all rights'));
+ const storyRoot=el('div','protection-story-root');storyRoot.append(el('span','k',arabic?ui.protectionUnderReview:'Protection under review'),el('strong',null,arabic?ui.protectionRoot:'SAMCO CONTRACTUAL POSITION · EVENTS 01 & 02'));wrap.appendChild(storyRoot);
+ const storyKey=el('div','protection-story-key','<span><i class="position"></i>'+(arabic?ui.protectedPosition:'Protected position')+'</span><span><i class="source"></i>'+(arabic?ui.sourceRecord:'Source record')+'</span><span><i class="limit"></i>'+(arabic?ui.evidenceLimit:'Evidential limit')+'</span>');wrap.appendChild(storyKey);
+ const sourceToolbar=el('div','protection-sources-toolbar');
+ const expandAll=el('button','protection-sources-action protection-sources-expand-all',arabic?ui.expandAllSources:'Expand all sources');expandAll.type='button';
+ const retractAll=el('button','protection-sources-action protection-sources-retract-all',arabic?ui.retractAllSources:'Retract all sources');retractAll.type='button';
+ sourceToolbar.append(expandAll,retractAll);wrap.appendChild(sourceToolbar);
+ const setSourceVisibility=(visible)=>{
+  wrap.querySelectorAll('.protection-evidence-body').forEach(body=>{body.hidden=!visible;});
+  wrap.querySelectorAll('.protection-evidence-toggle').forEach(button=>{button.setAttribute('aria-expanded',String(visible));button.textContent=visible?button.dataset.retractLabel:button.dataset.expandLabel;});
+ };
+ expandAll.addEventListener('click',()=>setSourceVisibility(true));
+ retractAll.addEventListener('click',()=>setSourceVisibility(false));
  sections.forEach((s,i)=>{
-  const d=el('section','letter-section');d.appendChild(el('h3',null,s[0]));d.appendChild(el('p',null,s[1]));
-  const evidence=pointEvidence[i];const sourceBox=el('aside','protection-evidence');sourceBox.appendChild(el('h4',null,arabic?ui.pointEvidenceTitle:'Point evidence and reasoning trail'));
+  const d=el('section','letter-section protection-point');const pointHead=el('div','protection-point-head');pointHead.append(el('span','protection-node-label',(arabic?ui.protectedPoint:'Protected point')+' '+String(i+1).padStart(2,'0')),el('h3',null,s[0]));d.append(pointHead,el('p',null,s[1]));
+  const evidence=pointEvidence[i];const sourceBox=el('aside','protection-evidence');
+  const sourceHeader=el('div','protection-evidence-header');sourceHeader.appendChild(el('h4',null,arabic?ui.pointEvidenceTitle:'Point evidence and reasoning trail'));
+  const shotCount=evidence.shots?.length||0;const expandLabel=(arabic?ui.expandSources:'Expand sources')+' ('+shotCount+')';const retractLabel=(arabic?ui.retractSources:'Retract sources')+' ('+shotCount+')';
+  const sourceToggle=el('button','protection-evidence-toggle',expandLabel);sourceToggle.type='button';sourceToggle.dataset.expandLabel=expandLabel;sourceToggle.dataset.retractLabel=retractLabel;sourceToggle.setAttribute('aria-expanded','false');
+  const sourceBody=el('div','protection-evidence-body');sourceBody.id='protection-evidence-body-'+(arabic?'ar':'en')+'-'+i;sourceBody.hidden=true;sourceToggle.setAttribute('aria-controls',sourceBody.id);
+  sourceToggle.addEventListener('click',()=>{const visible=sourceBody.hidden;sourceBody.hidden=!visible;sourceToggle.setAttribute('aria-expanded',String(visible));sourceToggle.textContent=visible?retractLabel:expandLabel;});
+  sourceHeader.appendChild(sourceToggle);sourceBox.append(sourceHeader,sourceBody);
   const sourceGroup=el('div','protection-evidence-group');sourceGroup.appendChild(el('b',null,arabic?ui.sourceBasis:'Governing and supporting sources'));const sourceList=el('ul');evidence.sources.forEach(source=>sourceList.appendChild(el('li',null,source)));sourceGroup.appendChild(sourceList);
   if(evidence.shots&&evidence.shots.length){
-   sourceBox.classList.add('has-source-shots');sourceGroup.classList.add('has-source-shots');
+   sourceBox.classList.add('has-source-shots');sourceBody.classList.add('has-source-shots');sourceGroup.classList.add('has-source-shots');
    sourceGroup.appendChild(el('h5','protection-source-title',arabic?ui.sourceScreenshots:'Source-document screenshots'));
    const gallery=el('div','protection-source-gallery');
    evidence.shots.forEach((source,index)=>{
@@ -470,7 +497,7 @@ PANES.contractual_protection=(arabic=false)=>{
   }
   const logicGroup=el('div','protection-evidence-group');logicGroup.append(el('b',null,arabic?ui.analyticalLogic:'Contractual and analytical logic'),el('p',null,evidence.logic));
   const limitGroup=el('div','protection-evidence-group evidence-limit');limitGroup.append(el('b',null,arabic?ui.evidenceLimit:'Evidential limit'),el('p',null,evidence.limit));
-  sourceBox.append(sourceGroup,logicGroup,limitGroup);d.appendChild(sourceBox);wrap.appendChild(d);
+  sourceBody.append(sourceGroup,logicGroup,limitGroup);d.appendChild(sourceBox);wrap.appendChild(d);
  });
  f.appendChild(wrap);
  f.appendChild(el('h3','s',arabic?ui.questionsTitle:'Unanswered issues preserved against deemed acceptance'));

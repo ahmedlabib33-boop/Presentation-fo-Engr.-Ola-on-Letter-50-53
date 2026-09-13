@@ -21,6 +21,24 @@ const path = require('path');
   const sections=pane.locator('.protection-letter > .letter-section');
   await sections.first().waitFor();
 
+  console.log('test source expand and retract controls');
+  const sourceBodies=pane.locator('.protection-evidence-body');
+  const sourceToggles=pane.locator('.protection-evidence-toggle');
+  const storyRoot=await pane.locator('.protection-story-root').textContent();
+  const protectedPointLabels=await pane.locator('.protection-node-label').count();
+  const initialRetracted=await sourceBodies.evaluateAll(nodes=>nodes.length===12&&nodes.every(node=>node.hidden));
+  await pane.locator('.protection-story-root').scrollIntoViewIfNeeded();
+  await page.screenshot({path:path.join(__dirname,'protection-sources-retracted-desktop.png'),fullPage:false});
+  await pane.locator('.protection-sources-expand-all').click();
+  const expandedAll=await sourceBodies.evaluateAll(nodes=>nodes.length===12&&nodes.every(node=>!node.hidden));
+  await sourceToggles.first().click();
+  const individualRetracted=await sourceBodies.first().evaluate(node=>node.hidden)&&await sourceToggles.first().getAttribute('aria-expanded')==='false';
+  await sourceToggles.first().click();
+  const individualExpanded=await sourceBodies.first().evaluate(node=>!node.hidden)&&await sourceToggles.first().getAttribute('aria-expanded')==='true';
+  await pane.locator('.protection-sources-retract-all').click();
+  const retractedAll=await sourceBodies.evaluateAll(nodes=>nodes.length===12&&nodes.every(node=>node.hidden));
+  await pane.locator('.protection-sources-expand-all').click();
+
   console.log('load evidence images');
   await pane.locator('.protection-source-shot img').evaluateAll(images=>images.forEach(image=>image.loading='eager'));
   await page.waitForFunction(()=>[...document.querySelectorAll('#host > .contractual-protection-sec:not([hidden]) .protection-source-shot img')].every(image=>image.complete && image.naturalWidth>0),null,{timeout:45000});
@@ -58,11 +76,16 @@ const path = require('path');
 
   console.log('mobile and Arabic parity');
   await page.setViewportSize({width:390,height:844});
+  await pane.locator('.protection-sources-retract-all').click();
   await sections.nth(5).scrollIntoViewIfNeeded();
   const mobile=await pane.evaluate(node=>({clientWidth:node.clientWidth,scrollWidth:node.scrollWidth}));
+  await page.screenshot({path:path.join(__dirname,'protection-sources-retracted-mobile.png'),fullPage:false});
+  await sourceToggles.nth(5).click();
   await page.screenshot({path:path.join(__dirname,'protection-point-6-mobile.png'),fullPage:false});
   await page.locator('#langToggleTop').click();
   const direction=await page.evaluate(()=>document.documentElement.dir);
+  const arabicControls=await pane.locator('.protection-sources-toolbar').textContent();
+  await pane.locator('.protection-sources-expand-all').click();
   const arabic=await sections.evaluateAll(nodes=>nodes.map(node=>({
     title:node.querySelector('h3')?.textContent.trim(),
     shots:node.querySelectorAll('.protection-source-shot').length,
@@ -70,9 +93,10 @@ const path = require('path');
     broken:[...node.querySelectorAll('.protection-source-shot img')].filter(image=>!image.complete||!image.naturalWidth).length
   })));
 
-  const report={sections:english.length,totalShots:english.reduce((sum,point)=>sum+point.shots,0),perPoint:english.map(point=>point.shots),english,arabicParity:arabic.length===english.length&&arabic.every((point,index)=>point.shots===english[index].shots&&point.captions===point.shots&&point.broken===0),sources,lightboxOpen,mobile,direction,failedResponses,pageErrors};
+  const sourceControls={assessmentPattern:/Protection under review/.test(storyRoot)&&/SAMCO CONTRACTUAL POSITION/.test(storyRoot)&&protectedPointLabels===12,initialRetracted,expandedAll,individualRetracted,individualExpanded,retractedAll,arabicLabels:/توسيع (?:جميع )?المصادر/.test(arabicControls)&&/طي (?:جميع )?المصادر/.test(arabicControls)};
+  const report={sections:english.length,totalShots:english.reduce((sum,point)=>sum+point.shots,0),perPoint:english.map(point=>point.shots),english,sourceControls,arabicParity:arabic.length===english.length&&arabic.every((point,index)=>point.shots===english[index].shots&&point.captions===point.shots&&point.broken===0),sources,lightboxOpen,mobile,direction,failedResponses,pageErrors};
   console.log(JSON.stringify(report,null,2));
-  const checks=[english.length===12,english.every(point=>point.shots>=3&&point.captions===point.shots&&point.broken===0),report.arabicParity,Object.values(sources).every(Boolean),lightboxOpen,mobile.scrollWidth<=mobile.clientWidth+2,direction==='rtl',failedResponses.length===0,pageErrors.length===0];
+  const checks=[english.length===12,english.every(point=>point.shots>=3&&point.captions===point.shots&&point.broken===0),Object.values(sourceControls).every(Boolean),report.arabicParity,Object.values(sources).every(Boolean),lightboxOpen,mobile.scrollWidth<=mobile.clientWidth+2,direction==='rtl',failedResponses.length===0,pageErrors.length===0];
   await browser.close();
   if(checks.some(check=>!check)) process.exitCode=1;
 })().catch(error=>{console.error(error);process.exitCode=1;});
