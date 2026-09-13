@@ -29,6 +29,11 @@ const path = require('path');
   const positionCount=await pane.locator('.protection-samco-position').count();
   const conclusionCount=await pane.locator('.protection-protected-conclusion').count();
   const premiseCompleteness=await pane.locator('.protection-acepm-premise').evaluateAll(nodes=>nodes.every(node=>node.querySelector('strong')?.textContent.trim()&&node.querySelector('.protection-premise-source')?.textContent.trim()));
+  const englishAcepmSourcePolicy=await pane.locator('.protection-acepm-premise').evaluateAll(nodes=>nodes.length===12&&nodes.every(node=>{
+    const body=node.querySelector('strong')?.textContent||'';
+    const source=node.querySelector('.protection-premise-source')?.textContent||'';
+    return /Engineer Letter(?:s)? 0?(?:50|53)/.test(source)&&!/(SAMCO|STR-104|Contract|FIDIC|AACE|XER|IFC date-control|EV-|Letter 055|action register)/i.test(source)&&!/(STR-104|Contract|FIDIC|AACE|XER|Letter 055|action register)/i.test(body);
+  }));
   const framedPoints=await pane.locator('.protection-point').evaluateAll(nodes=>nodes.length===12&&nodes.every((node,index)=>{
     const style=getComputedStyle(node);const arrow=getComputedStyle(node,'::after');
     return style.borderTopStyle==='solid'&&parseFloat(style.borderTopWidth)>0&&(index===nodes.length-1||arrow.content.includes('↓'));
@@ -93,6 +98,11 @@ const path = require('path');
   await page.locator('#langToggleTop').click();
   const direction=await page.evaluate(()=>document.documentElement.dir);
   const arabicControls=await pane.locator('.protection-sources-toolbar').textContent();
+  const arabicAcepmSourcePolicy=await pane.locator('.protection-acepm-premise').evaluateAll(nodes=>nodes.length===12&&nodes.every(node=>{
+    const body=node.querySelector('strong')?.textContent||'';
+    const source=node.querySelector('.protection-premise-source')?.textContent||'';
+    return /خطاب/.test(source)&&/(050|053)/.test(source)&&!/(سامكو|STR-104|العقد|FIDIC|AACE|XER|EV-|055|سجل الإجراءات)/i.test(source)&&!/(STR-104|العقد|FIDIC|AACE|XER|055|سجل الإجراءات)/i.test(body);
+  }));
   await pane.locator('.protection-sources-expand-all').click();
   const arabicChartParity=await pane.locator('.protection-point').evaluateAll(nodes=>nodes.length===12&&nodes.every(node=>node.querySelector('.protection-acepm-premise strong')?.textContent.trim()&&node.querySelector('.protection-samco-position')&&node.querySelector('.protection-protected-conclusion')));
   const arabic=await sections.evaluateAll(nodes=>nodes.map(node=>({
@@ -102,7 +112,7 @@ const path = require('path');
     broken:[...node.querySelectorAll('.protection-source-shot img')].filter(image=>!image.complete||!image.naturalWidth).length
   })));
 
-  const sourceControls={assessmentPattern:/Protection under review/.test(storyRoot)&&/SAMCO CONTRACTUAL POSITION/.test(storyRoot)&&premiseCount===12&&positionCount===12&&conclusionCount===12&&premiseCompleteness,framedPoints,sideFlowArrows,initialRetracted,expandedAll,individualRetracted,individualExpanded,retractedAll,arabicLabels:/توسيع (?:جميع )?المصادر/.test(arabicControls)&&/طي (?:جميع )?المصادر/.test(arabicControls)};
+  const sourceControls={assessmentPattern:/Protection under review/.test(storyRoot)&&/SAMCO CONTRACTUAL POSITION/.test(storyRoot)&&premiseCount===12&&positionCount===12&&conclusionCount===12&&premiseCompleteness,acepm050053Only:englishAcepmSourcePolicy&&arabicAcepmSourcePolicy,framedPoints,sideFlowArrows,initialRetracted,expandedAll,individualRetracted,individualExpanded,retractedAll,arabicLabels:/توسيع (?:جميع )?المصادر/.test(arabicControls)&&/طي (?:جميع )?المصادر/.test(arabicControls)};
   const report={sections:english.length,totalShots:english.reduce((sum,point)=>sum+point.shots,0),perPoint:english.map(point=>point.shots),english,sourceControls,arabicChartParity,arabicParity:arabic.length===english.length&&arabic.every((point,index)=>point.shots===english[index].shots&&point.captions===point.shots&&point.broken===0),sources,lightboxOpen,mobile,direction,failedResponses,pageErrors};
   console.log(JSON.stringify(report,null,2));
   const checks=[english.length===12,english.every(point=>point.shots>=3&&point.captions===point.shots&&point.broken===0),Object.values(sourceControls).every(Boolean),arabicChartParity,report.arabicParity,Object.values(sources).every(Boolean),lightboxOpen,mobile.scrollWidth<=mobile.clientWidth+2,direction==='rtl',failedResponses.length===0,pageErrors.length===0];
