@@ -4,7 +4,7 @@ const path = require('path');
 const root = path.resolve(__dirname, '..');
 const outputPath = path.join(root, 'samco-contractual-protection.html');
 
-const read = relativePath => fs.readFileSync(path.join(root, relativePath), 'utf8');
+const read = relativePath => fs.readFileSync(path.join(root, relativePath), 'utf8').replace(/\r\n/g, '\n');
 const escapeScriptText = text => text.replace(/<\/script/gi, '<\\/script');
 
 let html = read('index.html');
