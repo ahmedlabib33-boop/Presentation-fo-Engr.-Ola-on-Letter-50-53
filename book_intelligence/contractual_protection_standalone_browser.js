@@ -31,6 +31,7 @@ const path = require('path');
   const entryHidden = await page.locator('#entry').evaluate(node => node.hidden || getComputedStyle(node).display === 'none');
   const masterVisible = await page.locator('#master.show').isVisible();
   const title = await page.title();
+  const storyBannerEnglish = await pane.locator('.protection-story-root strong').textContent();
   const removedBlocksEnglish = {
     defensiveLetterHeading: await pane.locator('h3.s').filter({hasText:/Rights-reserving defensive letter/i}).count(),
     addressee: await pane.locator('.protection-letter > .letter-addressee').count()
@@ -108,6 +109,7 @@ const path = require('path');
     sources: node.querySelectorAll('.protection-source-shot').length,
     point02Position: node.querySelectorAll('.protection-point')[1]?.querySelector('.protection-samco-position .protection-node-label')?.textContent.trim(),
     point02Protected: node.querySelectorAll('.protection-point')[1]?.querySelector('.protection-protected-conclusion .protection-node-label')?.textContent.trim(),
+    storyBanner: node.querySelector('.protection-story-root strong')?.textContent.trim(),
     standaloneLabel: node.querySelector('.standalone-protection-label')?.textContent.trim(),
     addressee: node.querySelectorAll('.protection-letter > .letter-addressee').length
   }));
@@ -117,6 +119,7 @@ const path = require('path');
     title,
     entryHidden,
     masterVisible,
+    storyBannerEnglish,
     removedBlocksEnglish,
     sectionCount,
     chainCounts,
@@ -139,6 +142,7 @@ const path = require('path');
     /SAMCO Contractual Protection/.test(title),
     entryHidden,
     masterVisible,
+    storyBannerEnglish.trim() === 'SAMCO POSITION - EVENTS 01 & 02 - FULLY PACKED EVIDANCE',
     removedBlocksEnglish.defensiveLetterHeading === 0,
     removedBlocksEnglish.addressee === 0,
     sectionCount === 12,
@@ -160,6 +164,7 @@ const path = require('path');
     /02$/.test(arabicAudit.point02Position || ''),
     /02$/.test(arabicAudit.point02Protected || ''),
     /الحماية التعاقدية/.test(arabicAudit.standaloneLabel || ''),
+    arabicAudit.storyBanner === 'موقف سامكو - الحدثان 01 و02 - حزمة أدلة كاملة',
     arabicAudit.addressee === 0,
     requestedAssets.length === 0,
     failedResponses.length === 0,

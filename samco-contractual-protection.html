@@ -3931,7 +3931,7 @@ const PROTECTION_AR={
   expandAllSources:'توسيع جميع المصادر',
   retractAllSources:'طي جميع المصادر',
   protectionUnderReview:'الحماية محل المراجعة',
-  protectionRoot:'موقف سامكو التعاقدي · الحدثان 01 و02',
+  protectionRoot:'موقف سامكو - الحدثان 01 و02 - حزمة أدلة كاملة',
   protectedPoint:'النقطة المحمية',
   protectedPosition:'موقف محمي',
   sourceRecord:'سجل المصدر',
@@ -4266,7 +4266,7 @@ PANES.contractual_protection=(arabic=false)=>{
  f.appendChild(el('p',null,arabic?ui.figuresIntro:'The figures below are preserved without adoption. Their status controls what SAMCO may safely say and prevents a cited result from being mischaracterized later as an agreed quantum or analytical ceiling.'));
  f.appendChild(makeTable(arabic?ui.figuresHeaders:['Figure','Issue / analytical case','Evidence control','Verification status','Protected SAMCO position'],figures.map((x,i)=>[x[0],x[1],x[2],arabic?localStatus(FIGURE_CONTROL[i][3],x[3]):statusHtml(x[3]),x[4]]),'1300px'));
  const wrap=el('div','letter-control protection-letter');
- const storyRoot=el('div','protection-story-root');storyRoot.append(el('span','k',arabic?ui.protectionUnderReview:'Protection under review'),el('strong',null,arabic?ui.protectionRoot:'SAMCO CONTRACTUAL POSITION · EVENTS 01 & 02'));wrap.appendChild(storyRoot);
+ const storyRoot=el('div','protection-story-root');storyRoot.append(el('span','k',arabic?ui.protectionUnderReview:'Protection under review'),el('strong',null,arabic?ui.protectionRoot:'SAMCO POSITION - EVENTS 01 & 02 - FULLY PACKED EVIDANCE'));wrap.appendChild(storyRoot);
  const storyKey=el('div','protection-story-key','<span><i class="letter050"></i>'+(arabic?ui.letter050Position:'Engineer Letter 050')+'</span><span><i class="letter104"></i>'+(arabic?ui.letter104Position:'SAMCO STR-104')+'</span><span><i class="letter053"></i>'+(arabic?ui.letter053Response:'Engineer Letter 053')+'</span><span><i class="question"></i>'+(arabic?ui.controlledQuestion:'Controlled question')+'</span><span><i class="position"></i>'+(arabic?ui.samcoPosition:'SAMCO position and record test')+'</span><span><i class="conclusion"></i>'+(arabic?ui.protectedConclusion:'Protected point')+'</span>');wrap.appendChild(storyKey);
  const sourceToolbar=el('div','protection-sources-toolbar');
  const expandAll=el('button','protection-sources-action protection-sources-expand-all',arabic?ui.expandAllSources:'Expand all sources');expandAll.type='button';
