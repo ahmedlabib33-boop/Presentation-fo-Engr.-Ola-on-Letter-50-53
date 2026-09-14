@@ -31,6 +31,10 @@ const path = require('path');
   const entryHidden = await page.locator('#entry').evaluate(node => node.hidden || getComputedStyle(node).display === 'none');
   const masterVisible = await page.locator('#master.show').isVisible();
   const title = await page.title();
+  const removedBlocksEnglish = {
+    defensiveLetterHeading: await pane.locator('h3.s').filter({hasText:/Rights-reserving defensive letter/i}).count(),
+    addressee: await pane.locator('.protection-letter > .letter-addressee').count()
+  };
   const sections = pane.locator('.protection-point');
   const sectionCount = await sections.count();
   const chainCounts = {};
@@ -104,7 +108,8 @@ const path = require('path');
     sources: node.querySelectorAll('.protection-source-shot').length,
     point02Position: node.querySelectorAll('.protection-point')[1]?.querySelector('.protection-samco-position .protection-node-label')?.textContent.trim(),
     point02Protected: node.querySelectorAll('.protection-point')[1]?.querySelector('.protection-protected-conclusion .protection-node-label')?.textContent.trim(),
-    standaloneLabel: node.querySelector('.standalone-protection-label')?.textContent.trim()
+    standaloneLabel: node.querySelector('.standalone-protection-label')?.textContent.trim(),
+    addressee: node.querySelectorAll('.protection-letter > .letter-addressee').length
   }));
 
   const report = {
@@ -112,6 +117,7 @@ const path = require('path');
     title,
     entryHidden,
     masterVisible,
+    removedBlocksEnglish,
     sectionCount,
     chainCounts,
     point02,
@@ -133,6 +139,8 @@ const path = require('path');
     /SAMCO Contractual Protection/.test(title),
     entryHidden,
     masterVisible,
+    removedBlocksEnglish.defensiveLetterHeading === 0,
+    removedBlocksEnglish.addressee === 0,
     sectionCount === 12,
     Object.values(chainCounts).every(count => count === 12),
     point02.position === 'SAMCO position and record test 02',
@@ -152,6 +160,7 @@ const path = require('path');
     /02$/.test(arabicAudit.point02Position || ''),
     /02$/.test(arabicAudit.point02Protected || ''),
     /الحماية التعاقدية/.test(arabicAudit.standaloneLabel || ''),
+    arabicAudit.addressee === 0,
     requestedAssets.length === 0,
     failedResponses.length === 0,
     pageErrors.length === 0
